@@ -13,3 +13,5 @@ Dann starten mit:
 oder einfacher mit docker-compose:
 
 `docker-compose up [--build]`
+
+Elasticsearch muss entweder selbst auf dem Rechner laufen oder mit `./start-elasticsearch-server.sh` mit docker gestartet werden.

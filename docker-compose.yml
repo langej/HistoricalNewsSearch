@@ -1,2 +1,6 @@
-start:
-  build: .
+version: '0.1'
+services:
+  python:
+    build: .
+    ports:
+      - 8080:8080
