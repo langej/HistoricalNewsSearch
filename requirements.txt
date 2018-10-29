@@ -1,4 +1,2 @@
 flask
 elasticsearch
-kibana
-logstash
