@@ -1,6 +1,9 @@
 from flask import Flask
+from elasticsearch import Elasticsearch
+
 
 app = Flask(__name__)
+es = Elasticsearch('http://localhost:9200')
 
 
 @app.route("/")
