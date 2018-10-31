@@ -5,18 +5,37 @@ services:
     container_name: hs-backend
     build: .
     ports:
-      - "5000:5000"
+      - "8080:5000"
 
   elasticsearch: # Elasticsearch Instance
-    container_name: hs-search
+    container_name: hs-elastic
     image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
     volumes: # Persist Elasticsearch data in seperate volume named "esdata"
       - esdata:/usr/share/elasticsearch/data
     environment:
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "ES_JAVA_OPTS-Xms512m -Xmx512m"
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
+
+  logstash: # Logstash Instance
+    container_name: hs-logstash
+    image: docker.elastic.co/logstash/logstash:6.4.2
+    ports:
+    - "5000:5000"
+    - "9600:9600"
+    environment:
+      - "ES_JAVA_OPTS: -Xmx512m -Xms512m"
+    depends_on:
+    - elasticsearch
+
+  kibana: # Kibana Instance
+    container_name: hs-kibana
+    image: docker.elastic.co/kibana/kibana:6.4.2
+    ports:
+    - "5601:5601"
+    depends_on:
+    - elasticsearch
 
 volumes: # Define seperate volume for Elasticsearch data
   esdata:
