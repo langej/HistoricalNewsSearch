@@ -11,7 +11,7 @@ services:
     container_name: hs-frontend
     build: ./hs-react
     ports:
-      - "3000:3000"
+      - "8081:5000"
 
   elasticsearch: # Elasticsearch Instance
     container_name: hs-elastic
