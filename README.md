@@ -1,7 +1,7 @@
 # Historical News Search
 
 # Usage
-##Bringing up the application
+## Bringing up the application
 
 Start the application using ```docker-compose```:
 ```
