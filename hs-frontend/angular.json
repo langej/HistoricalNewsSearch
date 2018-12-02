@@ -7,8 +7,13 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
-      "schematics": {},
+      "prefix": "hs",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "css",
+          "inlineStyle": true
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -23,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/semantic-ui-css/semantic.css",
               "src/styles.css"
             ],
             "scripts": []
