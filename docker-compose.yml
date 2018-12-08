@@ -3,21 +3,9 @@ version: "3.5"
 services:
   hs-backend:
     container_name: hs-backend
-    build: .
+    build: ./hs-backend
     ports:
       - "5000:5000"
-
-##################################
-#     FRONTEND CONFIGURATION     #
-##################################
-#  hs-frontend:
-#    container_name: hs-frontend
-#    build: ./hs-frontend
-#    ports:
-#      - "4200:4200"
-#    volumes:
-#      - ".:/usr/src/app"
-#      - "/usr/src/app/node_modules"
 
   elasticsearch: # Elasticsearch Instance
     container_name: hs-elastic
@@ -29,25 +17,6 @@ services:
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
-
-  logstash: # Logstash Instance
-    container_name: hs-logstash
-    image: docker.elastic.co/logstash/logstash:6.4.2
-    ports:
-      - "5044:5000"
-      - "9600:9600"
-    environment:
-      - "ES_JAVA_OPTS: -Xmx512m -Xms512m"
-    depends_on:
-      - elasticsearch
-
-  kibana: # Kibana Instance
-    container_name: hs-kibana
-    image: docker.elastic.co/kibana/kibana:6.4.2
-    ports:
-      - "5601:5601"
-    depends_on:
-      - elasticsearch
 
 volumes:
   esdata:
