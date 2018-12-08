@@ -1,9 +1,16 @@
-.searchbar-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  bottom: 100px;
+h1.ui.header {
+  font-size: 3rem;
+}
+
+#searchbar-wrapper {
+  display: inline-block;
+  position: relative;
+  top: 35%;
+  left: 30%;
+}
+
+#main-title {
+  text-align: center;
 }
 
 #searchbar {
