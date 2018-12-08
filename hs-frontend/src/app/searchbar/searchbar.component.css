@@ -1,0 +1,12 @@
+.searchbar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  bottom: 100px;
+}
+
+#searchbar {
+  width: 584px;
+  height: auto;
+}
