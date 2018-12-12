@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-backend/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HistoricalNewsSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HistoricalNewsSearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,42 +20,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/hs-backend/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -94,7 +97,6 @@
         <option value="$PROJECT_DIR$/hs-frontend/angular.json" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/hs-frontend/src/index.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/styles.css" />
@@ -102,12 +104,17 @@
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/hs-backend/requirements.txt" />
+        <option value="$PROJECT_DIR$/hs-backend/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/hs-backend/app.py" />
+        <option value="$PROJECT_DIR$/hs-backend/connection.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1821" />
+    <option name="width" value="2560" />
     <option name="height" value="1361" />
   </component>
   <component name="ProjectView">
@@ -125,28 +132,7 @@
             <path>
               <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="searchbar" type="462c0819:PsiDirectoryNode" />
+              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,17 +195,20 @@
       <workItem from="1544194645630" duration="2010000" />
       <workItem from="1544279741316" duration="3750000" />
       <workItem from="1544293525811" duration="3011000" />
+      <workItem from="1544447756406" duration="564000" />
+      <workItem from="1544616795373" duration="2561000" />
+      <workItem from="1544625864490" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24944000" />
+    <option name="totallyTimeSpent" value="32544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1821" height="1361" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1361" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20532168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,8 +221,8 @@
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49960285" weight="0.20438957" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.44838455" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22773838" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.5145784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.4531127" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32939324" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -255,33 +244,9 @@
     <entry file="file://$PROJECT_DIR$/src/main.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/gitignore" />
-    <entry file="file://$PROJECT_DIR$/hs-backend/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-164" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/start-frontend.sh" />
@@ -321,13 +286,6 @@
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -382,20 +340,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/static/test" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/static/images/thomas-kelley-128626-unsplash.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -405,9 +353,6 @@
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -425,8 +370,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xml_Converter/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xml_Converter/NewspaperPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xml_Converter/XmlConverter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/static/images/thomas-kelley-128626-unsplash.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/urllib3/packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2905">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/urllib3/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

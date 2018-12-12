@@ -1,14 +1,15 @@
+import os
 from flask import Flask
 from elasticsearch import Elasticsearch
 
 
 app = Flask(__name__)
-es = Elasticsearch('http://localhost:9200')
+port = os.environ['PORT']
 
 
 @app.route("/")
 def hello_docker() -> str:
-    return "Hello Docker!"
+    return "Backend listening on Port " + str(port) + "."
 
 
 if __name__ == "__main__":

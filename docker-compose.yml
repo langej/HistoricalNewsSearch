@@ -6,6 +6,12 @@ services:
     build: ./hs-backend
     ports:
       - "5000:5000"
+    volumes:
+      - './hs-backend:/app'
+    environment:
+      - NODE_ENV=local
+      - ES_HOST=elasticsearch
+      - PORT=5000
 
   elasticsearch: # Elasticsearch Instance
     container_name: hs-elastic
@@ -13,7 +19,9 @@ services:
     volumes: # Persist Elasticsearch data in seperate volume named "esdata"
       - esdata:/usr/share/elasticsearch/data
     environment:
+      - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS-Xms512m -Xmx512m"
+      - discovery.type=single-node
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
