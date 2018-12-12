@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hs-backend/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HistoricalNewsSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HistoricalNewsSearch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/connection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hs-backend/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="449">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -197,12 +190,12 @@
       <workItem from="1544293525811" duration="3011000" />
       <workItem from="1544447756406" duration="564000" />
       <workItem from="1544616795373" duration="2561000" />
-      <workItem from="1544625864490" duration="1844000" />
+      <workItem from="1544625864490" duration="2278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32544000" />
+    <option name="totallyTimeSpent" value="32978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1361" extended-state="0" />
@@ -457,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="449">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
