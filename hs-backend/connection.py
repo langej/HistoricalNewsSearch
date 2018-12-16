@@ -21,7 +21,7 @@ def connect_elasticsearch():
             print('Connection failed, Retrying...', err)
 
 
-def create_index(es, index_name='library'):
+def create_index(elasticsearch_object, index_name='library'):
     created = False
     settings = {
         'settings': {
@@ -44,9 +44,9 @@ def create_index(es, index_name='library'):
     }
 
     try:
-        if not es.indices.exists(index_name):
+        if not elasticsearch_object.indices.exists(index_name):
             # Ignore 400 means to ignore 'Index already exist' error
-            es.indices.create(index=index_name, ignore=400, body=settings)
+            elasticsearch_object.indices.create(index=index_name, ignore=400, body=settings)
             print('Created Index')
             created = True
     except Exception as ex:
