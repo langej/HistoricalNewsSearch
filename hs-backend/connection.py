@@ -21,16 +21,38 @@ def connect_elasticsearch():
             print('Connection failed, Retrying...', err)
 
 
-# TODO: Implement a mapping for the newspaper data schema
-def put_newspaper_mapping():
-    schema = {
-        'date': {type: 'date'},
-        'newspaper_number': {type: 'integer'},
-        'page_number': {type: 'integer'},
-        'edition': {type: 'integer'},
-        'issue': {type: 'integer'},
-        'text': {type: 'text'}
+def create_index(es, index_name='library'):
+    created = False
+    settings = {
+        'settings': {
+            'number_of_shards': 1,
+            'number_of_replicas': 0
+        },
+        'mappings': {
+            'members': {
+                'dynamic': 'strict',
+                'properties': {
+                    'date': {'type': 'date'},
+                    'newspaper_number': {'type': 'integer'},
+                    'page_number': {'type': 'integer'},
+                    'edition': {'type': 'integer'},
+                    'issue': {'type': 'integer'},
+                    'text': {'type': 'text'}
+                }
+            }
+        }
     }
+
+    try:
+        if not es.indices.exists(index_name):
+            # Ignore 400 means to ignore 'Index already exist' error
+            es.indices.create(index=index_name, ignore=400, body=settings)
+            print('Created Index')
+            created = True
+    except Exception as ex:
+        print(str(ex))
+    finally:
+        return created
 
 
 # Helper function to reset the Elasticsearch index
@@ -38,5 +60,4 @@ def reset_index():
     if es.indices.exists({index}):
         es.indices.delete({index})
 
-    es.indices.create({index})
-    put_newspaper_mapping()
+    create_index(es, index)
