@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-from elasticsearch import Elasticsearch
 
 
 app = Flask(__name__)

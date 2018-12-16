@@ -1,4 +1,5 @@
 import os
+import pprint
 from elasticsearch import Elasticsearch
 
 index = 'library'
@@ -14,15 +15,22 @@ def connect_elasticsearch():
         print('Connecting to Elasticsearch')
         try:
             health = es.cluster.health()
-            print(health)
+            pprint.pprint(health)
             is_connected = True
         except Exception as err:
             print('Connection failed, Retrying...', err)
 
 
-#TODO: Implement a 'mapping' for the newspaper data schema
+# TODO: Implement a mapping for the newspaper data schema
 def put_newspaper_mapping():
-    pass
+    schema = {
+        'date': {type: 'date'},
+        'newspaper_number': {type: 'integer'},
+        'page_number': {type: 'integer'},
+        'edition': {type: 'integer'},
+        'issue': {type: 'integer'},
+        'text': {type: 'text'}
+    }
 
 
 # Helper function to reset the Elasticsearch index
