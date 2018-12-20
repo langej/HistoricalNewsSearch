@@ -1,0 +1,14 @@
+{
+    "Page": {
+        "_index": "library",
+        "_type": "newspaper",
+        "Year": "1930",
+        "Month": "07",
+        "Day": "25",
+        "NewspaperNumber": "030",
+        "PageNumber": "001",
+        "Edition": "0",
+        "Issue": "059",
+        "Text": "Brüning nach der Auflösung "
+    }
+}

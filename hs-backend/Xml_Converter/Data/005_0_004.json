@@ -1,0 +1,14 @@
+{
+    "Page": {
+        "_index": "library",
+        "_type": "newspaper",
+        "Year": "1930",
+        "Month": "01",
+        "Day": "31",
+        "NewspaperNumber": "005",
+        "PageNumber": "004",
+        "Edition": "0",
+        "Issue": "059",
+        "Text": "— "
+    }
+}
