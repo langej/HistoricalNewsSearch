@@ -1,21 +1,38 @@
-version: "3.5"
+version: "3"
 
 services:
-  hs-backend:
+  nginx:
+    container_name: hs-nginx
+    image: nginx
+    restart: always
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - ./hs-frontend/dist/hs-frontend:/usr/share/nginx/html
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+
+  backend:
     container_name: hs-backend
+    restart: always
     build: ./hs-backend
     ports:
       - "5000:5000"
     volumes:
-      - './hs-backend:/app'
+      - ./hs-backend:/app
     environment:
-      - NODE_ENV=local
       - ES_HOST=elasticsearch
-      - PORT=5000
+      - ES_PORT=9200
+    depends_on:
+      - elasticsearch
 
   elasticsearch: # Elasticsearch Instance
-    container_name: hs-elastic
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+    container_name: hs-search
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.3
     volumes: # Persist Elasticsearch data in seperate volume named "esdata"
       - esdata:/usr/share/elasticsearch/data
     environment:

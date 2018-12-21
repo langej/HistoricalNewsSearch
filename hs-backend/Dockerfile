@@ -1,15 +1,15 @@
 # Use an official Python runtime as a parent image
-FROM python:3.7-slim
+FROM python:3.7-alpine
 
-ADD . /app
+RUN mkdir -p /usr/src/app
 
-COPY . /app
+WORKDIR /usr/src/app
 
-WORKDIR /app
+COPY . /usr/src/app/
+
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5000
-
-RUN pip install -r requirements.txt
 
 CMD ["python", "app.py"]
 
