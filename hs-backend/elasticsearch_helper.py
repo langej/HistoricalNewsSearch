@@ -54,7 +54,6 @@ class ElasticsearchHelper(object):
         try:
             print(self.Es.indices.exists(self.Index))
             if not self.Es.indices.exists(self.Index):
-                print('4#######################################')
                 # Ignore 400 means to ignore 'Index already exist' error
                 self.Es.indices.create(index=self.Index, ignore=400, body=settings)
                 print('Created Index')
@@ -72,6 +71,24 @@ class ElasticsearchHelper(object):
             with open(directory + filename, 'r') as open_file:
                 #print(filename)
                 yield json.load(open_file)
+
+    def search(self, input, size):
+        if input == 'all':
+            res = helpers.scan(self.Es, query={"query": {"match_all": {}}}, index=self.Index,
+                               doc_type=self.Type)
+        else:
+            res = helpers.scan(self.Es, query={"query": {"match": {"Year": input}}},
+                               index=self.Index, doc_type=self.Type)
+        result = dict()
+        for item in res:
+            if len(result) == size:
+                break
+            result[item.get('_id')] = item
+        if len(result) == 0:
+            return {"Items": 0}
+        else:
+            return result
+
 
     # Helper function to reset the Elasticsearch index
     def reset_index(self):
