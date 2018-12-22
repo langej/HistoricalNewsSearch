@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "06",
-        "Day": "27",
-        "NewspaperNumber": "026",
-        "PageNumber": "003",
-        "Edition": "0",
-        "Issue": "059",
-        "Text": "o \nL \n \n\n3 \nN \n\"V \n \n\nc \nc \nflJ \n6 \nV \nX \nX \n(d \ns \nc \n£ \n \n\ni-fs \nII1 \n8 1 I \n^ -s \nje! \n^ *8 ^ \n§ I L \n \n\nu \n^ 2 c \nS 55 e \n^■=5 § \n \n\nW c C \nIj- 1 \ni*i \nSit \n■ä 2 j; \n$.* 8 \n3 .y <o \n■8*s § \n■s i ■? \n«3 \n \n\ni | \n11 \n11 \nv \n \n\n•s B \n- -Z \nw> v3 \n«* \nS 6 \n5 -c \n-8 -a \n \n\n-C \ndj \nI \n \n\nc \n \n\ni \n \n\nn a v. \n■S u q E \n-ti ■; ü c \n \n\n59 15' \n5 S \n*- -o \ns 3 \n3 — \n«s 5 \nI 8 \ne o \na i \nQ tn \n \n\n5 \ng ! \n^ 05 \nii \n \n\ni-i \nC 2 \nL E \ne L \n11 \nQ. ^ \n&“o \n•S c \n5 \nL \" \ni- L \n \n\n-s \n> \n \n\n^ ^ ^ \n \n\n'S, \n \n\n-C c \n« . o \"S \n \n\nE 4s \nU E \nL c \nV <U \nV. ^ \n \n\n- \n \n\n■5 Jj \nS ^ \nS L \n \n\n-8 c<> \n \n\n1| \n~a Z \ni 1 \na « \n \n\ns \nE \nE \nL \n! \nI \nI \n-L \nM \n \n\nk jj . \n \n\n,5 \nJä 1 \na 2 \n \n\n5i i s ä g \n■s ^ r»<4i \ns -c p 60 -a \n|L \n!S ä \n \n\n’ -S ~a w S L \n“ o V «3 \n-Z-ß i \n \n\n:■» 5 \n \n\no 3 S° -S Ä \nM g £ £ J? 8 \n \n\n5 Sc \nsi iii \n111 i SI \n-L i -2 -c g \"S \nv-< L S ^ 6 \n£ H “K.E \n^ E 1 B 8 S \n« ■§ 5 'jf-s s \ne «5 ö 5 v jy \nC g. J J E ^ \n8 * g -s « jj \nHä \n \n\n* \n \n\nL \n■s \n \n\nS B \n11 \ncl jtl \n•* >« 3 '5. ? \n^ 2 \"a 8-fc \nCi \nL 3 8 \n \n\n|ii \na -i 3 - 3 \n \n\nc -3 \nc - n v *Si c \na ° -g 8 2 --- \nc \n \n\n^ 5 \n \n\n<■« s E 811 s » \nL L \" . a -Z 2 \n*-1*1 § ^1 \n2 -K s -sr i -K \n \n\n\"■« \n \n\n_ C c g -c‘ *S 0 \nlä<8>3l 8-iäss "
-    }
+    "Year": "1930",
+    "Month": "06",
+    "Day": "27",
+    "NewspaperNumber": "026",
+    "PageNumber": "003",
+    "Edition": "0",
+    "Issue": "059",
+    "Text": "o \nL \n \n\n3 \nN \n\"V \n \n\nc \nc \nflJ \n6 \nV \nX \nX \n(d \ns \nc \n£ \n \n\ni-fs \nII1 \n8 1 I \n^ -s \nje! \n^ *8 ^ \n§ I L \n \n\nu \n^ 2 c \nS 55 e \n^■=5 § \n \n\nW c C \nIj- 1 \ni*i \nSit \n■ä 2 j; \n$.* 8 \n3 .y <o \n■8*s § \n■s i ■? \n«3 \n \n\ni | \n11 \n11 \nv \n \n\n•s B \n- -Z \nw> v3 \n«* \nS 6 \n5 -c \n-8 -a \n \n\n-C \ndj \nI \n \n\nc \n \n\ni \n \n\nn a v. \n■S u q E \n-ti ■; ü c \n \n\n59 15' \n5 S \n*- -o \ns 3 \n3 — \n«s 5 \nI 8 \ne o \na i \nQ tn \n \n\n5 \ng ! \n^ 05 \nii \n \n\ni-i \nC 2 \nL E \ne L \n11 \nQ. ^ \n&“o \n•S c \n5 \nL \" \ni- L \n \n\n-s \n> \n \n\n^ ^ ^ \n \n\n'S, \n \n\n-C c \n« . o \"S \n \n\nE 4s \nU E \nL c \nV <U \nV. ^ \n \n\n- \n \n\n■5 Jj \nS ^ \nS L \n \n\n-8 c<> \n \n\n1| \n~a Z \ni 1 \na « \n \n\ns \nE \nE \nL \n! \nI \nI \n-L \nM \n \n\nk jj . \n \n\n,5 \nJä 1 \na 2 \n \n\n5i i s ä g \n■s ^ r»<4i \ns -c p 60 -a \n|L \n!S ä \n \n\n’ -S ~a w S L \n“ o V «3 \n-Z-ß i \n \n\n:■» 5 \n \n\no 3 S° -S Ä \nM g £ £ J? 8 \n \n\n5 Sc \nsi iii \n111 i SI \n-L i -2 -c g \"S \nv-< L S ^ 6 \n£ H “K.E \n^ E 1 B 8 S \n« ■§ 5 'jf-s s \ne «5 ö 5 v jy \nC g. J J E ^ \n8 * g -s « jj \nHä \n \n\n* \n \n\nL \n■s \n \n\nS B \n11 \ncl jtl \n•* >« 3 '5. ? \n^ 2 \"a 8-fc \nCi \nL 3 8 \n \n\n|ii \na -i 3 - 3 \n \n\nc -3 \nc - n v *Si c \na ° -g 8 2 --- \nc \n \n\n^ 5 \n \n\n<■« s E 811 s » \nL L \" . a -Z 2 \n*-1*1 § ^1 \n2 -K s -sr i -K \n \n\n\"■« \n \n\n_ C c g -c‘ *S 0 \nlä<8>3l 8-iäss "
 }

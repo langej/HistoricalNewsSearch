@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "04",
-        "Day": "04",
-        "NewspaperNumber": "014",
-        "PageNumber": "004",
-        "Edition": "0",
-        "Issue": "059",
-        "Text": "Wohlauf, Kameraden, vom Pferd, Vom Pferd! Berliner Bühnenbilder VII \nZeichnung von Rudolf Schlichtet \nWerden und Vergehen "
-    }
+    "Year": "1930",
+    "Month": "04",
+    "Day": "04",
+    "NewspaperNumber": "014",
+    "PageNumber": "004",
+    "Edition": "0",
+    "Issue": "059",
+    "Text": "Wohlauf, Kameraden, vom Pferd, Vom Pferd! Berliner Bühnenbilder VII \nZeichnung von Rudolf Schlichtet \nWerden und Vergehen "
 }

@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "10",
-        "Day": "22",
-        "NewspaperNumber": "499",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "078",
-        "Text": "Severing statt Waentig \nBisher 231 Todesopfer festgestellt \n \n \n\n \n\nDie Zerstörungen über Tag der Grube Anna \n \n\nDer Lokaltermin im Mordprozess Kramer \nDer Angeklagte Koch will sich nicht photographieren lassen \nDer Photograph hat es aber doch geschafft (rechts) \n \n\nDer erste Flug der Focke-Wulf-Ente \nDie Tragflächen befinden sich hinten, und es scheint dadurch, \nals ob das Flugzeug sich in der Luft rückwärts bewege \n \n \n"
-    }
+    "Year": "1930",
+    "Month": "10",
+    "Day": "22",
+    "NewspaperNumber": "499",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "078",
+    "Text": "Severing statt Waentig \nBisher 231 Todesopfer festgestellt \n \n \n\n \n\nDie Zerstörungen über Tag der Grube Anna \n \n\nDer Lokaltermin im Mordprozess Kramer \nDer Angeklagte Koch will sich nicht photographieren lassen \nDer Photograph hat es aber doch geschafft (rechts) \n \n\nDer erste Flug der Focke-Wulf-Ente \nDie Tragflächen befinden sich hinten, und es scheint dadurch, \nals ob das Flugzeug sich in der Luft rückwärts bewege \n \n \n"
 }

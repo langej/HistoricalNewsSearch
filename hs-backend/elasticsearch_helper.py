@@ -77,7 +77,7 @@ class ElasticsearchHelper(object):
             res = helpers.scan(self.Es, query={"query": {"match_all": {}}}, index=self.Index,
                                doc_type=self.Type)
         else:
-            res = helpers.scan(self.Es, query={"query": {"match": {"Year": input}}},
+            res = helpers.scan(self.Es, query={"query": {"match": {"Text": input}}},
                                index=self.Index, doc_type=self.Type)
         result = dict()
         for item in res:

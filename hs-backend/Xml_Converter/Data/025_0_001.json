@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "06",
-        "Day": "20",
-        "NewspaperNumber": "025",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "059",
-        "Text": ",Das Kapital müssen wir schützen — drum heisst es, mit einer Klopf* viele Fliegen schlagen f "
-    }
+    "Year": "1930",
+    "Month": "06",
+    "Day": "20",
+    "NewspaperNumber": "025",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "059",
+    "Text": ",Das Kapital müssen wir schützen — drum heisst es, mit einer Klopf* viele Fliegen schlagen f "
 }

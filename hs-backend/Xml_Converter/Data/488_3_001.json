@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "10",
-        "Day": "16",
-        "NewspaperNumber": "488",
-        "PageNumber": "001",
-        "Edition": "3",
-        "Issue": "078",
-        "Text": "S-~i> \nä & a \nO a \no © \n- £ 3 \nSO N \nla \n3 ” 5 \n® c s \n'S o «J \nO « « \nob \n•s ► a \na 611 ® \n.s» \n•a ja p=t \n.Ü y <D \n.2 « \n© \n \n\ni| 4 i \n- £ tß 55 \n- «D 0? ^ \n•^-1 \nc c ö \n2 ® ^ .§ \n.2 1 § !s \n> \"Ö C \nt: > _ © \n \n\na \"O ’s \n \n\n®! i 1 s \n® 1 1«3 \nst SP «- \n's®*. \n41 flQÖ \n.a * a L \nU s M ® \n^ ® ^4 \n© 75 © \n~ £ 73 2 \nö O o) Ü \n*g ^ ^2 L w \n| \n95 73 e O S \n_. S co g \n§ ®s a j \n|iü-s| \noa © x3 \n«« 5.2 s \nIjasg \nk- TI Q (fl \nJju <fl Cl» tfl \nL i Z-L \n« ä - a \n \n\nS rs 3 .2 ■§ \n■£^2 W | \n— ® ® «, £ \n*— X «- © — \n559-« \na < H Q a \n \n\n'S 73 _ \nS | *3 | •* \nao 8®a \n \n\n2 \nJa \n2 2® \n» ® 1 a S \n3 tj ^3 O > \n| 3 J > f \nS y ^ © \nm s aw \n%Op. S \nsO ’J « 'S B \nQ, * 3 Cih \n— a> T3 \nBfS 8 t3 \n3 c \n© .M tse ® \n« y * ,£ S \n,Z>L a «-s \n- D 3 O 2 \n \n \n\n \n\n*- * £ \nE * J§ \n© «- \"d \nS^-5 \n« Z \n_ © \no -2 *5 \nT 2 \n5 *3 ö \n* B \nt « > \n^ fl \nc t3 \nv * \n1 2 1 \n> r S \n*- 0 O \nfi 7 \na .© © \n.3 ^ © \n••\" 0 a \n \n\n*« fl © © \n■© *© > \n© . \n3 j| g \n2 d .E «. \nö 2 j= -S \nas u b c \n« 5 » 9 \n■O d .g \n \n\n•a — \no >- -a \ns» . \n \n\n® \n \n\nS \n \n\n: S ® \n= « S \nc • f \nI .5 \nL.° \n© CC C \nN © \n* a \n« ® a • \njii’ \nL: 2 c» i \n \n\nI \n5© \nS) \n \n\n' o \n: *© \ni 3 \n \n\n1 © \nT3 \n \n\n4 .© r \n> *© \nISS \n\\& 3 \n' ä 3 \n> © © \na jd \n1 a o \n> ;3 © \ni *© t» \n \n\n5 lrii^u» \n>■ 3®»n s SS \nLua -Z *' xA * L v \nt- 2 tjs >»«i i> ® * c \n« g-ff ® B i 3 «S t \n \n\nso 3 » jo J -g \n*=13“1|. \n--S.S s- 5 « \n \n\niriii^iii \n® ► ^4pa,l3THf»J>a» \n \n\nSS \nii: \n \n\n& = » \n \n\n1 J§i \n \n\n• s “iig \n.S £ B E g \n© -3 © ^ e \nL ? L ° L \n■B -O 2 S \n.2 'S -5 ,£ :* \nb K 4 * f* "
-    }
+    "Year": "1930",
+    "Month": "10",
+    "Day": "16",
+    "NewspaperNumber": "488",
+    "PageNumber": "001",
+    "Edition": "3",
+    "Issue": "078",
+    "Text": "S-~i> \nä & a \nO a \no © \n- £ 3 \nSO N \nla \n3 ” 5 \n® c s \n'S o «J \nO « « \nob \n•s ► a \na 611 ® \n.s» \n•a ja p=t \n.Ü y <D \n.2 « \n© \n \n\ni| 4 i \n- £ tß 55 \n- «D 0? ^ \n•^-1 \nc c ö \n2 ® ^ .§ \n.2 1 § !s \n> \"Ö C \nt: > _ © \n \n\na \"O ’s \n \n\n®! i 1 s \n® 1 1«3 \nst SP «- \n's®*. \n41 flQÖ \n.a * a L \nU s M ® \n^ ® ^4 \n© 75 © \n~ £ 73 2 \nö O o) Ü \n*g ^ ^2 L w \n| \n95 73 e O S \n_. S co g \n§ ®s a j \n|iü-s| \noa © x3 \n«« 5.2 s \nIjasg \nk- TI Q (fl \nJju <fl Cl» tfl \nL i Z-L \n« ä - a \n \n\nS rs 3 .2 ■§ \n■£^2 W | \n— ® ® «, £ \n*— X «- © — \n559-« \na < H Q a \n \n\n'S 73 _ \nS | *3 | •* \nao 8®a \n \n\n2 \nJa \n2 2® \n» ® 1 a S \n3 tj ^3 O > \n| 3 J > f \nS y ^ © \nm s aw \n%Op. S \nsO ’J « 'S B \nQ, * 3 Cih \n— a> T3 \nBfS 8 t3 \n3 c \n© .M tse ® \n« y * ,£ S \n,Z>L a «-s \n- D 3 O 2 \n \n \n\n \n\n*- * £ \nE * J§ \n© «- \"d \nS^-5 \n« Z \n_ © \no -2 *5 \nT 2 \n5 *3 ö \n* B \nt « > \n^ fl \nc t3 \nv * \n1 2 1 \n> r S \n*- 0 O \nfi 7 \na .© © \n.3 ^ © \n••\" 0 a \n \n\n*« fl © © \n■© *© > \n© . \n3 j| g \n2 d .E «. \nö 2 j= -S \nas u b c \n« 5 » 9 \n■O d .g \n \n\n•a — \no >- -a \ns» . \n \n\n® \n \n\nS \n \n\n: S ® \n= « S \nc • f \nI .5 \nL.° \n© CC C \nN © \n* a \n« ® a • \njii’ \nL: 2 c» i \n \n\nI \n5© \nS) \n \n\n' o \n: *© \ni 3 \n \n\n1 © \nT3 \n \n\n4 .© r \n> *© \nISS \n\\& 3 \n' ä 3 \n> © © \na jd \n1 a o \n> ;3 © \ni *© t» \n \n\n5 lrii^u» \n>■ 3®»n s SS \nLua -Z *' xA * L v \nt- 2 tjs >»«i i> ® * c \n« g-ff ® B i 3 «S t \n \n\nso 3 » jo J -g \n*=13“1|. \n--S.S s- 5 « \n \n\niriii^iii \n® ► ^4pa,l3THf»J>a» \n \n\nSS \nii: \n \n\n& = » \n \n\n1 J§i \n \n\n• s “iig \n.S £ B E g \n© -3 © ^ e \nL ? L ° L \n■B -O 2 S \n.2 'S -5 ,£ :* \nb K 4 * f* "
 }

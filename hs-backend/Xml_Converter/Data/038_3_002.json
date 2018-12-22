@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "01",
-        "Day": "23",
-        "NewspaperNumber": "038",
-        "PageNumber": "002",
-        "Edition": "3",
-        "Issue": "078",
-        "Text": "-ZZ- \nL-Z > 5Tt \n \n\nV w \n- • « \n \n\nrfcVTl \n“'““PfafJ \n5 s. 7-. L re : \n2. £ S» S. £ i \nwfc^'re | d \n!f»:*. \n \n\nb£.|s^sB«o. ' \n \n\nI: \n \n\n0=5 \n» 5 ? 2 \n? 1 a > b \n. — <t> cf ^ \n- *->3 5-® 2 a ^g-|- Iff \n* 2. !? ~ s “■ - \" s \nC “ \n \n\n2 . s _ ~ =r Er S- - - I. o 5 . 5 . \n§ - egt— ^ B JE -f En* 5 \n» Zri.® ~ce=i£. 5-=-=~c *• \n \n\n_ CC s -■ \n2. 3 = 5 - ro \ns * E f & \n5g®®3 \n— S\" 2 3 \n» 11 c.* £® * \n|2. sTe-S -Z' \n35 re S £. £ re 3 \n \n\nW i \n \n\n£ S gi SP ? 'S S. S <g 2 E \nLS 3 \" 2 re L.\"> LL-Z-a \n \n\n- 3j 3 2. s 2. \n3 1=11 = ^0 \n^»fl ä F^» s \n**11?r \n \n\n^ <D ^ \n \n\n22. 2. M \n~ Sj Z? \nev \n \n\nH: 72 ^ . \n^§22.' S--Z \n- \" 7 - .. - 3 \n \n\n- => \" \n* * CC - \n~ s -• >ri= \n3 “ s \n \n\n'S\" 3 - \n' l-S-f 1 f g \nre a £ ST § „. \ns*!iHf \nre ts 5. © s* 3 \n- 2 B 2. - \n>5 3 £ 2 \n5 ®? \n \n\nS e »S \n2. 3 . „ - „ \ns ** ”! -» re \n§■=•5 8 ■ Z 2 . \n^ I ^ \n-a2- :c5 “i?** \nJiini-ini \n* 1 K J |SS-ft\"** ^ \n3 3' re s: a =r » :r ~ \nre — ■ -t et 5 s re — \n’S 2 -• n = E £ ~ ^ \nSP * re - \n \n\n2.1s \n \n\n<T> \n?? \n= S: \n. L \n \n\n72. \n \n\n<D \n£ \nrtT \nE \nz \n \n \n\n \n\nm \nf I» \nCZ> CßW \n5?* 5** 'v _ ., _ \n•t *• f 1 5- * ? “* 9 \n• 5 : =i-2. \n• 2 ü ö\" \n~ O *- Q, \n*1 I £ \n \n\nI=c/t \n \n\n71 \n5 * \n3 * \n3 \n \n\n= g . \n \n\n35 = \n:i ? \n \n\n■*s \n8* \np \nL» \nI \nz. \n* \no \n3 \n=. \nf \nt \n \n\ni r \n \n\n5 \n- \n \n\no \n“• \n? \ny \nX \n \n\nv. \nr \n \n\na .3' \n \n\nco \n0 \nX \nS \nCD \nPI \nPO \n1 \no \n> \nPI \nPI- "
-    }
+    "Year": "1930",
+    "Month": "01",
+    "Day": "23",
+    "NewspaperNumber": "038",
+    "PageNumber": "002",
+    "Edition": "3",
+    "Issue": "078",
+    "Text": "-ZZ- \nL-Z > 5Tt \n \n\nV w \n- • « \n \n\nrfcVTl \n“'““PfafJ \n5 s. 7-. L re : \n2. £ S» S. £ i \nwfc^'re | d \n!f»:*. \n \n\nb£.|s^sB«o. ' \n \n\nI: \n \n\n0=5 \n» 5 ? 2 \n? 1 a > b \n. — <t> cf ^ \n- *->3 5-® 2 a ^g-|- Iff \n* 2. !? ~ s “■ - \" s \nC “ \n \n\n2 . s _ ~ =r Er S- - - I. o 5 . 5 . \n§ - egt— ^ B JE -f En* 5 \n» Zri.® ~ce=i£. 5-=-=~c *• \n \n\n_ CC s -■ \n2. 3 = 5 - ro \ns * E f & \n5g®®3 \n— S\" 2 3 \n» 11 c.* £® * \n|2. sTe-S -Z' \n35 re S £. £ re 3 \n \n\nW i \n \n\n£ S gi SP ? 'S S. S <g 2 E \nLS 3 \" 2 re L.\"> LL-Z-a \n \n\n- 3j 3 2. s 2. \n3 1=11 = ^0 \n^»fl ä F^» s \n**11?r \n \n\n^ <D ^ \n \n\n22. 2. M \n~ Sj Z? \nev \n \n\nH: 72 ^ . \n^§22.' S--Z \n- \" 7 - .. - 3 \n \n\n- => \" \n* * CC - \n~ s -• >ri= \n3 “ s \n \n\n'S\" 3 - \n' l-S-f 1 f g \nre a £ ST § „. \ns*!iHf \nre ts 5. © s* 3 \n- 2 B 2. - \n>5 3 £ 2 \n5 ®? \n \n\nS e »S \n2. 3 . „ - „ \ns ** ”! -» re \n§■=•5 8 ■ Z 2 . \n^ I ^ \n-a2- :c5 “i?** \nJiini-ini \n* 1 K J |SS-ft\"** ^ \n3 3' re s: a =r » :r ~ \nre — ■ -t et 5 s re — \n’S 2 -• n = E £ ~ ^ \nSP * re - \n \n\n2.1s \n \n\n<T> \n?? \n= S: \n. L \n \n\n72. \n \n\n<D \n£ \nrtT \nE \nz \n \n \n\n \n\nm \nf I» \nCZ> CßW \n5?* 5** 'v _ ., _ \n•t *• f 1 5- * ? “* 9 \n• 5 : =i-2. \n• 2 ü ö\" \n~ O *- Q, \n*1 I £ \n \n\nI=c/t \n \n\n71 \n5 * \n3 * \n3 \n \n\n= g . \n \n\n35 = \n:i ? \n \n\n■*s \n8* \np \nL» \nI \nz. \n* \no \n3 \n=. \nf \nt \n \n\ni r \n \n\n5 \n- \n \n\no \n“• \n? \ny \nX \n \n\nv. \nr \n \n\na .3' \n \n\nco \n0 \nX \nS \nCD \nPI \nPO \n1 \no \n> \nPI \nPI- "
 }

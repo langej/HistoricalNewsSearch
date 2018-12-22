@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "12",
-        "Day": "24",
-        "NewspaperNumber": "605",
-        "PageNumber": "001",
-        "Edition": "2",
-        "Issue": "078",
-        "Text": "iirc "
-    }
+    "Year": "1930",
+    "Month": "12",
+    "Day": "24",
+    "NewspaperNumber": "605",
+    "PageNumber": "001",
+    "Edition": "2",
+    "Issue": "078",
+    "Text": "iirc "
 }

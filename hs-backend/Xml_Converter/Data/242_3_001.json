@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "05",
-        "Day": "24",
-        "NewspaperNumber": "242",
-        "PageNumber": "001",
-        "Edition": "3",
-        "Issue": "078",
-        "Text": "2 : \nas \nBO "
-    }
+    "Year": "1930",
+    "Month": "05",
+    "Day": "24",
+    "NewspaperNumber": "242",
+    "PageNumber": "001",
+    "Edition": "3",
+    "Issue": "078",
+    "Text": "2 : \nas \nBO "
 }

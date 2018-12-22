@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "07",
-        "Day": "22",
-        "NewspaperNumber": "341",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "078",
-        "Text": "Preussen-Rede Otto Brauns / Auto- \nUnfall durch betrunkenen Chauffeur \n \n\nDienstag, 22. Juli 1930 - 78. Jahrgang Nr. 341 \n \n\nBerliner \n \n\nAbend Ausgabe \nEinzel-Nummer 5 Pfennig \n \n\nDer Flugzeug-Absturz bei London \n \n\nAus Glas und Stein \n \n \n\n \n\nSechs Personen wurden getötet \nRabindranath Tagore in Oberammergau \n \n\nEin Geschäftspalast im Wuppertal ohne sichtbare Pfeiler \nRisse in der Danziger Marienkirche \n \n \n\n \n\nDer indische Dichter bei den Passionsspielen \n \n\nIn den klaffenden Spalten kann ein Mann stehen \n \n \n"
-    }
+    "Year": "1930",
+    "Month": "07",
+    "Day": "22",
+    "NewspaperNumber": "341",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "078",
+    "Text": "Preussen-Rede Otto Brauns / Auto- \nUnfall durch betrunkenen Chauffeur \n \n\nDienstag, 22. Juli 1930 - 78. Jahrgang Nr. 341 \n \n\nBerliner \n \n\nAbend Ausgabe \nEinzel-Nummer 5 Pfennig \n \n\nDer Flugzeug-Absturz bei London \n \n\nAus Glas und Stein \n \n \n\n \n\nSechs Personen wurden getötet \nRabindranath Tagore in Oberammergau \n \n\nEin Geschäftspalast im Wuppertal ohne sichtbare Pfeiler \nRisse in der Danziger Marienkirche \n \n \n\n \n\nDer indische Dichter bei den Passionsspielen \n \n\nIn den klaffenden Spalten kann ein Mann stehen \n \n \n"
 }

@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "05",
-        "Day": "06",
-        "NewspaperNumber": "211",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "078",
-        "Text": "Dienstag, 6. Mal 1930 - 78. Jahrgang Nr. 211 \n \n\nBerliner \n \n\nAbend-Ausgabe \n \n\nÄ Ä Einzel-Hummer 5 Pier \nvolks-Zeitung \nDunkles in der Reichswehr \nAnklage gegen Gebrüder Sass \n \n\nEr sprach gegen die Monarchie Gefängnis in den sonnigen Süden \n \n\nDas neueFunkhaus vorder Vollendung \n \n\nZur Reichsfischtvoche \n \n\nDer Rohbau des Funkhauses in der Masuren-Allee \n \n\nBerlin soll Seefische essen! \n \n\nUnamuno, der eine aufsehenerregende Rede in Madrid hielt , \ninmitten seiner Anhänger, \n \n\nDer Millionär-Verbrecher Al Capone angelt \nauf seiner Jacht in Florida \n \n \n\n \n \n"
-    }
+    "Year": "1930",
+    "Month": "05",
+    "Day": "06",
+    "NewspaperNumber": "211",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "078",
+    "Text": "Dienstag, 6. Mal 1930 - 78. Jahrgang Nr. 211 \n \n\nBerliner \n \n\nAbend-Ausgabe \n \n\nÄ Ä Einzel-Hummer 5 Pier \nvolks-Zeitung \nDunkles in der Reichswehr \nAnklage gegen Gebrüder Sass \n \n\nEr sprach gegen die Monarchie Gefängnis in den sonnigen Süden \n \n\nDas neueFunkhaus vorder Vollendung \n \n\nZur Reichsfischtvoche \n \n\nDer Rohbau des Funkhauses in der Masuren-Allee \n \n\nBerlin soll Seefische essen! \n \n\nUnamuno, der eine aufsehenerregende Rede in Madrid hielt , \ninmitten seiner Anhänger, \n \n\nDer Millionär-Verbrecher Al Capone angelt \nauf seiner Jacht in Florida \n \n \n\n \n \n"
 }

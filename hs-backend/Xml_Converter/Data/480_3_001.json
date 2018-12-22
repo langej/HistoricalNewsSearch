@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "10",
-        "Day": "11",
-        "NewspaperNumber": "480",
-        "PageNumber": "001",
-        "Edition": "3",
-        "Issue": "078",
-        "Text": "« \nU \n \n\n« \nw \nOQ \n \n\n5h \n \n\n«o \n \n\nS-i \nv \nS \nv \n \n\n& \nO \nÄ \nfl \n \n\n»2 \n-Z \nSd \n \n\nö \nv \n◄ \nO \nT 3 \n \n\n«M \no \n*ö \na \no \npS \no \nX \n.a \n\"3 \nto \nd \no \n► \nd \nC3 \ns \no "
-    }
+    "Year": "1930",
+    "Month": "10",
+    "Day": "11",
+    "NewspaperNumber": "480",
+    "PageNumber": "001",
+    "Edition": "3",
+    "Issue": "078",
+    "Text": "« \nU \n \n\n« \nw \nOQ \n \n\n5h \n \n\n«o \n \n\nS-i \nv \nS \nv \n \n\n& \nO \nÄ \nfl \n \n\n»2 \n-Z \nSd \n \n\nö \nv \n◄ \nO \nT 3 \n \n\n«M \no \n*ö \na \no \npS \no \nX \n.a \n\"3 \nto \nd \no \n► \nd \nC3 \ns \no "
 }

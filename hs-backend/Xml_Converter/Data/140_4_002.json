@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "03",
-        "Day": "23",
-        "NewspaperNumber": "140",
-        "PageNumber": "002",
-        "Edition": "4",
-        "Issue": "078",
-        "Text": "- --r "
-    }
+    "Year": "1930",
+    "Month": "03",
+    "Day": "23",
+    "NewspaperNumber": "140",
+    "PageNumber": "002",
+    "Edition": "4",
+    "Issue": "078",
+    "Text": "- --r "
 }

@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "10",
-        "Day": "03",
-        "NewspaperNumber": "467",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "078",
-        "Text": "Polizei duldet Hakenkreuz-Terror \nAttentat einer Abgewiesenen \n \n\nJahrhundertfeier der Berliner Museen \n \n\nDer erste Todestag Stresemanns \n \n\nDie erste Besichtigung des Pergamon-Altars in den neuen Museumsbauten \n \n\nDie geschmückte Büste im Auswärtigen Amt \n \n \n\n \n\nDer Herbst ist da \n\\ \n \n\nDie Lochen fallen \n \n \n\n \n\nDer Tiergarten im Oktober \n \n\nDie Oberammergauer lassen sich nach Beendigung der Spiele die Haare schneiden \n \n \n"
-    }
+    "Year": "1930",
+    "Month": "10",
+    "Day": "03",
+    "NewspaperNumber": "467",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "078",
+    "Text": "Polizei duldet Hakenkreuz-Terror \nAttentat einer Abgewiesenen \n \n\nJahrhundertfeier der Berliner Museen \n \n\nDer erste Todestag Stresemanns \n \n\nDie erste Besichtigung des Pergamon-Altars in den neuen Museumsbauten \n \n\nDie geschmückte Büste im Auswärtigen Amt \n \n \n\n \n\nDer Herbst ist da \n\\ \n \n\nDie Lochen fallen \n \n \n\n \n\nDer Tiergarten im Oktober \n \n\nDie Oberammergauer lassen sich nach Beendigung der Spiele die Haare schneiden \n \n \n"
 }

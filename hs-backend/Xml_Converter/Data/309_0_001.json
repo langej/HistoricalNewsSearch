@@ -1,14 +1,10 @@
 {
-    "Page": {
-        "_index": "library",
-        "_type": "newspaper",
-        "Year": "1930",
-        "Month": "07",
-        "Day": "03",
-        "NewspaperNumber": "309",
-        "PageNumber": "001",
-        "Edition": "0",
-        "Issue": "078",
-        "Text": "Donnerstag, 3. Juli 1930 - 78. Jahrgang Nr. 309 \n \n\nBerliner \n \n\nAbend Ausgabe \nEinzel-Nummer 5 Ptennig \n \n\nHunger-Unruhen in Neu-Polen \nEisenbahn-Unglück in Italien \n \n \n\n \n\nGrassfeuer auf der Olympiabahn \n \n\nEin Viertel der Radrennbahn in Plötzentee wurde vernichtet \n \n\nSo gut möchten wir es alle haben \n \n\nDemonstrationszug der Gandhi-Leute in Bombay (Indien) \n \n \n"
-    }
+    "Year": "1930",
+    "Month": "07",
+    "Day": "03",
+    "NewspaperNumber": "309",
+    "PageNumber": "001",
+    "Edition": "0",
+    "Issue": "078",
+    "Text": "Donnerstag, 3. Juli 1930 - 78. Jahrgang Nr. 309 \n \n\nBerliner \n \n\nAbend Ausgabe \nEinzel-Nummer 5 Ptennig \n \n\nHunger-Unruhen in Neu-Polen \nEisenbahn-Unglück in Italien \n \n \n\n \n\nGrassfeuer auf der Olympiabahn \n \n\nEin Viertel der Radrennbahn in Plötzentee wurde vernichtet \n \n\nSo gut möchten wir es alle haben \n \n\nDemonstrationszug der Gandhi-Leute in Bombay (Indien) \n \n \n"
 }
