@@ -27,10 +27,7 @@ class XmlConverter(object):
         return True
 
     def export_json(self):
-        data = dict()
-        data['Page'] = {
-            '_index': 'library',
-            '_type': 'newspaper',
+        data = {
             'Year': self.Newspaper_Page.Year,
             'Month': self.Newspaper_Page.Month,
             'Day': self.Newspaper_Page.Day,
@@ -40,7 +37,7 @@ class XmlConverter(object):
             'Issue': self.Newspaper_Page.Issue,
             'Text': self.Newspaper_Page.Text
         }
-        if data.get('Page').get('Text') != '':
+        if data.get('Text') != '':
             with open('./Data/' + self.Newspaper_Page.Newspaper_Number + '_' + self.Newspaper_Page.Edition
                             + '_' + self.Newspaper_Page.Page_Number + '.json', 'w') as outfile:
                 json.dump(data, outfile, indent=4, ensure_ascii=False)
