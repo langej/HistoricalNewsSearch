@@ -77,7 +77,7 @@ class ElasticsearchHelper(object):
             res = helpers.scan(self.Es, query={"query": {"match_all": {}}}, index=self.Index,
                                doc_type=self.Type)
         else:
-            res = helpers.scan(self.Es, query={"query": {"match": {"Text": input}}},
+            res = helpers.scan(self.Es, query=self.get_query(input),
                                index=self.Index, doc_type=self.Type)
         result = dict()
         for item in res:
@@ -89,6 +89,23 @@ class ElasticsearchHelper(object):
         else:
             return result
 
+    def get_query(self, input):
+        return {
+            "query": {
+                "bool": {
+                    "should": [
+                        {"match": {"Year": input}},
+                        {"match": {"Month": input}},
+                        {"match": {"Day": input}},
+                        {"match": {"NewspaperNumber": input}},
+                        {"match": {"PageNumber": input}},
+                        {"match": {"Edition": input}},
+                        {"match": {"Issue": input}},
+                        {"match": {"Text": input}}
+                    ]
+                }
+            }
+        }
 
     # Helper function to reset the Elasticsearch index
     def reset_index(self):
