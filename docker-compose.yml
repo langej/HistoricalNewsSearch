@@ -23,7 +23,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - ./hs-backend:/app
+      - ./hs-backend:/usr/src/app
     environment:
       - ES_HOST=elasticsearch
       - ES_PORT=9200
