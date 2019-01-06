@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchService } from '../search.service';
-import { Result } from '../Result';
+import { SearchService } from '../shared/search.service';
+import { Result } from '../shared/Result';
 
 @Component({
   selector: 'hs-searchbar',

@@ -12,7 +12,7 @@ import { ResultElementComponent } from './result-element/result-element.componen
   declarations: [
     AppComponent,
     SearchbarComponent,
-    ResultElementComponent
+    ResultElementComponent,
   ],
   imports: [
     BrowserModule,

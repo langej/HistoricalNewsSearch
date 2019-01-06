@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Attribute } from '@angular/compiler';
-import { Result } from '../Result';
+import { Result } from '../shared/Result';
 
 @Component({
   selector: 'hs-result-element',
