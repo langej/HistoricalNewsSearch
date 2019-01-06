@@ -1,8 +1,10 @@
 from flask import Flask, json
+from flask_cors import CORS
 from elasticsearch_helper import ElasticsearchHelper
 
 
 app = Flask(__name__)
+CORS(app)
 es_helper = ElasticsearchHelper()
 
 @app.route("/")

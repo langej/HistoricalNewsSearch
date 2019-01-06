@@ -1,0 +1,12 @@
+<div *ngIf="result">
+  <div class="hs-result" (click)="toggleFullText()">
+    <p class="date">Date: {{result.source.Day}}.{{result.source.Month}}.{{result.source.Year}} </p>
+    <div *ngIf="fullText; else elseBlock">
+      <p class="text">{{result.source.Text}}</p>
+    </div>
+    <ng-template #elseBlock>
+      <p class="text">{{result.source.Text.substring(0,1000) + ' (...)'}}</p>
+    </ng-template>
+    <hr>
+  </div>
+</div>

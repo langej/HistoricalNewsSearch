@@ -5,7 +5,7 @@ h1.ui.header {
 #searchbar-wrapper {
   display: inline-block;
   position: relative;
-  top: 35%;
+  top: 15%;
   left: 30%;
 }
 
@@ -16,4 +16,9 @@ h1.ui.header {
 #searchbar {
   width: 584px;
   height: auto;
+}
+
+#results {
+  margin-left: 5%;
+  margin-right: 5%;
 }

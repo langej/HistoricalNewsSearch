@@ -2,9 +2,11 @@
   <h1 id="main-title" class="ui header">Historical News Search</h1>
   <div class="ui search">
     <div id="searchbar" class="ui icon input">
-      <input class="prompt" type="text" placeholder="Search...">
+      <input [(ngModel)]="query" #search (keyup.enter)="loadData(search.value)" class="prompt" type="text" placeholder="Search...">
       <i class="search icon"></i>
     </div>
-    <div class="results"></div>
   </div>
+</div>
+<div *ngFor="let result of results">
+  <hs-result-element [result]="result" [queryString]="query"></hs-result-element>
 </div>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SearchService } from '../search.service';
+import { Result } from '../Result';
 
 @Component({
   selector: 'hs-searchbar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchbarComponent implements OnInit {
 
-  constructor() { }
+  query = '';
+
+  results = Array<Result>();
+
+  constructor(private searchService: SearchService) { }
 
   ngOnInit() {
+  }
+
+  loadData(query: string) {
+    this.results = this.searchService.getSearchResults(query);
   }
 
 }
