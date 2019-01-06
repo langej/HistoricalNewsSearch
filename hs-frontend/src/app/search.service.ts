@@ -15,9 +15,10 @@ export class SearchService {
     this.http.get('http://localhost:5000/' + query).subscribe( (data: any) => {
       if (data.Items !== 0) {
         Object.entries(data).forEach(([key, value]) => {
+          const content = <any> value;
           const res: Result = {
-            id: value._id,
-            source: value._source
+            id: content._id,
+            source: content._source
           };
           results.push(res);
         });
