@@ -21,5 +21,4 @@ export class SearchbarComponent implements OnInit {
   loadData(query: string) {
     this.results = this.searchService.getSearchResults(query);
   }
-
 }
