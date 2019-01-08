@@ -7,14 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { ResultElementComponent } from './result-element/result-element.component';
-import { ResultListComponent } from './result-list/result-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchbarComponent,
     ResultElementComponent,
-    ResultListComponent,
   ],
   imports: [
     BrowserModule,
