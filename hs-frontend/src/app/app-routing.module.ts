@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {SearchbarComponent} from "./searchbar/searchbar.component";
+import { HomeComponent } from "./home/home.component";
+import { ResultListComponent } from "./result-list/result-list.component";
+import { NewspaperDetailComponent } from "./newspaper-detail/newspaper-detail.component";
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'search',
-    pathMatch: 'full'
+    path: "",
+    component: HomeComponent
   },
   {
-    path: 'search',
-    component: SearchbarComponent
+    path: "search",
+    component: ResultListComponent
+  },
+  {
+    path: "newspaper/:id",
+    component: NewspaperDetailComponent
   }
 ];
 

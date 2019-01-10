@@ -1,12 +1,7 @@
-<div id="searchbar-wrapper">
-  <h1 id="main-title" class="ui header">Historical News Search</h1>
-  <div class="ui search">
-    <div id="searchbar" class="ui icon input">
-      <input [(ngModel)]="query" #search (keyup.enter)="loadData(search.value)" class="prompt" type="text" placeholder="Search...">
-      <i class="search icon"></i>
-    </div>
+<div class="ui search">
+  <div id="searchbar" class="ui icon input">
+    <input [(ngModel)]="query" #search (keyup.enter)="navigate(search.value)" class="prompt" type="text" placeholder="Search...">
+    <i class="search icon"></i>
   </div>
 </div>
-<div *ngFor="let result of results">
-  <hs-result-element [result]="result" [queryString]="query"></hs-result-element>
-</div>
+

@@ -1,26 +1,19 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Result } from '../shared/Result';
+import {Component, Input, OnInit} from '@angular/core';
+import {Newspaper} from "../shared/Newspaper";
 
 @Component({
   selector: 'hs-result-element',
   templateUrl: './result-element.component.html',
-  styleUrls: ['./result-element.component.css']
+  styles: []
 })
 export class ResultElementComponent implements OnInit {
 
-  @Input() result: Result;
-
-  @Input() queryString: string;
-
-  fullText = false;
+  @Input()
+  private newspaper: Newspaper;
 
   constructor() { }
 
   ngOnInit() {
-  }
-
-  toggleFullText() {
-    this.fullText ? this.fullText = false : this.fullText = true;
   }
 
 }

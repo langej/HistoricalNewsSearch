@@ -1,24 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchService } from '../shared/search.service';
-import { Result } from '../shared/Result';
+import { Router } from "@angular/router";
+import {SearchService} from "../shared/search.service";
 
 @Component({
   selector: 'hs-searchbar',
   templateUrl: './searchbar.component.html',
-  styleUrls: ['./searchbar.component.css']
+  styleUrls: []
 })
 export class SearchbarComponent implements OnInit {
 
-  query = '';
+  private query: string;
 
-  results = Array<Result>();
-
-  constructor(private searchService: SearchService) { }
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
   }
 
-  loadData(query: string) {
-    this.results = this.searchService.getSearchResults(query);
+  navigate() {
+    this.router.navigate(["/search"], { queryParams: { q: this.query }});
   }
 }

@@ -6,12 +6,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
+import { HomeComponent } from './home/home.component';
+import { ResultListComponent } from './result-list/result-list.component';
+import { NewspaperDetailComponent } from './newspaper-detail/newspaper-detail.component';
 import { ResultElementComponent } from './result-element/result-element.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchbarComponent,
+    HomeComponent,
+    ResultListComponent,
+    NewspaperDetailComponent,
     ResultElementComponent,
   ],
   imports: [
