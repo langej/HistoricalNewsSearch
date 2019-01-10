@@ -2,6 +2,7 @@ import os
 import pprint
 import json
 from elasticsearch import Elasticsearch, helpers
+import logger
 
 
 class ElasticsearchHelper(object):
@@ -80,13 +81,16 @@ class ElasticsearchHelper(object):
             res = helpers.scan(self.Es, query=self.get_query(input),
                                index=self.Index, doc_type=self.Type)
         result = dict()
+        result_ids = []
         for item in res:
             if len(result) == size:
                 break
             result[item.get('_id')] = item
+            result_ids.append(item.get('_id'))
         if len(result) == 0:
             return {"Items": 0}
         else:
+            logger.write_log(input, result_ids[0:10])
             return result
 
     def get_query(self, input):
