@@ -65,12 +65,11 @@ class ElasticsearchHelper(object):
             return created
 
     def import_Data(self):
-        helpers.bulk(self.Es, self.import_helper('./Xml_Converter/Data/'), index=self.Index, doc_type=self.Type)
+        helpers.bulk(self.Es, self.import_helper('./Xml_Converter/Data/Text/'), index=self.Index, doc_type=self.Type)
 
     def import_helper(self, directory):
         for filename in os.listdir(directory):
             with open(directory + filename, 'r') as open_file:
-                #print(filename)
                 yield json.load(open_file)
 
     def search(self, input, size):

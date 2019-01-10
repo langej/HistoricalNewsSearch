@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hs-backend/Xml_Converter/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/Xml_Converter/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +20,55 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/NewspaperPage.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -101,7 +125,6 @@
         <option value="$PROJECT_DIR$/hs-frontend/angular.json" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/hs-frontend/README.md" />
-        <option value="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/hs-backend/app.py" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html" />
@@ -113,6 +136,7 @@
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/Main.py" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py" />
+        <option value="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" />
       </list>
     </option>
   </component>
@@ -137,12 +161,6 @@
               <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
               <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,9 +278,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -489,12 +497,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/NewspaperPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
