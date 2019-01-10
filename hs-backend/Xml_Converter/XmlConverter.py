@@ -38,7 +38,7 @@ class XmlConverter(object):
             'Text': self.Newspaper_Page.Text
         }
         if data.get('Text') != '':
-            with open('./Data/' + self.Newspaper_Page.Newspaper_Number + '_' + self.Newspaper_Page.Edition
+            with open('./Data/Text/' + self.Newspaper_Page.Newspaper_Number + '_' + self.Newspaper_Page.Edition
                             + '_' + self.Newspaper_Page.Page_Number + '.json', 'w') as outfile:
                 json.dump(data, outfile, indent=4, ensure_ascii=False)
 

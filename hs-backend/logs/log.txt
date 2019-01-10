@@ -1,0 +1,1 @@
+{"date": "2019-01-10T16:16:23.528464", "query": "haus", "results": ["p8yLOGgBzl562yLhE7DB", "oMyLOGgBzl562yLhE7DA", "o8yLOGgBzl562yLhE7DA", "scyLOGgBzl562yLhE7DB", "ssyLOGgBzl562yLhE7DB", "uMyLOGgBzl562yLhE7DB", "rcyLOGgBzl562yLhE7DB", "w8yLOGgBzl562yLhE7DB", "rsyLOGgBzl562yLhE7DB", "z8yLOGgBzl562yLhE7DB"]}
