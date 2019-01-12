@@ -1,12 +1,12 @@
 <!--<p style="white-space: pre">{{ newspaper.source.Text }}</p>-->
-<a class="ui fluid card">
+<a class="ui fluid raised link grey card">
   <div class="content">
     <div class="header">ÜBERSCHRIFT</div>
     <div class="meta">
       <span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span>
     </div>
     <div class="description">
-      <p></p>
+      <p>{{ newspaper.source.Text.substring(0, 750) + ' (...)'}}</p>
     </div>
   </div>
   <div class="extra content">
