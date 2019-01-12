@@ -5,7 +5,7 @@ import {SearchService} from "../shared/search.service";
 @Component({
   selector: 'hs-searchbar',
   templateUrl: './searchbar.component.html',
-  styleUrls: []
+  styleUrls: ['./searchbar.component.css']
 })
 export class SearchbarComponent implements OnInit {
 

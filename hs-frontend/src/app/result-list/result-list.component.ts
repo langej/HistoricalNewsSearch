@@ -6,7 +6,7 @@ import {Newspaper} from "../shared/Newspaper";
 @Component({
   selector: 'hs-result-list',
   templateUrl: './result-list.component.html',
-  styles: []
+  styleUrls: ['./result-list.component.css']
 })
 export class ResultListComponent implements OnInit {
 

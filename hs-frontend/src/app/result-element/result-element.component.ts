@@ -4,7 +4,7 @@ import {Newspaper} from "../shared/Newspaper";
 @Component({
   selector: 'hs-result-element',
   templateUrl: './result-element.component.html',
-  styles: []
+  styleUrls: ['result-element.component.css']
 })
 export class ResultElementComponent implements OnInit {
 
