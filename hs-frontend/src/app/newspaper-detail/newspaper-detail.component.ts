@@ -12,7 +12,7 @@ export class NewspaperDetailComponent implements OnInit {
 
   newspaper: Newspaper;
 
-  constructor(
+  constructor (
     private ss: SearchService,
     private route: ActivatedRoute
   ) { }
@@ -20,5 +20,4 @@ export class NewspaperDetailComponent implements OnInit {
   ngOnInit() {
     const params = this.route.snapshot.params;
   }
-
 }
