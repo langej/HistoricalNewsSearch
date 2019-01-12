@@ -181,3 +181,37 @@
 {"date": "2019-01-12T16:25:58.959825", "query": "Das ist ein Test", "results": ["pnI4PWgBBpyJ8PoPY8p9", "qHI4PWgBBpyJ8PoPY8p9", "kHI4PWgBBpyJ8PoPdc7g", "pXI4PWgBBpyJ8PoPY8p9", "lXI4PWgBBpyJ8PoPdc7g", "r3I4PWgBBpyJ8PoPY8p9", "rXI4PWgBBpyJ8PoPY8p9", "kXI4PWgBBpyJ8PoPdc7g", "q3I4PWgBBpyJ8PoPY8p9", "m3I4PWgBBpyJ8PoPdc7g"]}
 {"date": "2019-01-12T16:26:31.407555", "query": "Das ist ein Test", "results": ["pnI4PWgBBpyJ8PoPY8p9", "qHI4PWgBBpyJ8PoPY8p9", "kHI4PWgBBpyJ8PoPdc7g", "pXI4PWgBBpyJ8PoPY8p9", "lXI4PWgBBpyJ8PoPdc7g", "r3I4PWgBBpyJ8PoPY8p9", "rXI4PWgBBpyJ8PoPY8p9", "kXI4PWgBBpyJ8PoPdc7g", "q3I4PWgBBpyJ8PoPY8p9", "m3I4PWgBBpyJ8PoPdc7g"]}
 {"date": "2019-01-12T16:26:47.272218", "query": "Das ist ein Test", "results": ["pnI4PWgBBpyJ8PoPY8p9", "qHI4PWgBBpyJ8PoPY8p9", "kHI4PWgBBpyJ8PoPdc7g", "pXI4PWgBBpyJ8PoPY8p9", "lXI4PWgBBpyJ8PoPdc7g", "r3I4PWgBBpyJ8PoPY8p9", "rXI4PWgBBpyJ8PoPY8p9", "kXI4PWgBBpyJ8PoPdc7g", "q3I4PWgBBpyJ8PoPY8p9", "m3I4PWgBBpyJ8PoPdc7g"]}
+{"date": "2019-01-12T16:34:07.186419", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:02:19.878305", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:05:54.864516", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:06:01.250967", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:40.016840", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:45.824289", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:47.233098", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:48.390409", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:49.117276", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:49.946413", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:50.861756", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:07:51.717722", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:02.796542", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:25.734499", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:50.892107", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:52.376224", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:54.865239", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:55.895748", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:57.354241", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:58.454462", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:08:59.413014", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:09:05.914660", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:09:58.770590", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:10:05.638238", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:10:41.928466", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:10:50.717486", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:11:01.496515", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:19:11.901815", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:19:13.935901", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:19:17.334159", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:19:18.699506", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:24:10.176511", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:38:36.104423", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}
+{"date": "2019-01-12T17:39:14.348823", "query": "Churchill", "results": ["RXI4PWgBBpyJ8PoPlNZe", "dnI4PWgBBpyJ8PoPntff", "S3I4PWgBBpyJ8PoPtNtF"]}

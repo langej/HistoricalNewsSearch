@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {SearchService} from "../shared/search.service";
+import {ActivatedRoute} from "@angular/router";
+import {Newspaper} from "../shared/Newspaper";
 
 @Component({
   selector: 'hs-newspaper-detail',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewspaperDetailComponent implements OnInit {
 
-  constructor() { }
+  newspaper: Newspaper;
+
+  constructor(
+    private ss: SearchService,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit() {
+    const params = this.route.snapshot.params;
   }
 
 }
