@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {SearchService} from "../shared/search.service";
 
 @Component({
@@ -11,7 +11,10 @@ export class SearchbarComponent implements OnInit {
 
   private query: string;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private activeRoute: ActivatedRoute) {
+    this.activeRoute.queryParams.subscribe(params => {
+      this.query = params["q"];
+    });
   }
 
   ngOnInit() {

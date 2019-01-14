@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import {SearchService} from "../shared/search.service";
-import {ActivatedRoute} from "@angular/router";
-import {Newspaper} from "../shared/Newspaper";
+import { Component, Input, OnInit } from '@angular/core';
+import { SearchService } from "../shared/search.service";
+import { ActivatedRoute } from "@angular/router";
+import { Newspaper } from "../shared/Newspaper";
 
 @Component({
   selector: 'hs-newspaper-detail',
@@ -10,6 +10,7 @@ import {Newspaper} from "../shared/Newspaper";
 })
 export class NewspaperDetailComponent implements OnInit {
 
+  @Input()
   newspaper: Newspaper;
 
   constructor (
