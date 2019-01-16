@@ -4,7 +4,6 @@
         "directive-selector": [
             true,
             "attribute",
-            "app",
             "camelCase"
         ],
         "component-selector": [
@@ -12,6 +11,7 @@
             "element",
             "app",
             "kebab-case"
-        ]
+        ],
+        "quotemark": false
     }
 }
