@@ -16,9 +16,10 @@ export class NewspaperDetailComponent implements OnInit {
   constructor (
     private ss: SearchService,
     private route: ActivatedRoute
-  ) { }
+  ) {}
 
   ngOnInit() {
     const params = this.route.snapshot.params;
+    this.newspaper = JSON.parse(localStorage.getItem(params.id));
   }
 }

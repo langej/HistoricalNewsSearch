@@ -32,7 +32,6 @@ export class ResultListComponent implements OnInit {
         results.map( (data) => {
           this.newspapers.push(data);
         });
-        console.log(this.newspapers);
       });
     }
   }

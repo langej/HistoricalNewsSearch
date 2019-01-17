@@ -14,6 +14,7 @@ export class SearchService {
   constructor(private http: HttpClient) { }
 
   async getSearchResults(query: string) {
+    localStorage.clear();
     const response = await axios.get(this.api + query);
     const newspapers = new Array<Newspaper>();
     if (typeof(response.data) !== 'string') {
@@ -24,6 +25,7 @@ export class SearchService {
           source: content._source
         };
         newspapers.push(res);
+        localStorage.setItem(res.id, JSON.stringify(res.source));
       });
     }
     return newspapers;
