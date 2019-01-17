@@ -11,7 +11,7 @@ import {Newspaper} from "../shared/Newspaper";
 })
 export class ResultListComponent implements OnInit {
 
-  private newspapers: Newspaper[];
+  newspapers: Newspaper[];
 
   // TODO: Edit so that query is still visible in searchbar
 

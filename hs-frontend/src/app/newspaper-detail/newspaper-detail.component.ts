@@ -10,7 +10,6 @@ import { Newspaper } from "../shared/Newspaper";
 })
 export class NewspaperDetailComponent implements OnInit {
 
-  @Input()
   newspaper: Newspaper;
 
   constructor (
@@ -20,6 +19,8 @@ export class NewspaperDetailComponent implements OnInit {
 
   ngOnInit() {
     const params = this.route.snapshot.params;
-    this.newspaper = JSON.parse(localStorage.getItem(params.id));
+    this.newspaper = new Newspaper();
+    this.newspaper.id = params.id;
+    this.newspaper.source = JSON.parse(localStorage.getItem(params.id));
   }
 }

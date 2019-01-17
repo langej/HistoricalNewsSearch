@@ -9,7 +9,7 @@ import {Newspaper} from "../shared/Newspaper";
 export class ResultElementComponent implements OnInit {
 
   @Input()
-  private newspaper: Newspaper;
+  newspaper: Newspaper;
 
   constructor() { }
 

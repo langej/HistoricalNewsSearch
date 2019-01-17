@@ -9,7 +9,7 @@ import {SearchService} from "../shared/search.service";
 })
 export class SearchbarComponent implements OnInit {
 
-  private query: string;
+  query: string;
 
   constructor(private router: Router, private activeRoute: ActivatedRoute) {
     this.activeRoute.queryParams.subscribe(params => {
