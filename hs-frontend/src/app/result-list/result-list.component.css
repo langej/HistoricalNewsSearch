@@ -17,3 +17,13 @@ h1 {
   top: 3vh;
   left: 3.5vw;
 }
+
+#evaluation {
+  margin: 25px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  text-align: center;
+}

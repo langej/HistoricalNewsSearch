@@ -1,6 +1,6 @@
 <!--<p style="white-space: pre">{{ newspaper.source.Text }}</p>-->
-<a class="ui fluid raised link grey card" routerLink="/newspaper/{{ newspaper.id }}">
-  <div class="content">
+<div class="ui fluid raised link grey card">
+  <div class="content" (click)="navigateToDetails()">
     <div class="header">ÜBERSCHRIFT</div>
     <div class="meta">
       <span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span>
@@ -9,13 +9,13 @@
       <p>{{ newspaper.source.Text.substring(0, 750) + ' (...)'}}</p>
     </div>
   </div>
-  <div class="extra content">
+  <div *ngIf="index < 10" class="extra content">
     <div class="ui two buttons">
-      <div class="ui basic green button">Relevant</div>
-      <div class="ui basic red button">Irrelevant</div>
+      <div [ngClass]="{basic: !relevant || !evaluated}" class="ui green button" (click)="evaluate(true)">Relevant</div>
+      <div [ngClass]="{basic:  relevant || !evaluated}" class="ui red button" (click)="evaluate(false)">Irrelevant</div>
     </div>
   </div>
-</a>
+</div>
 
 
 
