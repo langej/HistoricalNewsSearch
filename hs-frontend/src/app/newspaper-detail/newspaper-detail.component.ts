@@ -27,6 +27,6 @@ export class NewspaperDetailComponent implements OnInit {
   }
 
   navigateBack() {
-    this.router.navigate(['/search'], { queryParams: { q: localStorage.getItem('query')}});
+    this.router.navigate(['/search'], { queryParams: { q: decodeURI(localStorage.getItem('query'))}});
   }
 }

@@ -1,1 +1,384 @@
-[]
+[
+    {
+        "date": "2019-01-21T09:49:38.548Z",
+        "documents": [
+            {
+                "id": "-qyqb2gB8Bcy7E1tR4VB",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "-qyqb2gB8Bcy7E1tR4ZG",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "-qyqb2gB8Bcy7E1tUYfp",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "06yqb2gB8Bcy7E1tR4dK",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "0qyqb2gB8Bcy7E1tR4ZF",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "0qyqb2gB8Bcy7E1tR4dK",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "1ayqb2gB8Bcy7E1tR4ZF",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "2Kyqb2gB8Bcy7E1tR4dK",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "3Kyqb2gB8Bcy7E1tR4ZF",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Max Schmeling"
+    },
+    {
+        "date": "2019-01-21T09:58:28.144Z",
+        "documents": [
+            {
+                "id": "36yqb2gB8Bcy7E1tXIpt",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "Iayqb2gB8Bcy7E1tdpC7",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "JKyqb2gB8Bcy7E1tXIpp",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "RKyqb2gB8Bcy7E1tXIpq",
+                "index": 3,
+                "relevant": true
+            },
+            {
+                "id": "dqyqb2gB8Bcy7E1tR4ZD",
+                "index": 4,
+                "relevant": true
+            },
+            {
+                "id": "e6yqb2gB8Bcy7E1tR4dI",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "u6yqb2gB8Bcy7E1th5TW",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "xayqb2gB8Bcy7E1tj5Wi",
+                "index": 7,
+                "relevant": true
+            }
+        ],
+        "query": "Museumsinsel"
+    },
+    {
+        "date": "2019-01-21T10:19:13.518Z",
+        "documents": [
+            {
+                "id": "-6yqb2gB8Bcy7E1tR4VB",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "-ayqb2gB8Bcy7E1tR4VB",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "-qyqb2gB8Bcy7E1tR4VB",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "66yqb2gB8Bcy7E1tR4VB",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "6Kyqb2gB8Bcy7E1tR4VB",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "6ayqb2gB8Bcy7E1tR4VB",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "6qyqb2gB8Bcy7E1tR4VB",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "76yqb2gB8Bcy7E1tR4VB",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "7Kyqb2gB8Bcy7E1tR4VB",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Aufl\u00f6sung des Reichstages"
+    },
+    {
+        "date": "2019-01-21T10:24:07.464Z",
+        "documents": [
+            {
+                "id": "-6yqb2gB8Bcy7E1tXIlo",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-ayqb2gB8Bcy7E1tUYfp",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0Kyqb2gB8Bcy7E1tXIlm",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "1qyqb2gB8Bcy7E1tR4ZF",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "2Kyqb2gB8Bcy7E1tXIln",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "36yqb2gB8Bcy7E1tXIln",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "3Kyqb2gB8Bcy7E1tXIln",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "5ayqb2gB8Bcy7E1tXIln",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "66yqb2gB8Bcy7E1tXIln",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Br\u00fccke Koblenz"
+    },
+    {
+        "date": "2019-01-21T10:28:56.806Z",
+        "documents": [
+            {
+                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-ayqb2gB8Bcy7E1tUYfp",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "1qyqb2gB8Bcy7E1tR4ZF",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "2Kyqb2gB8Bcy7E1tR4dK",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "2ayqb2gB8Bcy7E1tUYjt",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "4ayqb2gB8Bcy7E1tR4ZF",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "6ayqb2gB8Bcy7E1tUYju",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "7Kyqb2gB8Bcy7E1tUYfp",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "86yqb2gB8Bcy7E1tR4VB",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Br\u00fccke Katastrophe Koblenz"
+    },
+    {
+        "date": "2019-01-21T10:36:47.654Z",
+        "documents": [
+            {
+                "id": "-6yqb2gB8Bcy7E1tR4ZG",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-Kyqb2gB8Bcy7E1tUYfp",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0qyqb2gB8Bcy7E1tZovW",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "1qyqb2gB8Bcy7E1tR4dK",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "26yqb2gB8Bcy7E1tXIpt",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "3Kyqb2gB8Bcy7E1tXIln",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "46yqb2gB8Bcy7E1tZozb",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "5qyqb2gB8Bcy7E1tUYjt",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "5qyqb2gB8Bcy7E1tXIpt",
+                "index": 8,
+                "relevant": true
+            },
+            {
+                "id": "7Kyqb2gB8Bcy7E1tXIln",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Weimarer Koalition"
+    },
+    {
+        "date": "2019-01-21T10:41:43.015Z",
+        "documents": [
+            {
+                "id": "-6yqb2gB8Bcy7E1tR4VB",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-6yqb2gB8Bcy7E1tR4ZG",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "-Kyqb2gB8Bcy7E1tR4ZG",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "-qyqb2gB8Bcy7E1tR4ZG",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "1Kyqb2gB8Bcy7E1tR4ZF",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "2ayqb2gB8Bcy7E1tR4ZF",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "2ayqb2gB8Bcy7E1tR4dK",
+                "index": 7,
+                "relevant": true
+            },
+            {
+                "id": "3Kyqb2gB8Bcy7E1tR4ZF",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "3qyqb2gB8Bcy7E1tR4ZF",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Heinrich Br\u00fcning"
+    }
+]

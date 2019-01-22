@@ -14,7 +14,7 @@ export class EvaluationService {
   postEvaluation(payload: EvaluationElement[]) {
     const data = {
       date: new Date().toISOString(),
-      query: localStorage.getItem('query'),
+      query: decodeURI(localStorage.getItem('query')),
       documents: payload
     };
     Axios({

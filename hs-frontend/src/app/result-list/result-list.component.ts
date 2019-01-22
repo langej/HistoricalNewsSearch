@@ -42,7 +42,8 @@ export class ResultListComponent implements OnInit {
 
   postEvaluation() {
     const evaluationData = new Array<EvaluationElement>();
-    for (let index = 0; index < 10; index++) {
+    const border = this.newspapers.length <= 10 ? this.newspapers.length : 10;
+    for (let index = 0; index < border; index++) {
       const tmp: EvaluationElement = JSON.parse(localStorage.getItem(`evaluation-${index}`));
       if (tmp.evaluated === false) {
         break;
@@ -54,10 +55,6 @@ export class ResultListComponent implements OnInit {
         });
       }
     }
-    if (evaluationData.length === 10) {
-      this.evaluationService.postEvaluation(evaluationData);
-    } else {
-      alert('noch keine 10 Dokumente bewertet!');
-    }
+    this.evaluationService.postEvaluation(evaluationData);
   }
 }

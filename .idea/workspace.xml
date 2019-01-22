@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/logs/evaluation.json" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/logs/evaluation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hs-backend/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-frontend/src/app/shared/evaluation.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hs-frontend/src/app/shared/evaluation.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,71 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +36,7 @@
       <find>prod</find>
       <find>out</find>
       <find>dist</find>
+      <find>Katas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/app.py" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app.py" />
@@ -153,23 +88,28 @@
         <option value="$PROJECT_DIR$/hs-frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/home/home.component.css" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.html" />
-        <option value="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html" />
-        <option value="$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts" />
+        <option value="$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts" />
+        <option value="$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts" />
+        <option value="$PROJECT_DIR$/hs-frontend/src/app/shared/evaluation.service.ts" />
+        <option value="$PROJECT_DIR$/hs-backend/logs/evaluation.json" />
+        <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="height" value="1361" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,17 +120,6 @@
             <path>
               <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
               <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,52 +134,11 @@
               <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="newspaper-detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="result-element" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="result-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="searchbar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,21 +214,23 @@
       <workItem from="1547399871903" duration="197000" />
       <workItem from="1547400222189" duration="71000" />
       <workItem from="1547456652370" duration="2539000" />
+      <workItem from="1548078428470" duration="1059000" />
+      <workItem from="1548094791144" duration="632000" />
+      <workItem from="1548165514636" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74612000" />
+    <option name="totallyTimeSpent" value="79285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22438443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939324" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -350,7 +240,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.5145784" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.28613138" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.4238683" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32939324" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -391,17 +281,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hs-frontend/dist/runtime.ec2944dd8b20ec099bf3.js" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/dist/styles.1efa085236ceb1bc009e.css" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/dist/hs-frontend/index.html" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -587,20 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/logs/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -642,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -675,10 +537,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/logs/evaluation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5918">
+          <caret line="269" column="50" selection-start-line="269" selection-start-column="50" selection-end-line="269" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="538" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_003.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_004.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/shared/evaluation.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="242">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
