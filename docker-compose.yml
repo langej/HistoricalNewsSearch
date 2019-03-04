@@ -7,9 +7,9 @@ services:
     restart: always
     build:
       context: .
-      dockerfile: ./nginx/Dockerfile
+      dockerfile: nginx/Dockerfile
     volumes:
-      - c:/users/jon/projekte/uni/HistoricalNewsSearch/hs-frontend/dist/hs-frontend:/usr/share/nginx/html
+      - ./hs-frontend/dist/hs-frontend:/usr/share/nginx/html
     ports:
       - "80:80"
       - "443:443"
