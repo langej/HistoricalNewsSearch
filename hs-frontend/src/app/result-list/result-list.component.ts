@@ -4,6 +4,7 @@ import {SearchService} from "../shared/search.service";
 import {Newspaper} from "../shared/Newspaper";
 import { EvaluationService } from '../shared/evaluation.service';
 import { EvaluationElement } from '../shared/EvaluationElement';
+import {filter} from "rxjs/operators";
 
 @Component({
   selector: 'hs-result-list',
@@ -15,14 +16,19 @@ export class ResultListComponent implements OnInit {
 
   page: number = 1;
   newspapers: Newspaper[];
+  displayEvaluation: boolean = false;
 
   constructor(
     private router: Router,
+    private route: ActivatedRoute,
     private searchService: SearchService,
     private evaluationService: EvaluationService
   ) {}
 
   ngOnInit() {
+    if (this.route.snapshot.queryParamMap.get('eval')) {
+      this.displayEvaluation = true;
+    }
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
     this.newspapers = new Array<Newspaper>();
     if (this.router.url !== '/search') {

@@ -10,7 +10,7 @@
     </div>
   </div>
   <div *ngIf="index < 10" class="extra content">
-    <div class="ui two buttons">
+    <div *ngIf="displayEvaluation" class="ui two buttons">
       <div [ngClass]="{basic: !relevant || !evaluated}" class="ui green button" (click)="evaluate(true)">Relevant</div>
       <div [ngClass]="{basic:  relevant || !evaluated}" class="ui red button" (click)="evaluate(false)">Irrelevant</div>
     </div>

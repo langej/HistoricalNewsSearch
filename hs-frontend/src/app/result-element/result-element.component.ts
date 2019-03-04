@@ -16,10 +16,11 @@ export class ResultElementComponent implements OnInit {
 
   @Input()
   index: number;
-
   relevant: boolean;
-
   evaluated: boolean;
+
+  @Input()
+  displayEvaluation: boolean;
 
   constructor(private router: Router) {}
 
