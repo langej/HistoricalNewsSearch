@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper, halfparskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[bookmarksnumbered,pdftitle={Name}]{hyperref}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{lmodern}
+
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=40mm, right=40mm, bottom=30mm,
+headsep=10mm, footskip=12mm}
+
+\title{Robo-Journalismus}
+\author{Edward Kupfer \and Jonathan Lange}
+\renewcommand*{\titlepagestyle}{empty}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=1\textwidth]{Unilogo}\par\vspace{1cm}
+	{\scshape\LARGE Universität Leipzig \par}
+	\vspace{0.5cm}
+	{\scshape\Large Abteilung Automatische Sprachverarbeitung\par}
+	\vspace{0.2cm}
+	{\scshape\large Modul\par}
+	\vspace{1cm}
+	{\huge\bfseries Thema\par}
+	\vspace{1cm}
+	{\Large Autoren \par}
+
+	\vfill
+	
+	{\large \today\par}
+\end{titlepage}
+
+
+\newpage
+\pagenumbering{roman}
+
+\section*{Abstract}
+
+\newpage
+
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+
+\section{Einleitung}
+
+\newpage
+
+\section{Fazit}
+
+% ----------------------------------------------------------------------------
+
+\newpage
+\begin{footnotesize}
+
+% IF YOU DO NOT USE BIBTEX, USE THE FOLLOWING SAMPLE SCHEME FOR THE REFERENCES
+% ----------------------------------------------------------------------------
+
+\begin{thebibliography}{99}
+
+% For articles
+%\bibitem{1}David Caswell, Konstantin Dörr, "Automated Journalism 2.0: Event-driven naratives", \emph{Journalism Practice}, 09.05.2017.
+
+%\bibitem{2}Andreas Graefe, "Guide to Automated Journalism", \emph{Columbia University Academic Commons}, 07.01.2016.
+
+%\bibitem{3}L. Leppänen, M. Munezero, M. Granroth-Wilding, H. Toivonen, "Data-Driven News Generation for Automated Journalism", \emph{University of Helsinki}, 2017
+
+%\bibitem{4}Retresco GmbH, ``Retresco - Textgenerierung'', \emph{\\https://www.retresco.de/textgenerierung/}, zuletzt abgerufen 01.07.2018
+
+%\bibitem{5}DFL Deutsche Fußball Liga GmbH, ``Schalke 04 krönt Saison mit Heimsieg - Eintracht Frankfurt verpasst vorerst Europa'', \emph{https://www.bundesliga.com/de/bundesliga/news/fc-schalke-04-eintracht-frankfurt-34-spieltag-spielbericht.jsp}, zuletzt abgerufen 01.07.2018
+
+%\bibitem{6}Statistik zum Spiel FC Bayern München - Vfb Stuttgart auf Bundesliga.de, \\
+%\emph{https://www.bundesliga.com/de/bundesliga/spieltag/2017-2018/34-fc\_bayern\_muenchen-vfb\_stuttgart.jsp?statistics}, zuletzt abgerufen 24.08.2018
+
+\end{thebibliography}
+%
+%\section{Abbildungsverzeichnis}
+%
+
+
+% IF YOU USE BIBTEX,
+% - DELETE THE TEXT BETWEEN THE TWO ABOVE DASHED LINES
+% - UNCOMMENT THE NEXT TWO LINES AND REPLACE 'Name_Of_Your_BibFile'
+
+%\bibliographystyle{unsrt}
+%\bibliography{Name_Of_Your_BibFile}
+
+\end{footnotesize}
+
+\end{document}

@@ -3,6 +3,7 @@ import pprint
 import json
 from elasticsearch import Elasticsearch, helpers
 import logger
+import time
 
 
 class ElasticsearchHelper(object):
@@ -25,6 +26,8 @@ class ElasticsearchHelper(object):
                 is_connected = True
             except Exception as err:
                 print('Connection failed, Retrying...', err)
+                time.sleep(5)
+                
         self.reset_index()
         self.import_Data()
 
