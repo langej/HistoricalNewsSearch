@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ResultListComponent } from './result-list/result-list.component';
 import { NewspaperDetailComponent } from './newspaper-detail/newspaper-detail.component';
 import { ResultElementComponent } from './result-element/result-element.component';
+import { NgxPaginationModule } from "ngx-pagination";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ResultElementComponent } from './result-element/result-element.componen
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

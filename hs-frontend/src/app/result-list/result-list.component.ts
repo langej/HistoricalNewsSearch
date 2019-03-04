@@ -13,6 +13,7 @@ import { EvaluationElement } from '../shared/EvaluationElement';
 })
 export class ResultListComponent implements OnInit {
 
+  page: number = 1;
   newspapers: Newspaper[];
 
   constructor(

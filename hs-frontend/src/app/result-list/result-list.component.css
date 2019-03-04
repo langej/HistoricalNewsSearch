@@ -8,8 +8,12 @@ header {
   height: 10vh;
 }
 
-main {
+.pagination /deep/ {
+  text-align: center;
+}
 
+.pagination /deep/ .ngx-pagination .current {
+  background: darkgray;
 }
 
 h1 {
