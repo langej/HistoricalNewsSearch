@@ -73,8 +73,35 @@ Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei e
 Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Formate mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
 Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten.
 
-\newpage
+\subsection{Datenverarbeitung}
+// GROBE ERKLÄRUNG DATENFORMAT 
+
+// BESCHREIBUNG VERARBEITUNG DER XML DATEN ZU JSON - AUF PROBLEME AUFMERKSAM MACHEN
+
+\subsection{Textstatistiken}
+// TEXTSTATISTIKEN (DESKRIPTIVE STATISTIK) – INTERESSANTE VARIABLEN MARKIEREN
+
 \section{Architektur}
+
+In diesem Kapitel wird zunächst der Technologiestack des Systems Bottom-Up beschrieben. 
+Außerdem erfolgt die detaillierte Vorstellung des User Interfaces mit Erklärung der einzelnen Sichten bevor abschließend der Indizierungs- und der Suchprozess erläutert werden.
+Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
+
+// UML-KOMPONENTENDIAGRAMM ARCHITEKTUR DER SUCHMASCHINE 
+
+\subsection{Technologiestack}
+
+Zur Umsetzung des Laborprojektes wird die Open-Source-Suchmaschine \textit{Elasticsearch} verwendet. 
+\textit{Elasticsearch} ist in Java geschrieben und basiert auf der Bibliothek \textit{Lucene}. 
+Außerdem ist \textit{Elasticsearch} gebaut für den Einsatz auf verteilten Systemen und die Echtzeitverarbeitung von großen Datenmengen, was unter anderem zur Volltextsuche eingesetzt wird und \textit{Elasticsearch} somit zu einer ausgezeichneten Option für die Umsetzung einer Dokumentensuchmaschine macht.
+\textit{Elasticsearch} stellt sämtliche Funktionen über eine programmiersprachenunabhängige REST-Schnittstelle zur Verfügung.
+Um die Dokumente durchsuchbar zu machen, legt \textit{Elasticsearch} die Datenstruktur des \textit{Invertierten Index} an.
+Es handelt sich hierbei um die \textit{Term-Dokument-Matrix}, die für jeden Term speichert in welchem Dokument dieser auftritt.
+
+
+\subsection{Indizierungsprozess}
+
+\subsection{Suchprozess}
 
 \newpage
 \section{Evaluation}

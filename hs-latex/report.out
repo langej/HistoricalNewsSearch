@@ -1,5 +1,10 @@
 \BOOKMARK [1][-]{section.1}{1 Einleitung}{}% 1
 \BOOKMARK [1][-]{section.2}{2 Datenakquise und -analyse}{}% 2
-\BOOKMARK [1][-]{section.3}{3 Architektur}{}% 3
-\BOOKMARK [1][-]{section.4}{4 Evaluation}{}% 4
-\BOOKMARK [1][-]{section.5}{5 Zusammenfassung und Ausblick}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{2.1 Datenverarbeitung}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Textstatistiken}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{3 Architektur}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Technologiestack}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Indizierungsprozess}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{3.3 Suchprozess}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{4 Evaluation}{}% 9
+\BOOKMARK [1][-]{section.5}{5 Zusammenfassung und Ausblick}{}% 10
