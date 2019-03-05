@@ -14,8 +14,8 @@
 \geometry{a4paper, top=25mm, left=40mm, right=40mm, bottom=30mm,
 headsep=10mm, footskip=12mm}
 
-\title{Robo-Journalismus}
-\author{Edward Kupfer \and Jonathan Lange}
+\title{Bericht zum Laborprojekt}
+\author{Jeremy Puchta \and Jonathan Lange \and Ali Al-Ali}
 \renewcommand*{\titlepagestyle}{empty}
 
 \begin{document}
@@ -27,22 +27,16 @@ headsep=10mm, footskip=12mm}
 	\vspace{0.5cm}
 	{\scshape\Large Abteilung Automatische Sprachverarbeitung\par}
 	\vspace{0.2cm}
-	{\scshape\large Modul\par}
+	{\scshape\large Fortgeschrittene Methoden des Information Retrieval\par}
 	\vspace{1cm}
-	{\huge\bfseries Thema\par}
+	{\huge\bfseries Bericht zum Laborprojekt\par}
 	\vspace{1cm}
-	{\Large Autoren \par}
+	{\Large Jeremy Puchta -- Jonathan Lange -- Ali Al-Ali \par}
 
 	\vfill
 	
 	{\large \today\par}
 \end{titlepage}
-
-
-\newpage
-\pagenumbering{roman}
-
-\section*{Abstract}
 
 \newpage
 
@@ -50,15 +44,36 @@ headsep=10mm, footskip=12mm}
 \tableofcontents
 
 \newpage
-
 \pagenumbering{arabic}
-
-
 \section{Einleitung}
 
-\newpage
+Der vorliegende Bericht erläutert den Aufbau sowie die Funktionsweise der Suchmaschine \textbf{Historical News Search}, welche im Rahmen des Laborprojektes innerhalb des Moduls \textit{Fortgeschrittene Methoden des Information Retrieval} im Wintersemester 2018 / 2019 erstellt wurde. 
+Ziel des Laborprojektes war es, die vermittelten Vorlesungsinhalte zu vertiefen und diese bei der Erstellung einer domänenspezifischen Suchmaschine umzusetzen. 
+Die vorgestellte Suchmaschine dient der Exploration von historischen Nachrichten.
+Verschiedene Szenarien sind als Anwendungsfälle für eine solche Suchmaschine denkbar. 
+Ein Nutzer kann nach der Berichterstattung zu Personen, Gruppen, Orten oder bestimmten historischen Ereignissen suchen.
+Als Beispiel für Suchanfragen können hierfür \texttt{reichstagswahl 1930}, \texttt{max schmeling} oder \texttt{nsdap} genannt werden.
+Eine weitere Möglichkeit der Nutzung stellt die Ahnenforschung dar, bei welcher ein Nutzer in Zeitungsberichten nach Informationen über seine Vorfahren suchen kann und somit gegebenenfalls mehr über seine Familienhistorie erfährt.
 
-\section{Fazit}
+Im folgenden Kapitel wird zunächst näher auf den Datensatz eingegangen und mit Methoden der desktriptiven Statistik analysiert.  
+Die Architektur und der Aufbau der Suchmaschine werden in Kapitel 3 näher dargestllt. 
+Dazu zählt insbesondere die Erstellung des Indizes sowie die Umsetzung des Suchprozesses über alle beteiligten Komponenten des Systems.
+In Kapitel 4 werden zunächst die Evaluationsmethodik sowie die Resultate der Evaluation erläutert. 
+Weiterhin wird dargestellt, welche Anpassungen vorgenommen wurden, um die Effektivität der Suchmaschine zu verbessern.
+Abschließend erfolgt in Kapitel 5 eine Zusammenfassung des Projektes und es wird ein Ausblick in Bezug auf eine Weiterentwicklung der Suchmaschine geliefert.
+
+\section{Datenakquise und -analyse}
+
+
+
+\newpage
+\section{Architektur}
+
+\newpage
+\section{Evaluation}
+
+\newpage
+\section{Zusammenfassung und Ausblick}
 
 % ----------------------------------------------------------------------------
 
