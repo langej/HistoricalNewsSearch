@@ -5,9 +5,12 @@
   <a routerLink="#" class="item active" routerLinkActive="active">Zeitungstext</a>
   <a routerLink="#" class="item" routerLinkActive="active">Zeitungsausschnitt</a>
 </div>
-<div style="white-space: pre;">
+<div id="content" style="white-space: pre;">
   {{newspaper.source.Day}}.{{newspaper.source.Month}}.{{newspaper.source.Year}}
   <hr>
-  {{newspaper.source.Text}}
+  <!-- <div id="content" [innerHTML]="highlightedText"></div> -->
+  <!-- {{newspaper.source.Text}} -->
+  <!-- {{highlightedText}} -->
+  <article [innerHTML]="highlightedText"></article>
 </div>
 

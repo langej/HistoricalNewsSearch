@@ -6,3 +6,11 @@
 #back {
   left: 10%;
 }
+
+#content {
+  color: blue;
+}
+
+.marked {
+  background: yellowgreen;
+}
