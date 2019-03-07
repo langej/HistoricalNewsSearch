@@ -1,8 +1,9 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, Sanitizer} from '@angular/core';
 import {Newspaper} from "../shared/Newspaper";
 import { encodeUriQuery } from '@angular/router/src/url_tree';
 import { EvaluationElement } from '../shared/EvaluationElement';
 import { Router } from '@angular/router';
+import { SafeHtml, DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'hs-result-element',
@@ -14,6 +15,8 @@ export class ResultElementComponent implements OnInit {
   @Input()
   newspaper: Newspaper;
 
+  newspaperSnippet: SafeHtml;
+
   @Input()
   index: number;
   relevant: boolean;
@@ -22,12 +25,13 @@ export class ResultElementComponent implements OnInit {
   @Input()
   displayEvaluation: boolean;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private sanitizer: DomSanitizer) {}
 
   ngOnInit() {
     const item: EvaluationElement = JSON.parse(localStorage.getItem(`evaluation-${this.index}`));
     this.evaluated = item.evaluated;
     this.relevant = item.relevant;
+    this.highlightText();
   }
 
   navigateToDetails() {
@@ -46,6 +50,19 @@ export class ResultElementComponent implements OnInit {
     evaluationElement.evaluated = true;
     this.evaluated = true;
     localStorage.setItem(`evaluation-${this.index}`, JSON.stringify(evaluationElement));
+  }
+
+  highlightText() {
+    let snippet = this.newspaper.source.Text.substring(0, 750) + ' (...)';
+
+    let query = decodeURI(localStorage.getItem('query'));
+    let queryWords = query.split(" ");
+
+    queryWords.map( (value) => {
+      snippet = snippet.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
+    });
+
+    this.newspaperSnippet = this.sanitizer.bypassSecurityTrustHtml(snippet);
   }
 
 }

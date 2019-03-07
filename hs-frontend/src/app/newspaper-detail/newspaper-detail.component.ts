@@ -44,7 +44,7 @@ export class NewspaperDetailComponent implements OnInit {
     let text: string = this.newspaper.source.Text;
 
     queryWords.map( (value) => {
-      text = text.replace(new RegExp(`${value}`, 'gi'), `<span class="marked">${value}</span>`);
+      text = text.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
     })
     this.highlightedText = this.sanitizer.bypassSecurityTrustHtml(text);
   }

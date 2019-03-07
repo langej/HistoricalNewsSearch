@@ -7,14 +7,14 @@
 </header>
 <div class="ui divider"></div>
 <main>
-  <div *ngFor="let n of newspapers | paginate: { itemsPerPage: 10, currentPage: p }">
+  <div *ngFor="let n of newspapers | paginate: { itemsPerPage: 10, currentPage: page }">
     <hs-result-element [displayEvaluation]="displayEvaluation" [newspaper]="n" [index]="newspapers.indexOf(n)"></hs-result-element>
   </div>
 </main>
 
 <pagination-controls
   class="pagination"
-  (pageChange)="p = $event"
+  (pageChange)="page = $event"
   previousLabel="Zurück"
   nextLabel="Weiter">
 </pagination-controls>

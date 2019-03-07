@@ -6,7 +6,7 @@
       <span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span>
     </div>
     <div class="description">
-      <p>{{ newspaper.source.Text.substring(0, 750) + ' (...)'}}</p>
+      <p [innerHTML]="newspaperSnippet"></p>
     </div>
   </div>
   <div *ngIf="index < 10" class="extra content">
