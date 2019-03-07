@@ -9,6 +9,7 @@
 \usepackage[bookmarksnumbered,pdftitle={Name}]{hyperref}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{lmodern}
+\usepackage{listing}
 
 \usepackage{geometry}
 \geometry{a4paper, top=25mm, left=40mm, right=40mm, bottom=30mm,
@@ -107,9 +108,56 @@ Zur Vereinfachung des Deployments und zur Optimierung des Entwicklungsprozesses 
 
 \subsection{Indizierungsprozess}
 
-
+Die im Rahmen der Datenvorverarbeitung erstellten JSON-Dokumente werden mit Elasticsearch indiziert. 
+Jede Seite einer Zeitung wird dabei als eine JSON-Datei repräsentiert und enthält neben dem Veröffentlichungsdatum und weiteren Metadaten (Ausgabe, Seitenzahl, ...) die Zeitungsartikel.
+Diese stellen den wichtigsten Bestandteil für die Indizierung dar, da in diesem relevante Terme enthalten sind, die von einem Nutzer gesucht werden können.
+Wie jedoch bereits im Kapitel 2.1 dargelegt wurde, ist die Qualität der Daten durch eine Vielzahl von OCR-Scanartefakten sehr gering.
 
 \subsection{Suchprozess}
+
+\section{Vorstellung der Suchmaschine}
+
+Nachdem die Architektur des Systems in Kapitel 3 vollumfänglich erläutert wurde, erfolgt in diesem Kapitel die Vorstellung der Suchmaschine, insbesondere des User Interfaces.
+Das User Interface besteht aus drei verschiedenen Sichen, die sich wie folgt darstellen:
+	\begin{enumerate}
+		\item Landing Page mit Eingabefeld für eine Suchanfrage
+		\item Seite zur Auflistung der Suchergebnisse
+		\item Seite zur Darstellung von Detailinformationen zu einer Zeitungsseite inklusive des zugehörigen Zeitungsscans  	
+	\end{enumerate}
+Bei der Beschreibung der Sichten erfolgt eine Erklärung der Prozesse die im System ablaufen.
+
+\subsection{Landing Page}
+
+Bei der \textit{Landing Page} handelt es sich, wie der Name schon sagt, um die Seite, die ein Nutzer sieht sobald dieser die Suchmaschine verwendet.
+Auf dieser befindet sich neben einem thematisch passenden und ansprechenden Hintergrundbild ein Eingabefeld, in welcher die Nutzer eine Suchanfragen stellen können. 
+Abbildung 1 zeigt die \textit{Landing Page} mit dem Eingabefeld für Suchanfragen.
+
+\begin{figure}[h]
+	\includegraphics[width=\linewidth]{images/landing_page.png}
+	\caption{Landing Page der Historical News Search}
+\end{figure}
+
+\subsection{Auflistung der Suchergebnisse}
+
+Nachdem ein Nutzer seine Suchanfrage in das Eingabefeld auf der \textit{Landing Page} eingegeben hat, wird diese an die \texttt{search}-Methode im Backend übergeben.
+Wie bereits in Kapitel 3.2 beschrieben sucht diese in der Dokumentkollektion nach Zeitungsseiten, welche die Terme aus der Suchanfrage enthalten und gibt diese zurück. 
+Die zurückgegebenen Zeitungen werden, nach ihrem Gewicht sortiert, in einer Liste von \textit{Cards} dargestellt.
+Dabei wird eine Zeitungsseite von je einer \textit{Card} repräsentiert.
+Diese enthalten neben einer Überschrift und dem Veröffentlichungsdatum ein kurzes Snippet, um dem Nutzer eine Vorschau auf die Artikel der Zeitungsseite zu bieten und diesen somit bei der Suche nach relevanten Ergebnissen zu unterstützen.
+Weiterhin ist zur Gewährleistung der Übersichtlichkeit des User Interfaces eine \textit{Paginierung} implementiert.
+Jede Seite enthält besitzt zehn Resultate. 
+Abbildung 2 illustriert die Auflistung der Suchergebnisse für eine Suchanfrage nach \texttt{max schmeling}.
+
+// ABBILDUNG EINFÜGEN!
+
+\subsection{Detailansicht}
+
+Klickt ein Nutzer auf eine der \textit{Cards} aus der Ergebnisliste, werden ihm sämtliche Artikel angezeigt, die auf der entsprechenden Zeitungsseite stehen.
+
+// WIRD NACH UMBAU DER DETAILANSICHT FORTGEFÜHRT
+
+// ABBILDUNG EINFÜGEN SOBALD FERTIGGESTELLT
+
 
 \newpage
 \section{Evaluation}

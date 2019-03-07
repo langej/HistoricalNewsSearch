@@ -7,5 +7,9 @@
 \contentsline {subsection}{\numberline {3.1}Technologiestack}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Indizierungsprozess}{3}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Suchprozess}{3}{subsection.3.3}
-\contentsline {section}{\numberline {4}Evaluation}{4}{section.4}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{5}{section.5}
+\contentsline {section}{\numberline {4}Vorstellung der Suchmaschine}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Landing Page}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Auflistung der Suchergebnisse}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Detailansicht}{4}{subsection.4.3}
+\contentsline {section}{\numberline {5}Evaluation}{5}{section.5}
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{6}{section.6}
