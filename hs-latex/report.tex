@@ -66,11 +66,11 @@ Abschließend erfolgt in Kapitel 5 eine Zusammenfassung des Projektes und es wir
 
 Die \textit{Staatsbibliothek zu Berlin} besitzt ein breites Spektrum von historisch bedeutsamen digitalisierten Zeitungen.
 Diese werden im hauseigenen Zeitungsinformationssystem namens \textit{ZEFYS} kostenfrei bereitgestellt.
-Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelten Suchmaschine.
+Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
 Bei der Berliner Volks-Zeitung handelt es sich um eine von 1904 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
 Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
 Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
-Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Formate mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
+Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Format mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
 Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten.
 
 \subsection{Datenverarbeitung}
@@ -83,7 +83,7 @@ Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten.
 
 \section{Architektur}
 
-In diesem Kapitel wird zunächst der Technologiestack des Systems Bottom-Up beschrieben. 
+In diesem Kapitel wird zunächst der Technologiestack des Systems beschrieben. 
 Außerdem erfolgt die detaillierte Vorstellung des User Interfaces mit Erklärung der einzelnen Sichten bevor abschließend der Indizierungs- und der Suchprozess erläutert werden.
 Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
 
@@ -92,14 +92,22 @@ Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Kompo
 \subsection{Technologiestack}
 
 Zur Umsetzung des Laborprojektes wird die Open-Source-Suchmaschine \textit{Elasticsearch} verwendet. 
-\textit{Elasticsearch} ist in Java geschrieben und basiert auf der Bibliothek \textit{Lucene}. 
+\textit{Elasticsearch} ist in Java geschrieben und basiert auf der Java-Bibliothek \textit{Lucene}. 
 Außerdem ist \textit{Elasticsearch} gebaut für den Einsatz auf verteilten Systemen und die Echtzeitverarbeitung von großen Datenmengen, was unter anderem zur Volltextsuche eingesetzt wird und \textit{Elasticsearch} somit zu einer ausgezeichneten Option für die Umsetzung einer Dokumentensuchmaschine macht.
 \textit{Elasticsearch} stellt sämtliche Funktionen über eine programmiersprachenunabhängige REST-Schnittstelle zur Verfügung.
-Um die Dokumente durchsuchbar zu machen, legt \textit{Elasticsearch} die Datenstruktur des \textit{Invertierten Index} an.
-Es handelt sich hierbei um die \textit{Term-Dokument-Matrix}, die für jeden Term speichert in welchem Dokument dieser auftritt.
+Um die Dokumente durchsuchbar zu machen, legt \textit{Elasticsearch} die Datenstruktur des \textit{Invertierten Index} an, in welcher für jeden Term gespeichert wird in welchem Dokument dieser auftritt.
 
+Im Backend des Systems kommt das Python-Framework \textit{Flask} zum Einsatz. 
+Bei \textit{Flask} handelt es sich um ein Mikroframework, welches eine einfache, jedoch ebenfalls erweiterbare und robuste Möglichkeit bietet APIs zu erstellen.
+Im Frontend wird mit \textit{Angular} ein Framework verwendet, welches Entwickler durch sein Komponentensystem darin unterstützt modularen Quellcode zu produzieren, der sich einfach warten lässt.
+Außerdem bringt es bereits viele Funktionen, die häufig im Frontend zum Einsatz kommen, wie zum Beispiel Routing mit. 
+Zur Vereinfachung des Deployments und zur Optimierung des Entwicklungsprozesses kommt die Containervirtualisierungs – Technologie \textit{Docker} zum Einsatz.
+
+// MUSS NOCH AN IRGENDETWAS GEDACHT WERDEN?
 
 \subsection{Indizierungsprozess}
+
+
 
 \subsection{Suchprozess}
 
