@@ -26,7 +26,7 @@ class ElasticsearchHelper(object):
                 is_connected = True
             except Exception as err:
                 print('Connection failed, Retrying...', err)
-                time.sleep(5)
+                time.sleep(10)
                 
         self.reset_index()
         self.import_Data()

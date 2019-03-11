@@ -1,8 +1,8 @@
-from flask import Flask, json, request
+from flask import Flask, json, request, send_file, Response
 from flask_cors import CORS
 from elasticsearch_helper import ElasticsearchHelper
 from evaluation_handler import persist_evaluation_data
-
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -29,6 +29,14 @@ def evaluate():
         post_data = request.get_json()
         persist_evaluation_data(json.dumps(post_data))
         return json.dumps(post_data)
+
+@app.route('/image/<id>')
+def get_image(id):
+    image = './Xml_Converter/Data/View/' + id + '.png'
+    if os.path.isfile(image):
+        return send_file(image, mimetype='image/png')
+    else:
+        return Response(status=404) 
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")

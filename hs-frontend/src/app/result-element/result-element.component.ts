@@ -53,16 +53,37 @@ export class ResultElementComponent implements OnInit {
   }
 
   highlightText() {
-    let snippet = this.newspaper.source.Text.substring(0, 750) + ' (...)';
+
+
+    // let snippet = this.newspaper.source.Text.substring(0, 750) + ' (...)';
+
+
+    let text = ''
+
+    this.newspaper.source.Text.map(
+      elem => {
+        elem.map(
+          elem => {
+            let tmp = elem.join(' ')
+            text = text.concat(tmp)
+          }
+        )
+        text = text.concat(' ')
+      }
+    )
+
+    text = text.substring(0, 1000) + ' (...)';
+    
+    
 
     let query = decodeURI(localStorage.getItem('query'));
     let queryWords = query.split(" ");
 
     queryWords.map( (value) => {
-      snippet = snippet.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
+      text = text.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
     });
 
-    this.newspaperSnippet = this.sanitizer.bypassSecurityTrustHtml(snippet);
+    this.newspaperSnippet = this.sanitizer.bypassSecurityTrustHtml(text);
   }
 
 }

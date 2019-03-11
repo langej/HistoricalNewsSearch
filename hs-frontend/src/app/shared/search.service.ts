@@ -23,6 +23,8 @@ export class SearchService {
     const response = await axios.get(this.api + query);
     const newspapers = new Array<Newspaper>();
     if (typeof(response.data) !== 'string') {
+      console.log(response.data);
+      
       Object.entries(response.data).forEach(([key, value], index) => {
         const content = <any> value;
         const res: Newspaper = {

@@ -5,12 +5,16 @@
   <a routerLink="#" class="item active" routerLinkActive="active">Zeitungstext</a>
   <a routerLink="#" class="item" routerLinkActive="active">Zeitungsausschnitt</a>
 </div>
-<div id="content" style="white-space: pre;">
-  {{newspaper.source.Day}}.{{newspaper.source.Month}}.{{newspaper.source.Year}}
+<div id="content">
+  <h3 id="date">
+    {{newspaper.source.Day}}.{{newspaper.source.Month}}.{{newspaper.source.Year}}
+  </h3>
   <hr>
   <!-- <div id="content" [innerHTML]="highlightedText"></div> -->
   <!-- {{newspaper.source.Text}} -->
   <!-- {{highlightedText}} -->
-  <article [innerHTML]="highlightedText"></article>
+  <div class="split-view">
+    <img id="newspaper-image" [src]="image" alt="newspaper-scan">
+    <article id="newspaper-text" [innerHTML]="highlightedText"></article>
+  </div>
 </div>
-

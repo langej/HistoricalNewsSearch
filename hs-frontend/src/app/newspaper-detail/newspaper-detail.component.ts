@@ -2,7 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { SearchService } from "../shared/search.service";
 import { ActivatedRoute, Router } from "@angular/router";
 import { Newspaper } from "../shared/Newspaper";
-import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { DomSanitizer, SafeHtml, SafeUrl } from '@angular/platform-browser';
+import { GetImageService } from '../shared/get-image.service';
+import { Url } from 'url';
 
 @Component({
   selector: 'hs-newspaper-detail',
@@ -18,11 +20,14 @@ export class NewspaperDetailComponent implements OnInit {
 
   query: string;
 
+  image: SafeUrl;
+
   constructor (
     private ss: SearchService,
     private route: ActivatedRoute,
     private router: Router,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    imageService: GetImageService
   ) {}
 
   ngOnInit() {
@@ -32,6 +37,7 @@ export class NewspaperDetailComponent implements OnInit {
     this.newspaper.source = JSON.parse(localStorage.getItem(params.id));
     this.query = decodeURI(localStorage.getItem('query'));
     this.markQueryWords();
+    this.loadImage();
   }
 
   navigateBack() {
@@ -41,11 +47,35 @@ export class NewspaperDetailComponent implements OnInit {
   markQueryWords() {
     let queryWords = this.query.split(" ");
 
-    let text: string = this.newspaper.source.Text;
+    // let text: string = this.newspaper.source.Text;
+
+    // | Array Version:
+    // |--------------------------------------------------|
+
+    let text = ''
+
+    this.newspaper.source.Text.map(
+      elem => {
+        elem.map(
+          elem => {
+            let tmp = elem.join(' ')
+            text = text.concat(tmp)
+            text = text.concat('\n')
+          }
+        )
+        text = text.concat('\n')
+      }
+    )
+    console.log(this.newspaper.source);
 
     queryWords.map( (value) => {
       text = text.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
     })
     this.highlightedText = this.sanitizer.bypassSecurityTrustHtml(text);
+  }
+
+  loadImage() {
+    let d = this.newspaper.source
+    this.image = this.sanitizer.bypassSecurityTrustUrl(`http://localhost:5000/image/${d.Year}_${d.Day}_${d.Month}_${d.NewspaperNumber}_${d.Edition}_${d.PageNumber}`);
   }
 }
