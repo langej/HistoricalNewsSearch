@@ -4,12 +4,12 @@
 \contentsline {section}{\numberline {3}Datenakquise und -analyse}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Datenverarbeitung}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Textstatistiken}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}Architektur}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}Indizierungsprozess}{3}{subsection.4.1}
+\contentsline {section}{\numberline {4}Architektur}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Indizierungsprozess}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Suchprozess}{4}{subsection.4.2}
 \contentsline {section}{\numberline {5}Vorstellung der Suchmaschine}{4}{section.5}
 \contentsline {subsection}{\numberline {5.1}Landing Page}{4}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Auflistung der Suchergebnisse}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Auflistung der Suchergebnisse}{5}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Detailansicht}{5}{subsection.5.3}
 \contentsline {section}{\numberline {6}Evaluation}{5}{section.6}
 \contentsline {section}{\numberline {7}Zusammenfassung und Ausblick}{5}{section.7}

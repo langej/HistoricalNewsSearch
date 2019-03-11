@@ -101,7 +101,7 @@ Bei der \textit{Berliner Volks-Zeitung} handelt es sich um eine von 1904 bis 194
 Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
 Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
 Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Format mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
-Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten. 
+Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten.
 
 \subsection{Datenverarbeitung}
 
@@ -111,6 +111,11 @@ Dokumente werden von \textit{Elasticsearch} im JSON-Format repräsentiert.
 Daher ist es erforderlich die im Datensatz vorhandenen XML-Dateien in das JSON-Format zu konvertieren und dabei relevante Informationen zu extrahieren.
 Relevante Informationen stellen beispielsweise das Veröffentlichungsdatum der Zeitung, weitere Informationen wie die Ausgabe und den gesamten Text einer Zeitungsseite dar.
 Listing 1 zeigt ein Beispiel für die konvertierte JSON-Repräsentation einer Zeitungsseite.
+Interessant ist insbesondere der Schlüssel "Text", der ein dreifach geschachteltes Array bestehend aus den Texten einer Seite enthält.
+Innerhalb des Arrays der ersten Ebene befinden sich die einzelnen Artikel einer Seite, welche wiederum Arrays mit den Wörtern der Zeilen eines Artikels enthalten.
+Durch diese Repräsentation ist man in der Lage die einzelnen Artikel statt einer gesamten Seite als Ergebnis einer Suchanfrage auszugeben.
+
+\break
 
 \begin{lstlisting}[language=json, firstnumber=1, caption={JSON-Repräsentation einer Zeitungsseite}\label{test123},captionpos=b]
 {
@@ -121,16 +126,23 @@ Listing 1 zeigt ein Beispiel für die konvertierte JSON-Repräsentation einer Ze
   "PageNumber": "004",
   "Edition": "0",
   "Issue": "059",
-  "Text": "[ [ ["Nach","Schluss","der","Redaktion","eingetroffene","Depeschen."], ["Dortmund,","31.","Maerz.","Wie","die","Rheinisch-Westfaelische"] ], [] ]"
+  "Text": "[ // Gesamter Zeitungstext
+	    [ // Artikel
+	     ["Nach","Schluss","der","Redaktion","eingetroffene","Depeschen."], 
+	     ["Dortmund,","31.","Maerz.","Wie","die","Rheinisch-Westfaelische"] 
+	    ], 
+	    [
+	     (...)
+	    ] 
+	   ]"
 }
 \end{lstlisting}
 
-Eine XML-Datei repräsentiert jeweils eine vollständige Seite, bestehend aus mehreren Artikeln.
-Innerhalb der JSON-Repräsentation wird der gesamte Text einer Zeitung, mit all seinen Artikeln, in einem Array repräsentiert.
-
-
 Bei näherer Betrachtung der Daten lässt sich feststellen, dass sich eine große Anzahl von OCR-Scanartefakten in den Texten befindet.
-Auch hier stellt die Behebung dieser Scanartefakte eine unverhältnismäßig große Herausforderung dar, weshalb sich gegen die Durchführung der Artefaktsauflösung entschieden wird. 
+Diese rühren von der Interpretation des Scanners der altdeutschen Schrift.
+Es lässt sich feststellen, dass die Daten weniger OCR-Scanartefakte enthalten je jünger die Zeitungen sind.
+Die vollständige Auflösung dieser Scanartefakte stellt eine unverhältnismäßig große Herausforderung dar, weshalb sich gegen die Durchführung der Artefaktsauflösung entschieden wird. 
+Stattdessen erfolgt bei der Auswahl der Referenzmenge für das Repository eine stärkere Ausrichtung an den jüngeren Digitalisaten. 
 
 \subsection{Textstatistiken}
 Um ein in sich geschlossenes Projekt im öffentlichen Repository zu präsentieren, wird der gesamte Datensatz auf eine geringere Größe reduziert.
