@@ -88,8 +88,20 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listing/listing.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listing/listing.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.aux
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.aux
 OUTPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.aux
@@ -164,12 +176,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.toc
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/images/landing_page.png
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/images/landing_page.png
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/images/landing_page.png
@@ -180,11 +192,11 @@ INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Informa
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.out
 INPUT /Users/jeremy/Uni/Master/1. Semester/Fortgeschrittene Methoden des Information Retrieval/HistoricalNewsSearch/HistoricalNewsSearch/hs-latex/report.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb

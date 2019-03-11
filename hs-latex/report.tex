@@ -9,7 +9,9 @@
 \usepackage[bookmarksnumbered,pdftitle={Name}]{hyperref}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{lmodern}
-\usepackage{listing}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tabularx}
 
 \usepackage{geometry}
 \geometry{a4paper, top=25mm, left=40mm, right=40mm, bottom=30mm,
@@ -18,6 +20,20 @@ headsep=10mm, footskip=12mm}
 \title{Bericht zum Laborprojekt}
 \author{Jeremy Puchta \and Jonathan Lange \and Ali Al-Ali}
 \renewcommand*{\titlepagestyle}{empty}
+
+\definecolor{background}{HTML}{FFFFFF}
+
+\lstdefinelanguage{json} {
+    basicstyle=\normalfont\ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+}
 
 \begin{document}
 
@@ -48,12 +64,11 @@ headsep=10mm, footskip=12mm}
 \pagenumbering{arabic}
 \section{Einleitung}
 
-Der vorliegende Bericht erläutert den Aufbau sowie die Funktionsweise der Suchmaschine \textbf{Historical News Search}, welche im Rahmen des Laborprojektes innerhalb des Moduls \textit{Fortgeschrittene Methoden des Information Retrieval} im Wintersemester 2018 / 2019 erstellt wurde. 
+Der vorliegende Bericht erläutert den Aufbau sowie die Funktionsweise der Suchmaschine \textit{Historical News Search}, welche im Rahmen des Laborprojektes innerhalb des Moduls \textit{Fortgeschrittene Methoden des Information Retrieval} im Wintersemester 2018 / 2019 erstellt wurde. 
 Ziel des Laborprojektes war es, die vermittelten Vorlesungsinhalte zu vertiefen und diese bei der Erstellung einer domänenspezifischen Suchmaschine umzusetzen. 
 Die vorgestellte Suchmaschine dient der Exploration von historischen Nachrichten.
 Verschiedene Szenarien sind als Anwendungsfälle für eine solche Suchmaschine denkbar. 
 Ein Nutzer kann nach der Berichterstattung zu Personen, Gruppen, Orten oder bestimmten historischen Ereignissen suchen.
-Als Beispiele für Suchanfragen können hierfür \texttt{reichstagswahl 1930}, \texttt{max schmeling} oder \texttt{nsdap} genannt werden.
 Eine weitere Möglichkeit der Nutzung stellt die Ahnenforschung dar, bei welcher ein Nutzer in Zeitungsberichten nach Informationen über seine Vorfahren suchen kann und somit mehr über seine Familienhistorie erfahren kann.
 
 Im folgenden Kapitel wird zunächst näher auf den Datensatz eingegangen und dieser mit Methoden der desktriptiven Statistik analysiert.
@@ -63,34 +78,7 @@ In Kapitel 4 werden zunächst die Evaluationsmethodik sowie die Resultate der Ev
 Weiterhin wird dargestellt, welche Anpassungen vorgenommen wurden, um die Effektivität der Suchmaschine zu verbessern.
 Abschließend erfolgt in Kapitel 5 eine Zusammenfassung des Projektes und es wird ein Ausblick in Bezug auf eine Weiterentwicklung der Suchmaschine geliefert.
 
-\section{Datenakquise und -analyse}
-
-Die \textit{Staatsbibliothek zu Berlin} besitzt ein breites Spektrum von historisch bedeutsamen digitalisierten Zeitungen.
-Diese werden im hauseigenen Zeitungsinformationssystem namens \textit{ZEFYS} kostenfrei bereitgestellt.
-Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
-Bei der Berliner Volks-Zeitung handelt es sich um eine von 1904 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
-Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
-Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
-Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Format mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
-Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten.
-
-\subsection{Datenverarbeitung}
-// GROBE ERKLÄRUNG DATENFORMAT 
-
-// BESCHREIBUNG VERARBEITUNG DER XML DATEN ZU JSON - AUF PROBLEME AUFMERKSAM MACHEN
-
-\subsection{Textstatistiken}
-// TEXTSTATISTIKEN (DESKRIPTIVE STATISTIK) – INTERESSANTE VARIABLEN MARKIEREN
-
-\section{Architektur}
-
-In diesem Kapitel wird zunächst der Technologiestack des Systems beschrieben. 
-Außerdem erfolgt die detaillierte Vorstellung des User Interfaces mit Erklärung der einzelnen Sichten bevor abschließend der Indizierungs- und der Suchprozess erläutert werden.
-Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
-
-// UML-KOMPONENTENDIAGRAMM ARCHITEKTUR DER SUCHMASCHINE 
-
-\subsection{Technologiestack}
+\section{Technologiestack}
 
 Zur Umsetzung des Laborprojektes wird die Open-Source-Suchmaschine \textit{Elasticsearch} verwendet. 
 \textit{Elasticsearch} ist in Java geschrieben und basiert auf der Java-Bibliothek \textit{Lucene}. 
@@ -101,10 +89,74 @@ Um die Dokumente durchsuchbar zu machen, legt \textit{Elasticsearch} die Datenst
 Im Backend des Systems kommt das Python-Framework \textit{Flask} zum Einsatz. 
 Bei \textit{Flask} handelt es sich um ein Mikroframework, welches eine einfache, jedoch ebenfalls erweiterbare und robuste Möglichkeit bietet APIs zu erstellen.
 Im Frontend wird mit \textit{Angular} ein Framework verwendet, welches Entwickler durch sein Komponentensystem darin unterstützt modularen Quellcode zu produzieren, der sich einfach warten lässt.
-Außerdem bringt es bereits viele Funktionen, die häufig im Frontend zum Einsatz kommen, wie zum Beispiel Routing mit. 
+Außerdem bringt es bereits viele Funktionen, die häufig im Frontend zum Einsatz kommen mit, wie zum Beispiel Routing. 
 Zur Vereinfachung des Deployments und zur Optimierung des Entwicklungsprozesses kommt die Containervirtualisierungs – Technologie \textit{Docker} zum Einsatz.
 
-// MUSS NOCH AN IRGENDETWAS GEDACHT WERDEN?
+\section{Datenakquise und -analyse}
+
+Die \textit{Staatsbibliothek zu Berlin} besitzt ein breites Spektrum von historisch bedeutsamen digitalisierten Zeitungen.
+Diese werden im hauseigenen Zeitungsinformationssystem namens \textit{ZEFYS} kostenfrei bereitgestellt.
+Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
+Bei der \textit{Berliner Volks-Zeitung} handelt es sich um eine von 1904 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
+Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
+Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
+Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Format mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
+Insgesamt umfasst der Datensatz 103.771 digitalisierte Seiten. 
+
+\subsection{Datenverarbeitung}
+
+Mithilfe des ALTO-XML-Formates wird die Möglichkeit geschaffen Digitalisate vollständig und originalgetreu zu replizieren. 
+Aus diesem Grund sind neben Zeitungsinhalten Informationen zum Layout der Seite und die exakten Koordinaten der Wörter enthalten.
+Dokumente werden von \textit{Elasticsearch} im JSON-Format repräsentiert.
+Daher ist es erforderlich die im Datensatz vorhandenen XML-Dateien in das JSON-Format zu konvertieren und dabei relevante Informationen zu extrahieren.
+Relevante Informationen stellen beispielsweise das Veröffentlichungsdatum der Zeitung, weitere Informationen wie die Ausgabe und den gesamten Text einer Zeitungsseite dar.
+Listing 1 zeigt ein Beispiel für die konvertierte JSON-Repräsentation einer Zeitungsseite.
+
+\begin{lstlisting}[language=json, firstnumber=1, caption={JSON-Repräsentation einer Zeitungsseite}\label{test123},captionpos=b]
+{
+  "Year": "1930",
+  "Month": "01",
+  "Day": "03",
+  "NewspaperNumber": "001",
+  "PageNumber": "004",
+  "Edition": "0",
+  "Issue": "059",
+  "Text": "[ [ ["Nach","Schluss","der","Redaktion","eingetroffene","Depeschen."], ["Dortmund,","31.","Maerz.","Wie","die","Rheinisch-Westfaelische"] ], [] ]"
+}
+\end{lstlisting}
+
+Eine XML-Datei repräsentiert jeweils eine vollständige Seite, bestehend aus mehreren Artikeln.
+Innerhalb der JSON-Repräsentation wird der gesamte Text einer Zeitung, mit all seinen Artikeln, in einem Array repräsentiert.
+
+
+Bei näherer Betrachtung der Daten lässt sich feststellen, dass sich eine große Anzahl von OCR-Scanartefakten in den Texten befindet.
+Auch hier stellt die Behebung dieser Scanartefakte eine unverhältnismäßig große Herausforderung dar, weshalb sich gegen die Durchführung der Artefaktsauflösung entschieden wird. 
+
+\subsection{Textstatistiken}
+Um ein in sich geschlossenes Projekt im öffentlichen Repository zu präsentieren, wird der gesamte Datensatz auf eine geringere Größe reduziert.
+Tabelle 1 zeigt ausgewählte Textstatistiken für diese reduzierte Dokumentkollektion.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabularx}{0.8\textwidth}{lX}
+		\hline
+		Gesamtanzahl Dokumente & 6,144\\
+		Gesamtanzahl Worte & 44,337,561,540 \\
+		Vokabulargröße & 1,663,267 \\
+		Wörter mit Vorkommen > 1000 & 1,461,311 \\
+		Wörter mit einmaligen Vorkommen & 499 \\
+		\hline
+	\end{tabularx}
+	\caption{Textstatistiken für Dokumentkollektion}
+\end{table}
+
+\section{Architektur}
+
+In diesem Kapitel wird zunächst der Technologiestack des Systems beschrieben. 
+Außerdem erfolgt die detaillierte Vorstellung des User Interfaces mit Erklärung der einzelnen Sichten bevor abschließend der Indizierungs- und der Suchprozess erläutert werden.
+Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
+
+// UML-KOMPONENTENDIAGRAMM ARCHITEKTUR DER SUCHMASCHINE 
 
 \subsection{Indizierungsprozess}
 
@@ -158,11 +210,8 @@ Klickt ein Nutzer auf eine der \textit{Cards} aus der Ergebnisliste, werden ihm 
 
 // ABBILDUNG EINFÜGEN SOBALD FERTIGGESTELLT
 
-
-\newpage
 \section{Evaluation}
 
-\newpage
 \section{Zusammenfassung und Ausblick}
 
 % ----------------------------------------------------------------------------

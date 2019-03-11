@@ -1,15 +1,15 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {section}{\numberline {2}Datenakquise und -analyse}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Datenverarbeitung}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Textstatistiken}{2}{subsection.2.2}
-\contentsline {section}{\numberline {3}Architektur}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}Technologiestack}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Indizierungsprozess}{3}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Suchprozess}{3}{subsection.3.3}
-\contentsline {section}{\numberline {4}Vorstellung der Suchmaschine}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}Landing Page}{3}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Auflistung der Suchergebnisse}{3}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Detailansicht}{4}{subsection.4.3}
-\contentsline {section}{\numberline {5}Evaluation}{5}{section.5}
-\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{6}{section.6}
+\contentsline {section}{\numberline {2}Technologiestack}{1}{section.2}
+\contentsline {section}{\numberline {3}Datenakquise und -analyse}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Datenverarbeitung}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Textstatistiken}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}Architektur}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Indizierungsprozess}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Suchprozess}{4}{subsection.4.2}
+\contentsline {section}{\numberline {5}Vorstellung der Suchmaschine}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}Landing Page}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Auflistung der Suchergebnisse}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Detailansicht}{5}{subsection.5.3}
+\contentsline {section}{\numberline {6}Evaluation}{5}{section.6}
+\contentsline {section}{\numberline {7}Zusammenfassung und Ausblick}{5}{section.7}
