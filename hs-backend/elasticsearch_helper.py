@@ -26,46 +26,26 @@ class ElasticsearchHelper(object):
                 is_connected = True
             except Exception as err:
                 print('Connection failed, Retrying...', err)
-                time.sleep(5)
-                
+                time.sleep(10)
+
         self.reset_index()
         self.import_Data()
 
     def create_index(self):
-        created = False
         settings = {
-            'settings': {
-                'number_of_shards': 1,
-                'number_of_replicas': 0
-            },
-            'mappings': {
-                'members': {
-                    'dynamic': 'strict',
-                    'properties': {
-                        'Year': {'type': 'text'},
-                        'Month': {'type': 'text'},
-                        'Day': {'type': 'text'},
-                        'NewspaperNumber': {'type': 'text'},
-                        'PageNumber': {'type': 'text'},
-                        'Edition': {'type': 'text'},
-                        'Issue': {'type': 'text'},
-                        'Text': {'type': 'text'}
+            "settings": {
+                "analysis": {
+                    "filter": {
+                        "my_stop": {
+                            "type": "stop",
+                            "stopwords": "_german_"
+                        }
                     }
                 }
             }
         }
-
-        try:
-            print(self.Es.indices.exists(self.Index))
-            if not self.Es.indices.exists(self.Index):
-                # Ignore 400 means to ignore 'Index already exist' error
-                self.Es.indices.create(index=self.Index, ignore=400, body=settings)
-                print('Created Index')
-                created = True
-        except Exception as ex:
-            print(str(ex))
-        finally:
-            return created
+        # Ignore 400 means to ignore 'Index already exist' error
+        self.Es.indices.create(index=self.Index, ignore=400, body=settings)
 
     def import_Data(self):
         helpers.bulk(self.Es, self.import_helper('./Xml_Converter/Data/Text/'), index=self.Index, doc_type=self.Type)
@@ -96,26 +76,60 @@ class ElasticsearchHelper(object):
             return result
 
     def get_query(self, input):
+        dic = self.split_input(input)
         return {
             "query": {
                 "bool": {
                     "should": [
-                        {"match": {"Year": input}},
-                        {"match": {"Month": input}},
-                        {"match": {"Day": input}},
-                        {"match": {"NewspaperNumber": input}},
-                        {"match": {"PageNumber": input}},
-                        {"match": {"Edition": input}},
-                        {"match": {"Issue": input}},
-                        {"match": {"Text": input}}
+                        {"match": {"Year": dic['Year']}},
+                        {"match": {"Month": dic['Month']}},
+                        {"match": {"Day": dic['Day']}},
+                        {"match": {"NewspaperNumber": dic['NewspaperNumber']}},
+                        {"match": {"PageNumber": dic['PageNumber']}},
+                        {"match": {"Edition": dic['Edition']}},
+                        {"match": {"Issue": dic['Issue']}},
+                        {"match": {"Text": dic['Text']}}
                     ]
                 }
             }
         }
 
+    def split_input(self, input):
+        query = {'Year': input, 'Month': input, 'Day': input, 'NewspaperNumber': input, 'PageNumber': input,
+                 'Edition': input, 'Issue': input, 'Text': input}
+        input_split = input.split(' ')
+        for wort in input_split:
+            if 'year:' in wort:
+                year = input.split('Year:')
+                query['Year'] = year[-1]
+            elif 'month:' in wort:
+                month = input.split('Month:')
+                query['Month'] = month[-1]
+            elif 'day:' in wort:
+                day = input.split('Day:')
+                query['Day'] = day[-1]
+            elif 'newspapernumber:' in wort:
+                newspaper_number = input.split('NewspaperNumber:')
+                query['NewspaperNumber'] = newspaper_number[-1]
+            elif 'pagenumber:' in wort:
+                page_number = input.split('PageNumber:')
+                query['PageNumber'] = page_number[-1]
+            elif 'edition:' in wort:
+                edition = input.split('Edition:')
+                query['Edition'] = edition[-1]
+            elif 'issue:' in wort:
+                issue = input.split('Issue:')
+                query['Issue'] = issue[-1]
+            elif 'text:' in wort:
+                text = input.split('Text:')
+                query['Text'] = text[-1]
+        print(query)
+        return query
+
     # Helper function to reset the Elasticsearch index
     def reset_index(self):
         if self.Es.indices.exists(self.Index):
             self.Es.indices.delete(self.Index)
-        #self.create_index()
+            self.create_index()
+
 

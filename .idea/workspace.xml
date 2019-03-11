@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.fls" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.fls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.toc" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +12,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1552056370">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="py" value="3" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1076" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1076" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hs-latex/report.tex">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs-backend/evaluation_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2394">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +105,7 @@
       <find>out</find>
       <find>dist</find>
       <find>Katas</find>
+      <find>reset_index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,11 +138,9 @@
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/hs-frontend/README.md" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/hs-backend/app.py" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/Main.py" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py" />
-        <option value="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/truncate-text.pipe.ts" />
         <option value="$PROJECT_DIR$/hs-frontend/node_modules/semantic-ui-css/components/card.css" />
@@ -107,14 +163,16 @@
         <option value="$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.html" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.ts" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.html" />
+        <option value="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" />
+        <option value="$PROJECT_DIR$/hs-backend/app.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -130,7 +188,13 @@
             <path>
               <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-latex" type="462c0819:PsiDirectoryNode" />
+              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,14 +282,11 @@
       <workItem from="1548165514636" duration="277000" />
       <workItem from="1551706131159" duration="6834000" />
       <workItem from="1551884949224" duration="311000" />
-      <workItem from="1551979428686" duration="1066000" />
-      <workItem from="1552295031564" duration="697000" />
-      <workItem from="1552296592190" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89258000" />
+    <option name="totallyTimeSpent" value="87443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,9 +298,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28038126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +315,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.5145784" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" weight="0.5665295" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.2849315" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32939324" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -293,14 +355,10 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -313,7 +371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="45">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
@@ -337,9 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/semantic-ui-css/package.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/semantic-ui-css/package.js" />
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,16 +416,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/truncate-text.pipe.ts" />
-    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/gulp/bin/gulp.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/semantic-ui-css/components/card.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/gulp/bin/gulp.js" />
+    <entry file="file://$PROJECT_DIR$/hs-frontend/node_modules/semantic-ui-css/components/card.css" />
     <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/NewspaperPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -394,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,9 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/evaluation_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/newspaper-detail/newspaper-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -438,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -459,13 +488,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/searchbar/searchbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -478,9 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,46 +518,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_002.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_003.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_004.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/logs/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/logs/evaluation.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_002.json" />
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_003.json" />
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_004.json" />
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/Xml_Converter/Data/Text/001_0_001.json" />
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -545,59 +536,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="255">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="407">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/result-list/result-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hs-frontend/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="270">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-latex/report.tex">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2394">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/logs/evaluation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/evaluation_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
