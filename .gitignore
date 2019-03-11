@@ -227,5 +227,6 @@ dmypy.json
 pyvenv.cfg
 pip-selfcheck.json
 
-
+hs-backend/logs/*
+hs-backend/Xml_Converter/Data/*
 # End of https://www.gitignore.io/api/git,python,pycharm
