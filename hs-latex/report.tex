@@ -66,17 +66,19 @@ headsep=10mm, footskip=12mm}
 
 Der vorliegende Bericht erläutert den Aufbau sowie die Funktionsweise der Suchmaschine \textit{Historical News Search}, welche im Rahmen des Laborprojektes innerhalb des Moduls \textit{Fortgeschrittene Methoden des Information Retrieval} im Wintersemester 2018 / 2019 erstellt wurde. 
 Ziel des Laborprojektes war es, die vermittelten Vorlesungsinhalte zu vertiefen und diese bei der Erstellung einer domänenspezifischen Suchmaschine umzusetzen. 
-Die vorgestellte Suchmaschine dient der Exploration von historischen Nachrichten.
-Verschiedene Szenarien sind als Anwendungsfälle für eine solche Suchmaschine denkbar. 
-Ein Nutzer kann nach der Berichterstattung zu Personen, Gruppen, Orten oder bestimmten historischen Ereignissen suchen.
-Eine weitere Möglichkeit der Nutzung stellt die Ahnenforschung dar, bei welcher ein Nutzer in Zeitungsberichten nach Informationen über seine Vorfahren suchen kann und somit mehr über seine Familienhistorie erfahren kann.
+Die vorgestellte Suchmaschine dient der Exploration von historischen Nachrichten und Zeitungsartikeln.
+Als Anwendungsfälle für eine solche Suchmaschine sind verschiedene Szenarien denkbar. 
+Ein Nutzer kann beispielsweise nach der Berichterstattung zu Personen, Gruppen, Orten oder bestimmten historischen Ereignissen suchen.
+Eine weitere Möglichkeit der Nutzung stellt die Ahnenforschung dar, bei welcher ein Nutzer in Zeitungsberichten nach Informationen über seine Vorfahren suchen und somit mehr über seine Familienhistorie erfahren kann.
 
-Im folgenden Kapitel wird zunächst näher auf den Datensatz eingegangen und dieser mit Methoden der desktriptiven Statistik analysiert.
-Die Architektur und der Aufbau der Suchmaschine werden in Kapitel 3 näher dargestllt. 
+Im folgenden Kapitel wird zunächst der verwendete Technologiestack eingehend beschrieben.
+Anschließend erfolgt die Vorstellung des verwendeten Datensatzes und die Analyse dessen mit Methoden der deskriptiven Statistik. 
+Die Architektur und der Aufbau der Suchmaschine werden in Kapitel 4 näher dargestellt. 
 Dazu zählt insbesondere die Erstellung des Indizes sowie die Umsetzung des Suchprozesses über alle beteiligten Komponenten des Systems.
-In Kapitel 4 werden zunächst die Evaluationsmethodik sowie die Resultate der Evaluation erläutert.
-Weiterhin wird dargestellt, welche Anpassungen vorgenommen wurden, um die Effektivität der Suchmaschine zu verbessern.
-Abschließend erfolgt in Kapitel 5 eine Zusammenfassung des Projektes und es wird ein Ausblick in Bezug auf eine Weiterentwicklung der Suchmaschine geliefert.
+Kapitel 5 stellt das User Interface sowie die dahinter ablaufenden Prozesse vor.
+In Kapitel 6 werden zunächst die Evaluationsmethodik sowie die Resultate der Evaluation erläutert.
+Weiterhin wird erklärt, welche Anpassungen vorgenommen wurden, um die Effektivität der Suchmaschine und die Nutzererfahrung zu verbessern.
+Abschließend erfolgt in Kapitel 7 eine Zusammenfassung des Projektes und es wird ein Ausblick in Bezug auf eine Weiterentwicklung der Suchmaschine geliefert.
 
 \section{Technologiestack}
 
@@ -97,7 +99,7 @@ Zur Vereinfachung des Deployments und zur Optimierung des Entwicklungsprozesses 
 Die \textit{Staatsbibliothek zu Berlin} besitzt ein breites Spektrum von historisch bedeutsamen digitalisierten Zeitungen.
 Diese werden im hauseigenen Zeitungsinformationssystem namens \textit{ZEFYS} kostenfrei bereitgestellt.
 Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
-Bei der \textit{Berliner Volks-Zeitung} handelt es sich um eine von 1904 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
+Bei der \textit{Berliner Volks-Zeitung} handelt es sich um eine von 1849 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
 Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
 Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
 Die Datensets umfassen jeweils strukturierte Metadaten im METS-XML-Containerformat für jede Ausgabe, per OCR erzeugte Volltexte im ALTO-XML-Format mit Wortkoordinaten, binarisierte TIFFs als Grundlage der OCR sowie JPEG2000-Bilder für die Anzeige.
@@ -114,7 +116,7 @@ Listing 1 zeigt ein Beispiel für die konvertierte JSON-Repräsentation einer Ze
 Interessant ist insbesondere der Schlüssel "Text", der ein dreifach geschachteltes Array bestehend aus den Texten einer Seite enthält.
 Innerhalb des Arrays der ersten Ebene befinden sich die einzelnen Artikel einer Seite, welche wiederum Arrays mit den Wörtern der Zeilen eines Artikels enthalten.
 Durch diese Repräsentation ist man in der Lage die einzelnen Artikel statt einer gesamten Seite als Ergebnis einer Suchanfrage auszugeben.
-Die vollständige Auflösung dieser Scanartefakte stellt eine unverhältnismäßig große Herausforderung dar, weshalb sich gegen die Durchführung der Artefaktsauflösung entschieden wird. 
+Die vollständige Auflösung dieser Scanartefakte stellt eine unverhältnismäßig große Herausforderung dar, weshalb sich gegen die Durchführung der Artefaktsauflösung entschieden wurde. 
 Stattdessen erfolgt bei der Auswahl der Referenzmenge für das Repository eine stärkere Einbindung von jüngeren Digitalisaten, wie näher in Kapitel 4.1 beschrieben wird.
 
 \break
@@ -162,8 +164,8 @@ Tabelle 1 zeigt ausgewählte Textstatistiken für diese reduzierte Dokumentkolle
 
 \section{Architektur}
 
-In diesem Kapitel wird zunächst der Technologiestack des Systems beschrieben. 
-Außerdem erfolgt die detaillierte Vorstellung des User Interfaces mit Erklärung der einzelnen Sichten bevor abschließend der Indizierungs- und der Suchprozess erläutert werden.
+In diesem Kapitel werden die Kernprozesse des Systems näher beschrieben. 
+Dabei handelt es sich um den Indizierungs- und den Suchprozess.
 Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
 
 // UML-KOMPONENTENDIAGRAMM ARCHITEKTUR DER SUCHMASCHINE 
@@ -179,7 +181,7 @@ Wie jedoch bereits in den vorherigen Kapiteln dargelegt wurde, ist die Qualität
 
 \section{Vorstellung der Suchmaschine}
 
-Nachdem die Architektur des Systems in Kapitel 3 vollumfänglich erläutert wurde, erfolgt in diesem Kapitel die Vorstellung der Suchmaschine, insbesondere des User Interfaces.
+Nachdem die Architektur des Systems in Kapitel 4 erläutert wurde, erfolgt in diesem Kapitel die Vorstellung der Suchmaschine, insbesondere des User Interfaces.
 Das User Interface besteht aus drei verschiedenen Sichen, die sich wie folgt darstellen:
 	\begin{enumerate}
 		\item Landing Page mit Eingabefeld für eine Suchanfrage
