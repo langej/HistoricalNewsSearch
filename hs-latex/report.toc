@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Datenakquise und -analyse}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Datenverarbeitung}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Textstatistiken}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}Architektur}{4}{section.4}
+\contentsline {section}{\numberline {4}Architektur}{3}{section.4}
 \contentsline {subsection}{\numberline {4.1}Indizierungsprozess}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Suchprozess}{4}{subsection.4.2}
 \contentsline {section}{\numberline {5}Vorstellung der Suchmaschine}{4}{section.5}
