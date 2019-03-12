@@ -1,5 +1,5 @@
 <div class="ui large action input">
-  <input [(ngModel)]="query" #search (keyup.enter)="navigate()" class="prompt" type="text" placeholder="Suche nach historischen Zeitungsartikeln...">
+  <input [(ngModel)]="query" #search (keyup.enter)="navigate()" id="search-input" class="prompt" type="text" placeholder="Suche nach historischen Zeitungsartikeln...">
   <button class="ui icon button" (click)="navigate()">
     <i class="search icon"></i>
   </button>
