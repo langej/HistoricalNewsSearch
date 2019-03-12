@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-backend/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/logs/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.out" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-latex/report.toc" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.toc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,47 +17,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1552056370">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="json" value="1" />
-          <entry key="py" value="3" />
-          <entry key="txt" value="1" />
-          <entry key="yml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
-          <entry key="YAML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1076" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1076" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hs-backend/evaluation_handler.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="-213">
+              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -74,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-254">
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -178,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,11 +163,17 @@
               <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
               <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,11 +255,12 @@
       <workItem from="1548165514636" duration="277000" />
       <workItem from="1551706131159" duration="6834000" />
       <workItem from="1551884949224" duration="311000" />
+      <workItem from="1552317729359" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87443000" />
+    <option name="totallyTimeSpent" value="87968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,10 +272,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28038126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15766482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,7 +288,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.5145784" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.2849315" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.38321167" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32939324" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -354,9 +327,6 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hs-frontend/README.md">
@@ -605,21 +575,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="-254">
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
+    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-213">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

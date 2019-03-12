@@ -134,7 +134,7 @@ Stattdessen erfolgt bei der Auswahl der Referenzmenge für das Repository eine s
 	    [ // Artikel
 	     ["Nach","Schluss","der","Redaktion","eingetroffene","Depeschen."], 
 	     ["Dortmund,","31.","Maerz.","Wie","die","Rheinisch-Westfaelische"] 
-	    ], 
+	    ],
 	    [
 	     (...)
 	    ] 
@@ -162,7 +162,7 @@ Tabelle 1 zeigt ausgewählte Textstatistiken für diese reduzierte Dokumentkolle
 
 // ALI SCHAUT SICH ZAHLEN NOCHMAL AN! ANSONSTEN BEGRÜNDUNG FÜR VERZERRTE ZAHLEN SCHREIBEN!
 
-\section{Architektur}
+\section{Indizierung und Suche}
 
 In diesem Kapitel werden die Kernprozesse des Systems näher beschrieben. 
 Dabei handelt es sich um den Indizierungs- und den Suchprozess.
@@ -172,16 +172,25 @@ Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Kompo
 
 \subsection{Indizierungsprozess}
 
-Die im Rahmen der Datenvorverarbeitung erstellten JSON-Dokumente werden mit Elasticsearch indiziert. 
-Jede Seite einer Zeitung wird dabei als eine JSON-Datei repräsentiert und enthält neben dem Veröffentlichungsdatum und weiteren Metadaten (Ausgabe, Seitenzahl, ...) die Texte der Zeitungsartikel.
+Die im Rahmen der Datenvorverarbeitung erstellten JSON-Dokumente werden mit \textit{Elasticsearch} mittels der bereitgestellten \texttt{bulk API} indiziert.
+Die \texttt{bulk API} dient der Erhöhung der Indizierungsgeschwindigkeit.
+Jede Seite einer Zeitung wird dabei in der Suchmaschine als eine JSON-Datei repräsentiert und enthält neben dem Veröffentlichungsdatum und weiteren Metadaten (Ausgabe, Seitenzahl, ...) die Texte der Zeitungsartikel.
 Diese stellen den wichtigsten Bestandteil für die Indizierung dar, da in diesem relevante Terme enthalten sind, die von einem Nutzer gesucht werden können.
-Wie jedoch bereits in den vorherigen Kapiteln dargelegt wurde, ist die Qualität der Terme durch eine Vielzahl von OCR-Scanartefakten sehr gering.
+Wie jedoch bereits in den vorherigen Kapiteln dargelegt wurde, ist die Qualität der Terme durch eine Vielzahl von OCR-Scanartefakten beeinträchtigt.
 
 \subsection{Suchprozess}
 
+Ein Nutzer verfasst eine Suchanfrage, welche vom Client entgegengenommen und an das Backend weitergeleitet wird.
+Das \textit{Flask}-Backend nimmt die Anfrage entgegen, konvertiert diese in eine \textit{Elasticsearch}-konforme Syntax und leitet diese an \textit{Elasticsearch} weiter.
+\textit{Elasticsearch} transformiert diese Anfrage wiederum in das gleiche Format wie die bereits indizierten Dokumente.
+Anschließend erfolgt der Vergleich der Suchterme mit den Termen der Dokumente im invertierten Index.
+Auf Basis dieses Vergleichs wird ein Ranking der Dokumente nach absteigender Relevanz an das Backend zurückgegeben, welches dieses wiederum an das Frontend weiterleitet.
+Im Frontend wird das Ranking der Dokumente dem Nutzer präsentiert.
+
 \section{Vorstellung der Suchmaschine}
 
-Nachdem die Architektur des Systems in Kapitel 4 erläutert wurde, erfolgt in diesem Kapitel die Vorstellung der Suchmaschine, insbesondere des User Interfaces.
+Nachdem der Indizierungs- und Suchprozess des Systems in Kapitel 4 erläutert wurde, erfolgt in diesem Kapitel die Vorstellung der Suchmaschine, insbesondere des User Interfaces.
+Dabei wird zu 
 Das User Interface besteht aus drei verschiedenen Sichen, die sich wie folgt darstellen:
 	\begin{enumerate}
 		\item Landing Page mit Eingabefeld für eine Suchanfrage
