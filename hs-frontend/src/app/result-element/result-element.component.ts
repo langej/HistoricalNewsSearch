@@ -75,7 +75,7 @@ export class ResultElementComponent implements OnInit {
     let queryWords = query.split(" ");
 
     queryWords.map( (value) => {
-      text = text.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
+      text = text.replace(new RegExp(`${value}`, 'gi'), `<span style="background: yellow;">${value}</span>`);
     });
 
     this.newspaperSnippet = this.sanitizer.bypassSecurityTrustHtml(text);

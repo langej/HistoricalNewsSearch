@@ -37,8 +37,8 @@ class ElasticsearchHelper(object):
                 "analysis": {
                     "filter": {
                         "my_stop": {
-                            "type": "stop",
-                            "stopwords": "_german_"
+                            "type":       "stop",
+                            "stopwords": ["and", "is", "the"]
                         }
                     }
                 }

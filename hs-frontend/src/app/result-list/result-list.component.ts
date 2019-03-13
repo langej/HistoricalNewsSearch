@@ -16,7 +16,7 @@ export class ResultListComponent implements OnInit {
 
   page: number = 1;
   newspapers: Newspaper[];
-  displayEvaluation: boolean = false;
+  displayEvaluation: boolean = true;
 
   constructor(
     private router: Router,

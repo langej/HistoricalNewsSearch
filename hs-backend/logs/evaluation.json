@@ -1,384 +1,1087 @@
 [
     {
-        "date": "2019-01-21T09:49:38.548Z",
+        "date": "2019-03-13T18:29:10.487Z",
         "documents": [
             {
-                "id": "-qyqb2gB8Bcy7E1tR4VB",
+                "id": "-OUqeGkB0jZNqKIqfhlj",
                 "index": 0,
                 "relevant": true
             },
             {
-                "id": "-qyqb2gB8Bcy7E1tR4ZG",
+                "id": "-eUqeGkB0jZNqKIqfhhe",
                 "index": 1,
                 "relevant": false
             },
             {
-                "id": "-qyqb2gB8Bcy7E1tUYfp",
+                "id": "0eUqeGkB0jZNqKIqfhlj",
                 "index": 2,
                 "relevant": false
             },
             {
-                "id": "06yqb2gB8Bcy7E1tR4dK",
+                "id": "0eUreGkB0jZNqKIqKib-",
                 "index": 3,
                 "relevant": false
             },
             {
-                "id": "0qyqb2gB8Bcy7E1tR4ZF",
+                "id": "0eUreGkB0jZNqKIqKycD",
                 "index": 4,
                 "relevant": false
             },
             {
-                "id": "0qyqb2gB8Bcy7E1tR4dK",
+                "id": "1-UqeGkB0jZNqKIqfhlj",
                 "index": 5,
                 "relevant": false
             },
             {
-                "id": "1ayqb2gB8Bcy7E1tR4ZF",
+                "id": "1uUqeGkB0jZNqKIqfhlj",
                 "index": 6,
                 "relevant": false
             },
             {
-                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "id": "2OUqeGkB0jZNqKIqfhlj",
                 "index": 7,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "2Kyqb2gB8Bcy7E1tR4dK",
+                "id": "2eUqeGkB0jZNqKIqlxtZ",
                 "index": 8,
                 "relevant": false
             },
             {
-                "id": "3Kyqb2gB8Bcy7E1tR4ZF",
+                "id": "3-UqeGkB0jZNqKIqlxtZ",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Heinrich br\u00fcning"
+    },
+    {
+        "date": "2019-03-13T18:34:55.007Z",
+        "documents": [
+            {
+                "id": "--UqeGkB0jZNqKIqfhlj",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-eUqeGkB0jZNqKIqfhhe",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "-uUqeGkB0jZNqKIqfhhe",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "0OUqeGkB0jZNqKIqfhlj",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "0eUreGkB0jZNqKIqKib-",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "1-UqeGkB0jZNqKIqfhlj",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "1uUqeGkB0jZNqKIqfhlj",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "2uUqeGkB0jZNqKIqfhlj",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "3eUreGkB0jZNqKIqKycE",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "3uUreGkB0jZNqKIqKycE",
                 "index": 9,
                 "relevant": false
             }
         ],
-        "query": "Max Schmeling"
+        "query": "Max Schmeling "
     },
     {
-        "date": "2019-01-21T09:58:28.144Z",
+        "date": "2019-03-13T18:50:50.069Z",
         "documents": [
             {
-                "id": "36yqb2gB8Bcy7E1tXIpt",
+                "id": "-OUqeGkB0jZNqKIqlxtZ",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-eUqeGkB0jZNqKIqlxta",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "1-UqeGkB0jZNqKIq4yAj",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "1eUqeGkB0jZNqKIqyx_s",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "6-UreGkB0jZNqKIqRigU",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "7OUqeGkB0jZNqKIq4yAj",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "7eUqeGkB0jZNqKIqfhlj",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "AeUqeGkB0jZNqKIqlxxa",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "D-UreGkB0jZNqKIqESXP",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "E-UqeGkB0jZNqKIqlxtD",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Clara Zetkin"
+    },
+    {
+        "date": "2019-03-13T19:01:46.231Z",
+        "documents": [
+            {
+                "id": "--UqeGkB0jZNqKIqfhlj",
                 "index": 0,
                 "relevant": true
             },
             {
-                "id": "Iayqb2gB8Bcy7E1tdpC7",
+                "id": "-OUqeGkB0jZNqKIqfhlj",
                 "index": 1,
                 "relevant": true
             },
             {
-                "id": "JKyqb2gB8Bcy7E1tXIpp",
+                "id": "-eUqeGkB0jZNqKIqfhhe",
                 "index": 2,
                 "relevant": true
             },
             {
-                "id": "RKyqb2gB8Bcy7E1tXIpq",
+                "id": "0eUreGkB0jZNqKIqKib-",
                 "index": 3,
                 "relevant": true
             },
             {
-                "id": "dqyqb2gB8Bcy7E1tR4ZD",
+                "id": "0uUqeGkB0jZNqKIqfhlj",
                 "index": 4,
-                "relevant": true
+                "relevant": false
             },
             {
-                "id": "e6yqb2gB8Bcy7E1tR4dI",
+                "id": "1-UqeGkB0jZNqKIq-SKq",
                 "index": 5,
                 "relevant": true
             },
             {
-                "id": "u6yqb2gB8Bcy7E1th5TW",
+                "id": "1-UqeGkB0jZNqKIqfhlj",
                 "index": 6,
                 "relevant": true
             },
             {
-                "id": "xayqb2gB8Bcy7E1tj5Wi",
+                "id": "1eUqeGkB0jZNqKIqlxtZ",
                 "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "1uUqeGkB0jZNqKIqshwm",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "2OUqeGkB0jZNqKIqfhlj",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Adolf Hitler"
+    },
+    {
+        "date": "2019-03-13T19:08:41.453Z",
+        "documents": [
+            {
+                "id": "1eUqeGkB0jZNqKIq4yEo",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "5eUqeGkB0jZNqKIqyx_t",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "F-UqeGkB0jZNqKIq4yEk",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "JuUqeGkB0jZNqKIqyyDu",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "M-UqeGkB0jZNqKIq4yIq",
+                "index": 4,
+                "relevant": true
+            },
+            {
+                "id": "N-UreGkB0jZNqKIqKygF",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "Y-UreGkB0jZNqKIqESXR",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "ZuUqeGkB0jZNqKIqsh0p",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "beUqeGkB0jZNqKIq4yEm",
+                "index": 8,
+                "relevant": true
+            },
+            {
+                "id": "hOUqeGkB0jZNqKIqyx_r",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Theodore Roosevelt"
+    },
+    {
+        "date": "2019-03-13T19:14:39.098Z",
+        "documents": [
+            {
+                "id": "--UqeGkB0jZNqKIqyx7o",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "0OUqeGkB0jZNqKIq4yAj",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "2eUqeGkB0jZNqKIqsh0s",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "3-UqeGkB0jZNqKIqsh0s",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "3eUqeGkB0jZNqKIqlxtZ",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "4uUqeGkB0jZNqKIq-SKq",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "4uUqeGkB0jZNqKIqfhlj",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "8uUqeGkB0jZNqKIqlxtZ",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "9uUqeGkB0jZNqKIq-SKr",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "A-UreGkB0jZNqKIqRikU",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Sigmund Freud"
+    },
+    {
+        "date": "2019-03-13T19:18:30.175Z",
+        "documents": [
+            {
+                "id": "-eUreGkB0jZNqKIqRigU",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "1eUreGkB0jZNqKIqRigT",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "2uUqeGkB0jZNqKIqsh0s",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "4OUqeGkB0jZNqKIqshwm",
+                "index": 3,
+                "relevant": true
+            },
+            {
+                "id": "5-UqeGkB0jZNqKIq4yEp",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "5OUreGkB0jZNqKIqKib_",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "5eUreGkB0jZNqKIqRikY",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "9-UqeGkB0jZNqKIqyx_t",
+                "index": 7,
+                "relevant": true
+            },
+            {
+                "id": "9-UreGkB0jZNqKIqESXT",
+                "index": 8,
+                "relevant": true
+            },
+            {
+                "id": "CeUreGkB0jZNqKIqRikU",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Mahatma Gandhi"
+    },
+    {
+        "date": "2019-03-13T19:26:25.451Z",
+        "documents": [
+            {
+                "id": "-eUqeGkB0jZNqKIqfhhe",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-uUqeGkB0jZNqKIqfhhe",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0eUreGkB0jZNqKIqKib-",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "2-UreGkB0jZNqKIqKib_",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "3OUreGkB0jZNqKIqKib_",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "4eUqeGkB0jZNqKIqlxpC",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "7-UqeGkB0jZNqKIqfhhe",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "7-UreGkB0jZNqKIqKib_",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "7eUqeGkB0jZNqKIqfhhd",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "7uUqeGkB0jZNqKIqfhhe",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Manfred von Richthofen"
+    },
+    {
+        "date": "2019-03-13T19:35:10.258Z",
+        "documents": [
+            {
+                "id": "-eUqeGkB0jZNqKIqfhhe",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-uUqeGkB0jZNqKIqfhhe",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0eUreGkB0jZNqKIqKib-",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "2-UreGkB0jZNqKIqKib_",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "3OUreGkB0jZNqKIqKib_",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "4eUqeGkB0jZNqKIqlxpC",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "7-UqeGkB0jZNqKIqfhhe",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "7-UreGkB0jZNqKIqKib_",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "7eUqeGkB0jZNqKIqfhhd",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "7uUqeGkB0jZNqKIqfhhe",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Paul von Hindenburg"
+    },
+    {
+        "date": "2019-03-13T19:45:04.153Z",
+        "documents": [
+            {
+                "id": "-OUreGkB0jZNqKIqESTO",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "2uUreGkB0jZNqKIqESTN",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "8OUqeGkB0jZNqKIq4yAj",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "LOUqeGkB0jZNqKIqyyDu",
+                "index": 3,
+                "relevant": true
+            },
+            {
+                "id": "yOUqeGkB0jZNqKIqsh4w",
+                "index": 4,
                 "relevant": true
             }
         ],
         "query": "Museumsinsel"
     },
     {
-        "date": "2019-01-21T10:19:13.518Z",
+        "date": "2019-03-13T19:48:46.173Z",
         "documents": [
             {
-                "id": "-6yqb2gB8Bcy7E1tR4VB",
+                "id": "--UqeGkB0jZNqKIqlxpC",
                 "index": 0,
                 "relevant": false
             },
             {
-                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "id": "0uUqeGkB0jZNqKIqfhlj",
                 "index": 1,
                 "relevant": false
             },
             {
-                "id": "-ayqb2gB8Bcy7E1tR4VB",
+                "id": "1-UqeGkB0jZNqKIq4yAj",
                 "index": 2,
                 "relevant": false
             },
             {
-                "id": "-qyqb2gB8Bcy7E1tR4VB",
+                "id": "1uUqeGkB0jZNqKIqfhlj",
                 "index": 3,
                 "relevant": false
             },
             {
-                "id": "66yqb2gB8Bcy7E1tR4VB",
+                "id": "1uUqeGkB0jZNqKIqshwm",
                 "index": 4,
                 "relevant": false
             },
             {
-                "id": "6Kyqb2gB8Bcy7E1tR4VB",
+                "id": "2uUqeGkB0jZNqKIqfhlj",
                 "index": 5,
                 "relevant": false
             },
             {
-                "id": "6ayqb2gB8Bcy7E1tR4VB",
+                "id": "3eUqeGkB0jZNqKIq4yAj",
                 "index": 6,
                 "relevant": false
             },
             {
-                "id": "6qyqb2gB8Bcy7E1tR4VB",
+                "id": "3uUqeGkB0jZNqKIqshwm",
                 "index": 7,
                 "relevant": false
             },
             {
-                "id": "76yqb2gB8Bcy7E1tR4VB",
+                "id": "4-UqeGkB0jZNqKIqlxpC",
                 "index": 8,
                 "relevant": false
             },
             {
-                "id": "7Kyqb2gB8Bcy7E1tR4VB",
+                "id": "4eUqeGkB0jZNqKIqfhlj",
                 "index": 9,
                 "relevant": false
+            }
+        ],
+        "query": "Wilhelm Hoeck"
+    },
+    {
+        "date": "2019-03-13T19:53:09.355Z",
+        "documents": [
+            {
+                "id": "0OUqeGkB0jZNqKIqfhlj",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "0eUqeGkB0jZNqKIqfhlj",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0uUqeGkB0jZNqKIqfhlj",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "1-UqeGkB0jZNqKIqfhlj",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "2OUqeGkB0jZNqKIqfhlj",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "2uUqeGkB0jZNqKIqfhlj",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "3eUqeGkB0jZNqKIq4yAj",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "3eUreGkB0jZNqKIqKycE",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "3uUreGkB0jZNqKIqKycE",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "4-UqeGkB0jZNqKIqlxpC",
+                "index": 9,
+                "relevant": false
+            }
+        ],
+        "query": "Brandenburger Tor"
+    },
+    {
+        "date": "2019-03-13T19:55:40.907Z",
+        "documents": [
+            {
+                "id": "--UqeGkB0jZNqKIqlxpC",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "-OUqeGkB0jZNqKIqfhlj",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "0OUqeGkB0jZNqKIqlxtZ",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "0eUreGkB0jZNqKIqKycD",
+                "index": 3,
+                "relevant": true
+            },
+            {
+                "id": "1-UqeGkB0jZNqKIqfhlj",
+                "index": 4,
+                "relevant": true
+            },
+            {
+                "id": "1uUqeGkB0jZNqKIq4yEo",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "2-UreGkB0jZNqKIqKib_",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "2OUqeGkB0jZNqKIqfhlj",
+                "index": 7,
+                "relevant": true
+            },
+            {
+                "id": "4-UqeGkB0jZNqKIqlxpC",
+                "index": 8,
+                "relevant": true
+            },
+            {
+                "id": "4uUqeGkB0jZNqKIq-SKq",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Reichstag"
+    },
+    {
+        "date": "2019-03-13T19:56:31.951Z",
+        "documents": [
+            {
+                "id": "CeUqeGkB0jZNqKIq-SOr",
+                "index": 0,
+                "relevant": true
+            },
+            {
+                "id": "O-UqeGkB0jZNqKIqsh0o",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "OOUreGkB0jZNqKIqESbV",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "UuUqeGkB0jZNqKIqsh4u",
+                "index": 3,
+                "relevant": true
+            },
+            {
+                "id": "VeUreGkB0jZNqKIqKycB",
+                "index": 4,
+                "relevant": true
+            },
+            {
+                "id": "ZOUqeGkB0jZNqKIq4yIr",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "vOUqeGkB0jZNqKIqyyDx",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "yOUqeGkB0jZNqKIq-SKp",
+                "index": 7,
+                "relevant": true
+            }
+        ],
+        "query": "Weihnachtsmarkt"
+    },
+    {
+        "date": "2019-03-13T20:00:52.160Z",
+        "documents": [
+            {
+                "id": "-uUqeGkB0jZNqKIqfhhe",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "0OUqeGkB0jZNqKIqfhlj",
+                "index": 1,
+                "relevant": true
+            },
+            {
+                "id": "1-UqeGkB0jZNqKIqfhlj",
+                "index": 2,
+                "relevant": true
+            },
+            {
+                "id": "1uUqeGkB0jZNqKIqfhlj",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "3eUreGkB0jZNqKIqKycE",
+                "index": 4,
+                "relevant": true
+            },
+            {
+                "id": "3uUreGkB0jZNqKIqKycE",
+                "index": 5,
+                "relevant": true
+            },
+            {
+                "id": "4-UqeGkB0jZNqKIqlxpC",
+                "index": 6,
+                "relevant": true
+            },
+            {
+                "id": "4uUqeGkB0jZNqKIqlxpC",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "6uUqeGkB0jZNqKIqlxtZ",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "7-UqeGkB0jZNqKIqfhhe",
+                "index": 9,
+                "relevant": true
+            }
+        ],
+        "query": "Metropol-Theater"
+    },
+    {
+        "date": "2019-03-13T20:07:26.857Z",
+        "documents": [
+            {
+                "id": "-eUqeGkB0jZNqKIqfhhe",
+                "index": 0,
+                "relevant": false
+            },
+            {
+                "id": "-uUqeGkB0jZNqKIqfhhe",
+                "index": 1,
+                "relevant": false
+            },
+            {
+                "id": "0eUreGkB0jZNqKIqKib-",
+                "index": 2,
+                "relevant": false
+            },
+            {
+                "id": "2-UreGkB0jZNqKIqKib_",
+                "index": 3,
+                "relevant": false
+            },
+            {
+                "id": "3OUreGkB0jZNqKIqKib_",
+                "index": 4,
+                "relevant": false
+            },
+            {
+                "id": "4uUqeGkB0jZNqKIqlxpC",
+                "index": 5,
+                "relevant": false
+            },
+            {
+                "id": "7-UqeGkB0jZNqKIqfhhe",
+                "index": 6,
+                "relevant": false
+            },
+            {
+                "id": "7-UreGkB0jZNqKIqKib_",
+                "index": 7,
+                "relevant": false
+            },
+            {
+                "id": "7eUqeGkB0jZNqKIqfhhd",
+                "index": 8,
+                "relevant": false
+            },
+            {
+                "id": "7uUqeGkB0jZNqKIqfhhe",
+                "index": 9,
+                "relevant": true
             }
         ],
         "query": "Aufl\u00f6sung des Reichstages"
     },
     {
-        "date": "2019-01-21T10:24:07.464Z",
+        "date": "2019-03-13T20:10:28.673Z",
         "documents": [
             {
-                "id": "-6yqb2gB8Bcy7E1tXIlo",
+                "id": "--UqeGkB0jZNqKIqfhlj",
                 "index": 0,
                 "relevant": false
             },
             {
-                "id": "-ayqb2gB8Bcy7E1tUYfp",
+                "id": "0OUqeGkB0jZNqKIq4yAj",
                 "index": 1,
                 "relevant": false
             },
             {
-                "id": "0Kyqb2gB8Bcy7E1tXIlm",
+                "id": "1-UreGkB0jZNqKIqESXT",
                 "index": 2,
                 "relevant": false
             },
             {
-                "id": "1qyqb2gB8Bcy7E1tR4ZF",
+                "id": "1-UreGkB0jZNqKIqRikY",
                 "index": 3,
                 "relevant": false
             },
             {
-                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "id": "2-UqeGkB0jZNqKIqlxtZ",
                 "index": 4,
                 "relevant": false
             },
             {
-                "id": "2Kyqb2gB8Bcy7E1tXIln",
+                "id": "2-UreGkB0jZNqKIqESTN",
                 "index": 5,
                 "relevant": false
             },
             {
-                "id": "36yqb2gB8Bcy7E1tXIln",
+                "id": "2eUreGkB0jZNqKIqESXT",
                 "index": 6,
                 "relevant": false
             },
             {
-                "id": "3Kyqb2gB8Bcy7E1tXIln",
+                "id": "3-UqeGkB0jZNqKIqfhlj",
                 "index": 7,
                 "relevant": false
             },
             {
-                "id": "5ayqb2gB8Bcy7E1tXIln",
+                "id": "3eUqeGkB0jZNqKIqyx7n",
                 "index": 8,
                 "relevant": false
             },
             {
-                "id": "66yqb2gB8Bcy7E1tXIln",
+                "id": "3uUqeGkB0jZNqKIq-SKq",
                 "index": 9,
                 "relevant": false
             }
         ],
-        "query": "Br\u00fccke Koblenz"
+        "query": "Br\u00fcckenkatastrophe  Koblenz"
     },
     {
-        "date": "2019-01-21T10:28:56.806Z",
+        "date": "2019-03-13T20:15:00.234Z",
         "documents": [
             {
-                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "id": "1-UqeGkB0jZNqKIqfhlj",
                 "index": 0,
                 "relevant": false
             },
             {
-                "id": "-ayqb2gB8Bcy7E1tUYfp",
+                "id": "1-UreGkB0jZNqKIqESTN",
                 "index": 1,
                 "relevant": false
             },
             {
-                "id": "1qyqb2gB8Bcy7E1tR4ZF",
+                "id": "1OUqeGkB0jZNqKIqlxxm",
                 "index": 2,
                 "relevant": false
             },
             {
-                "id": "26yqb2gB8Bcy7E1tR4ZF",
+                "id": "1eUqeGkB0jZNqKIqsh0s",
                 "index": 3,
                 "relevant": false
             },
             {
-                "id": "2Kyqb2gB8Bcy7E1tR4dK",
+                "id": "2OUqeGkB0jZNqKIqfhlj",
                 "index": 4,
                 "relevant": false
             },
             {
-                "id": "2ayqb2gB8Bcy7E1tUYjt",
+                "id": "2uUqeGkB0jZNqKIqsh0s",
                 "index": 5,
                 "relevant": false
             },
             {
-                "id": "4ayqb2gB8Bcy7E1tR4ZF",
+                "id": "3-UqeGkB0jZNqKIqlxtZ",
                 "index": 6,
                 "relevant": false
             },
             {
-                "id": "6ayqb2gB8Bcy7E1tUYju",
+                "id": "4eUqeGkB0jZNqKIqlxtZ",
                 "index": 7,
                 "relevant": false
             },
             {
-                "id": "7Kyqb2gB8Bcy7E1tUYfp",
+                "id": "4eUqeGkB0jZNqKIqyx_t",
                 "index": 8,
                 "relevant": false
             },
             {
-                "id": "86yqb2gB8Bcy7E1tR4VB",
+                "id": "4uUqeGkB0jZNqKIq-SKq",
                 "index": 9,
                 "relevant": false
             }
         ],
-        "query": "Br\u00fccke Katastrophe Koblenz"
+        "query": "Weimarer Koalition zerbricht"
     },
     {
-        "date": "2019-01-21T10:36:47.654Z",
+        "date": "2019-03-13T20:15:46.819Z",
         "documents": [
             {
-                "id": "-6yqb2gB8Bcy7E1tR4ZG",
+                "id": "--UreGkB0jZNqKIqRikZ",
                 "index": 0,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "-Kyqb2gB8Bcy7E1tUYfp",
+                "id": "0-UqeGkB0jZNqKIqyx7n",
                 "index": 1,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "0qyqb2gB8Bcy7E1tZovW",
+                "id": "1OUqeGkB0jZNqKIq4yEo",
                 "index": 2,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "1qyqb2gB8Bcy7E1tR4dK",
+                "id": "1eUqeGkB0jZNqKIqsh0s",
                 "index": 3,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "26yqb2gB8Bcy7E1tXIpt",
+                "id": "1uUqeGkB0jZNqKIq4yAj",
                 "index": 4,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "3Kyqb2gB8Bcy7E1tXIln",
+                "id": "5-UqeGkB0jZNqKIqlxpC",
                 "index": 5,
                 "relevant": true
             },
             {
-                "id": "46yqb2gB8Bcy7E1tZozb",
+                "id": "6-UqeGkB0jZNqKIqsh0s",
                 "index": 6,
                 "relevant": true
             },
             {
-                "id": "5qyqb2gB8Bcy7E1tUYjt",
+                "id": "7eUqeGkB0jZNqKIqsh0s",
                 "index": 7,
-                "relevant": false
+                "relevant": true
             },
             {
-                "id": "5qyqb2gB8Bcy7E1tXIpt",
+                "id": "8uUreGkB0jZNqKIqRigU",
                 "index": 8,
                 "relevant": true
             },
             {
-                "id": "7Kyqb2gB8Bcy7E1tXIln",
+                "id": "D-UqeGkB0jZNqKIq4yIp",
                 "index": 9,
-                "relevant": false
+                "relevant": true
             }
         ],
-        "query": "Weimarer Koalition"
+        "query": "Reichstagswahl"
     },
     {
-        "date": "2019-01-21T10:41:43.015Z",
+        "date": "2019-03-13T20:18:56.266Z",
         "documents": [
             {
-                "id": "-6yqb2gB8Bcy7E1tR4VB",
+                "id": "-eUqeGkB0jZNqKIqfhhe",
                 "index": 0,
                 "relevant": false
             },
             {
-                "id": "-6yqb2gB8Bcy7E1tR4ZG",
+                "id": "-uUqeGkB0jZNqKIqfhhe",
                 "index": 1,
-                "relevant": true
+                "relevant": false
             },
             {
-                "id": "-Kyqb2gB8Bcy7E1tR4VB",
+                "id": "0eUreGkB0jZNqKIqKib-",
                 "index": 2,
                 "relevant": false
             },
             {
-                "id": "-Kyqb2gB8Bcy7E1tR4ZG",
+                "id": "2-UreGkB0jZNqKIqKib_",
                 "index": 3,
                 "relevant": false
             },
             {
-                "id": "-qyqb2gB8Bcy7E1tR4ZG",
+                "id": "3OUreGkB0jZNqKIqKib_",
                 "index": 4,
                 "relevant": false
             },
             {
-                "id": "1Kyqb2gB8Bcy7E1tR4ZF",
+                "id": "4eUqeGkB0jZNqKIqlxpC",
                 "index": 5,
                 "relevant": false
             },
             {
-                "id": "2ayqb2gB8Bcy7E1tR4ZF",
+                "id": "7-UqeGkB0jZNqKIqfhhe",
                 "index": 6,
                 "relevant": false
             },
             {
-                "id": "2ayqb2gB8Bcy7E1tR4dK",
+                "id": "7-UreGkB0jZNqKIqKib_",
                 "index": 7,
-                "relevant": true
+                "relevant": false
             },
             {
-                "id": "3Kyqb2gB8Bcy7E1tR4ZF",
+                "id": "7eUqeGkB0jZNqKIqfhhd",
                 "index": 8,
                 "relevant": false
             },
             {
-                "id": "3qyqb2gB8Bcy7E1tR4ZF",
+                "id": "7uUqeGkB0jZNqKIqfhhe",
                 "index": 9,
                 "relevant": false
             }
         ],
-        "query": "Heinrich Br\u00fcning"
+        "query": "Attentat von Sarajevo"
     }
 ]
