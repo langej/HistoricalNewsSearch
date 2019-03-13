@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407f301-18cf-4820-9fec-a9eb7fb4959e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hs-backend/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hs-backend/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.out" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-latex/report.toc" beforeDir="false" afterPath="$PROJECT_DIR$/hs-latex/report.toc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hs-backend/evaluation_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state relative-caret-position="1100">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -41,9 +27,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hs-frontend/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
+            <state>
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -103,7 +107,6 @@
         <option value="$PROJECT_DIR$/hs-frontend/angular.json" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/hs-frontend/README.md" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/hs-frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/Main.py" />
         <option value="$PROJECT_DIR$/hs-backend/Xml_Converter/XmlConverter.py" />
@@ -131,12 +134,14 @@
         <option value="$PROJECT_DIR$/hs-frontend/src/app/result-element/result-element.component.html" />
         <option value="$PROJECT_DIR$/hs-backend/elasticsearch_helper.py" />
         <option value="$PROJECT_DIR$/hs-backend/app.py" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1361" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,25 +159,13 @@
             <path>
               <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HistoricalNewsSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HistoricalNewsSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="hs-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Xml_Converter" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="hs-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,11 +248,13 @@
       <workItem from="1551706131159" duration="6834000" />
       <workItem from="1551884949224" duration="311000" />
       <workItem from="1552317729359" duration="525000" />
+      <workItem from="1552487784430" duration="304000" />
+      <workItem from="1552488831299" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87968000" />
+    <option name="totallyTimeSpent" value="89345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,9 +266,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1361" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15766482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16004765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,7 +282,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.5145784" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.38321167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.5894405" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32939324" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -329,16 +323,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hs-frontend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -541,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/logs/evaluation.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -575,22 +552,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hs-backend/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
+        <state>
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs-backend/elasticsearch_helper.py">
+    <entry file="file://$PROJECT_DIR$/hs-frontend/angular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="332">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>

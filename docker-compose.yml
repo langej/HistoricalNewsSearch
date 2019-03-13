@@ -1,4 +1,4 @@
-version: "3"
+version: "2.1"
 
 services:
   nginx:
@@ -28,7 +28,8 @@ services:
       - ES_HOST=elasticsearch
       - ES_PORT=9200
     depends_on:
-      - elasticsearch
+      elasticsearch:
+        condition: service_healthy
 
   elasticsearch: # Elasticsearch Instance
     container_name: hs-search
@@ -42,6 +43,11 @@ services:
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
 
 volumes:
   esdata:
