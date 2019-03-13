@@ -1,10 +1,7 @@
 <!--<p style="white-space: pre">{{ newspaper.source.Text }}</p>-->
 <div class="ui fluid raised link grey card">
   <div class="content" (click)="navigateToDetails()">
-    <div class="header">ÜBERSCHRIFT</div>
-    <div class="meta">
-      <span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span>
-    </div>
+    <div class="header"><span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span></div>
     <div class="description">
       <p [innerHTML]="newspaperSnippet"></p>
     </div>

@@ -48,9 +48,9 @@ def get_recommendation(query):
 
 @app.route('/image/<id>')
 def get_image(id):
-    image = './Xml_Converter/Data/View/' + id + '.png'
+    image = './Xml_Converter/Data/View/' + id + '.jpeg'
     if os.path.isfile(image):
-        return send_file(image, mimetype='image/png')
+        return send_file(image, mimetype='image/jpeg')
     else:
         return Response(status=404)
 

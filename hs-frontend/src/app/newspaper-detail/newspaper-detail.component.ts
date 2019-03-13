@@ -45,8 +45,10 @@ export class NewspaperDetailComponent implements OnInit {
   markQueryWords() {
     let queryWords = this.query.split(" ");
 
-    let text = ''
+    console.log(this.newspaper.source.Text);
 
+    let text = ''
+    console.log(this.newspaper.source);
     this.newspaper.source.Text.map(
       elem => {
         elem.map(
@@ -59,7 +61,6 @@ export class NewspaperDetailComponent implements OnInit {
         text = text.concat('\n')
       }
     )
-    console.log(this.newspaper.source);
 
     queryWords.map( (value) => {
       text = text.replace(new RegExp(` ${value} `, 'gi'), ` <span style="background: yellow;">${value}</span> `);
@@ -69,6 +70,6 @@ export class NewspaperDetailComponent implements OnInit {
 
   loadImage() {
     let d = this.newspaper.source
-    this.image = this.sanitizer.bypassSecurityTrustUrl(`http://localhost:5000/image/${d.Year}_${d.Day}_${d.Month}_${d.NewspaperNumber}_${d.Edition}_${d.PageNumber}`);
+    this.image = this.sanitizer.bypassSecurityTrustUrl(`http://localhost:5000/image/${d.Year}_${d.Month}_${d.Day}_${d.NewspaperNumber}_${d.Edition}_${d.PageNumber}`);
   }
 }
