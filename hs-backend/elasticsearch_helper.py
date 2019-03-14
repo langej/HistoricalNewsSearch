@@ -5,7 +5,6 @@ from elasticsearch import Elasticsearch, helpers
 import logger
 import time
 
-
 class ElasticsearchHelper(object):
 
     def __init__(self):
@@ -36,9 +35,9 @@ class ElasticsearchHelper(object):
             "settings": {
                 "analysis": {
                     "filter": {
-                        "my_stop": {
-                            "type":       "stop",
-                            "stopwords": ["and", "is", "the"]
+                        "german_stop": {
+                            "type": "stop",
+                            "stopwords": ["von", "und", "der", "die", "das", "mit", "uns", "unser", "wo", "wer", "wem"]
                         }
                     }
                 }
