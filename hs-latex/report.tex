@@ -168,7 +168,10 @@ In diesem Kapitel werden die Kernprozesse des Systems näher beschrieben.
 Dabei handelt es sich um den Indizierungs- und den Suchprozess.
 Abbildung 1 visualisiert die einzelnen Komponenten des Systems mittels UML-Komponentendiagramm. 
 
-// UML-KOMPONENTENDIAGRAMM ARCHITEKTUR DER SUCHMASCHINE 
+\begin{figure}[h]
+	\includegraphics[width=\linewidth]{images/Architektur.png}
+	\caption{Architektur des Systems}
+\end{figure}
 
 \subsection{Indizierungsprozess}
 
@@ -265,7 +268,7 @@ Die Evaluation durchläuft zwei Iterationen.
 In den beiden Evaluationsiterationen werden für die rund 40 definierten Topics die jeweiligen \textit{Average Precision}-Werte berechnet. 
 Grundlage für die Berechnung stellen die bereitgestellten binären Relevanzurteile dar.
 Aus den \textit{Average Precision}-Werten wird wiederum das arithmetische Mittel kalkuliert, um die \textit{Mean Average Precision} zu erhalten.
-Die \textit{Mean Average Precision} stellt das bedeutenste \textit{Effektivitätsmaß} für die Evaluation des Systems dar, da dieses den Vergleich zweier Systeme auf ein Maß herunterbricht.
+Diese stellt das bedeutenste \textit{Effektivitätsmaß} für die Evaluation des Systems dar, da dieses den Vergleich zweier Systeme auf ein Maß herunterbricht.
 
 In der ersten Iteration erfolgt die initiale Evaluation der Suchmaschine mit sämtlichen standardmäßigen Einstellungen von \textit{Elasticsearch}.
 Anschließend erfolgt das Refinement des Systems, bestehend aus der Anpassung von Parametern sowie der Implementierung zusätzlicher Funktionen. 
@@ -273,6 +276,25 @@ Die Maßnahmen, die im Refinement zur Steigerung der Effektivität des Systems u
 Nach Abschluss des Refinements erfolgt die zweite Evaluationsiteration mit abschließendem Vergleich der beiden Systeme. 
 
 \subsection{Refinement}
+
+Die Optimierung des Retrieval-Prozesses erfolgt durch mehrere Maßnahmen, welche im Folgenden näher erläutert werden.
+Während der durchgeführten, ersten Evaluationsiteration ist festzustellen, dass Stoppwörter zu gleichem Maße in die Berechnung des Scores eines Dokumentes eingehen, wie die anderen Terme.
+Dadurch verlieren andere, wichtigere Terme an Gewicht bei der Erstellung des Scores, was zu einer schlechteren Platzierung von relevanten Dokumenten führt.
+Daher bietet sich die Optimierungsmethode des \textit{Stoppings} an, um eine Verbesserung der Retrievalperformanz zu erreichen.
+
+Unter \textbf{Stopping} versteht man das Entfernen von Stoppwörtern aus der Menge der Indexterme.
+Stoppwörter bezeichnen Wörter, welche häufig anzutreffen sind und keine Relevanz für die Erfassung des Dokumenteninhalts besitzen.
+\textit{Elasticsearch} bietet die Möglichkeit vordefinierte sowie selbsterstellte Stopwortlisten zu verwenden.
+Zur Implementierung des \textit{Stoppings} wird die vorgefertigte Stoppwortliste für die deutsche Sprache sowie zusätzlich eine eigene Stoppwortliste mit ergänzenden Wörtern verwendet. 
+
+Zur gezielten Suche nach bestimmten Attributen wird außerdem eine eigene \textbf{Query Syntax} eingebaut. 
+Bei den Attributen handelt es sich um die in Listing 1 gezeigten Attribute der JSON-Dokumentrepräsentationen.
+Ein Nutzer ist beispielsweise in der Lage durch Eingabe der Suchanfrage \texttt{year:1930 month:01} nach Zeitungsartikeln vom Januar 1930 zu suchen.
+Durch diese Funktion ist eine gezieltere Suche insbesondere für erfahrene Nutzer möglich.
+
+Zur Verbesserung der Nutzererfahrung wird ein \textbf{Highlighting} der in der Suchanfrage enthaltenen Terme implementiert.
+Weiterhin werden dem Nutzer während der Erstellung der Suchanfrage \textbf{Vorschläge zur Vervollständigung} angeboten.
+Diese Funktionen verhindern orthografische Fehler bei der Eingabe und gewährleisten eine schnellere Erkennung von relevanten Dokumenten durch den Nutzer.
 
 \section{Zusammenfassung und Ausblick}
 
