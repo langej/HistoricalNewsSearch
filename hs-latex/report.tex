@@ -233,6 +233,47 @@ Klickt ein Nutzer auf eine der \textit{Cards} aus der Ergebnisliste, werden ihm 
 
 \section{Evaluation}
 
+Zur Effektivitätsmessung der \textit{Historical News Search} wird das Effektivitätsmaß \textit{Precision@k} sowie die daraus resultierenden Maße \textit{Average Precision} und \textit{Mean Average Precision} kalkuliert.
+Der \textit{Precision}-Wert stellt den Anteil der relevanten Dokumente am Suchergebnis dar. 
+Bei \textit{Precision@k} handelt es sich um den \textit{Precision}-Wert zu einem bestimmten \textit{Recall}-Level.
+Grundlage für die Ermittlung, ob es sich bei einem Dokument um ein relevantes Dokument für eine gegebene Suchanfrage handelt, sind die von den Gruppenmitgliedern bereitgestellten Relevanzurteile.
+Die Relevanzurteile definieren, ob ein Dokument für ein Informationsbedürfnis relevant ist und bewegen sich im binären Spektrum zwischen \textit{Relevant} und \textit{Nicht relevant}.
+Ein Informationsbedürfnis wird in Form eines \textit{Topics} modelliert.
+Ein \textit{Topic} besteht aus drei Elementen, welche in Tabelle 2 exemplarisch für zwei gewählte \textit{Topics} gezeigt werden. 
+
+\begin{table}[h]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|p{9.55cm}|}
+		\hline 
+		& \textbf{Topic} \\ 
+		\hline 
+		\textbf{Suchanfrage} & aaaaa \\ 
+		\hline 
+		\textbf{Beschreibung} & bbbbb \\ 
+		\hline 
+		\textbf{Narrativ} & ccccc \\ 
+		\hline 
+	\end{tabularx}
+\caption{Modellierung eines Topics}
+\end{table}
+
+Im Folgenden wird kurz die Vorgehensweise bei der Evaluation vorgestellt und erklärt, welche Schritte zur Verbesserung der Effektivität der Suchmaschine unternommen wurden.
+
+\subsection{Methodik}
+
+Die Evaluation durchläuft zwei Iterationen.
+In den beiden Evaluationsiterationen werden für die rund 40 definierten Topics die jeweiligen \textit{Average Precision}-Werte berechnet. 
+Grundlage für die Berechnung stellen die bereitgestellten binären Relevanzurteile dar.
+Aus den \textit{Average Precision}-Werten wird wiederum das arithmetische Mittel kalkuliert, um die \textit{Mean Average Precision} zu erhalten.
+Die \textit{Mean Average Precision} stellt das bedeutenste \textit{Effektivitätsmaß} für die Evaluation des Systems dar, da dieses den Vergleich zweier Systeme auf ein Maß herunterbricht.
+
+In der ersten Iteration erfolgt die initiale Evaluation der Suchmaschine mit sämtlichen standardmäßigen Einstellungen von \textit{Elasticsearch}.
+Anschließend erfolgt das Refinement des Systems, bestehend aus der Anpassung von Parametern sowie der Implementierung zusätzlicher Funktionen. 
+Die Maßnahmen, die im Refinement zur Steigerung der Effektivität des Systems unternommen werden sind folgenden Kapitel näher beschrieben. 
+Nach Abschluss des Refinements erfolgt die zweite Evaluationsiteration mit abschließendem Vergleich der beiden Systeme. 
+
+\subsection{Refinement}
+
 \section{Zusammenfassung und Ausblick}
 
 % ----------------------------------------------------------------------------
