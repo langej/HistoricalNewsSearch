@@ -98,7 +98,7 @@ Zur Vereinfachung des Deployments und zur Optimierung des Entwicklungsprozesses 
 
 Die \textit{Staatsbibliothek zu Berlin} besitzt ein breites Spektrum von historisch bedeutsamen digitalisierten Zeitungen.
 Diese werden im hauseigenen Zeitungsinformationssystem namens \textit{ZEFYS} kostenfrei bereitgestellt.
-Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volks-Zeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
+Die Digitalisate, Volltexte und Metadaten der \textit{Berliner Volkszeitung (BVZ)} dienen als Korpus für die im Rahmen des Laborprojektes entwickelte Suchmaschine.
 Bei der \textit{Berliner Volks-Zeitung} handelt es sich um eine von 1849 bis 1944 veröffentlichte regionale deutsche Tageszeitung aus Berlin.
 Sie besitzt große Bedeutung für die Forschung im Bereich der Kulturwissenschaften, da sie im Gegensatz zu den meisten linken Parteizeitungen, über ein gutes Feuilleton verfügt. [QUELLE]
 Der Zeitraum der Digitalisate beläuft sich auf die Jahre 1890 bis 1930, wobei einige Jahre stärker abgedeckt sind als andere.
@@ -150,11 +150,11 @@ Tabelle 1 zeigt ausgewählte Textstatistiken für diese reduzierte Dokumentkolle
 	\centering
 	\begin{tabularx}{0.8\textwidth}{lX}
 		\hline
-		Gesamtanzahl Dokumente & 6,144\\
-		Gesamtanzahl Worte & 44,337,561,540 \\
-		Vokabulargröße & 1,663,267 \\
-		Wörter mit Vorkommen > 1000 & 1,461,311 \\
-		Wörter mit einmaligen Vorkommen & 499 \\
+		Gesamtanzahl Dokumente & 4.532\\
+		Gesamtanzahl Worte & 24.958.771.630 \\
+		Vokabulargröße & 1.359.160 \\
+		Wörter mit Vorkommen > 1000 & 1.206.561 \\
+		Wörter mit einmaligen Vorkommen & 317 \\
 		\hline
 	\end{tabularx}
 	\caption{Textstatistiken für Dokumentkollektion}
@@ -261,6 +261,7 @@ Ein \textit{Topic} besteht aus drei Elementen, welche in Tabelle 2 exemplarisch 
 \end{table}
 
 Im Folgenden wird kurz die Vorgehensweise bei der Evaluation vorgestellt und erklärt, welche Schritte zur Verbesserung der Effektivität der Suchmaschine unternommen wurden.
+Abschließend werden die erzielten Resultate dargestellt und eingeordnet.
 
 \subsection{Methodik}
 
@@ -296,7 +297,26 @@ Zur Verbesserung der Nutzererfahrung wird ein \textbf{Highlighting} der in der S
 Weiterhin werden dem Nutzer während der Erstellung der Suchanfrage \textbf{Vorschläge zur Vervollständigung} angeboten.
 Diese Funktionen verhindern orthografische Fehler bei der Eingabe und gewährleisten eine schnellere Erkennung von relevanten Dokumenten durch den Nutzer.
 
+\subsection{Resultat}
+
+In der ersten Evaluationsiteration wurde eine \textit{Mean Average Precision} von 0.4 erzielt.
+Nach Implementierung der im vorherigen Kapitel vorgestellten Optimierungen wurde eine \textit{Mean Average Precision} von XXX.
+Durch Umsetzung der Optimierungen wurde also eine Verbesserung der \textit{Mean Average Precision} von XXX Prozent erzielt. 
+
 \section{Zusammenfassung und Ausblick}
+
+Die in diesem Bericht betrachtete Suchmaschine mit dem Titel \textit{Historical News Search} ermöglicht seinen Nutzern eine benutzerfreundliche Möglichkeit nach historischen Zeitungsartikeln der \textit{Berliner Volkszeitung} zu suchen.
+Das vorgestellte Web-Interface bietet eine benutzerfreundliche Möglichkeit der Nutzerinteraktion sowie eine übersichtliche Darstellung der Resultate.
+Durch verschiedene Optimierungsansätze (Stopping, eigene Query Syntax, ...) und unter Verwendung der bereitgestellten Indizierungs- und Suchfunktion der Open Source Suchmaschine \textit{Elasticsearch} konnte eine \textit{Mean Average Precision} von XXX erzielt werden.
+
+Der verwendete Datensatz der \textit{Staatsbibliothek zu Berlin} enthält eine Vielzahl von OCR-Scanartefakten, welche vor allem auf die altdeutsche Schrift zurückzuführen sind.
+Diese schränken die Suchmaschine stark bei der Suche nach relevanten Dokumenten ein. 
+Zur Weiterentwicklung der Suchmaschine wäre es demnach sinnvoll dieses Problem vorrangig zu adressieren und Anstrengungen zu unternehmen die Scanartefakte möglichst vollständig zu eliminieren.
+Dadurch würde sich die Performanz der Suchmaschine und folglich auch die Nutzererfahrung erheblich verbessern.
+
+Interessant ist ebenfalls die Änderung des verwendeten Retrievalmodells und der Einfluss dessen auf die Performanz des Systems.
+Dieser Einfluss kann ebenfalls in einer weiteren Entwicklung genauer evaluiert werden, indem verschiedene andere Retrievalmodelle eingesetzt und verglichen werden.
+In diesem Zusammenhang ist es auch möglich, das Spektrum der Relevanzurteile zu erweitern, um eine stärkere Differenzierung der Relevanz von Dokumenten zu gegebenen Suchanfragen während des Suchprozesses nutzen zu können.
 
 % ----------------------------------------------------------------------------
 
