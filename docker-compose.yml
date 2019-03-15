@@ -1,41 +1,53 @@
-version: '3'
+version: "2.1"
 
 services:
+  nginx:
+    container_name: hs-nginx
+    image: nginx
+    restart: always
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - ./hs-frontend/dist/hs-frontend:/usr/share/nginx/html
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+
   backend:
     container_name: hs-backend
-    build: .
+    restart: always
+    build: ./hs-backend
     ports:
-      - "8080:5000"
+      - "5000:5000"
+    volumes:
+      - ./hs-backend:/usr/src/app
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
 
   elasticsearch: # Elasticsearch Instance
-    container_name: hs-elastic
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+    container_name: hs-search
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.3
     volumes: # Persist Elasticsearch data in seperate volume named "esdata"
       - esdata:/usr/share/elasticsearch/data
     environment:
+      - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS-Xms512m -Xmx512m"
+      - discovery.type=single-node
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
 
-  logstash: # Logstash Instance
-    container_name: hs-logstash
-    image: docker.elastic.co/logstash/logstash:6.4.2
-    ports:
-    - "5000:5000"
-    - "9600:9600"
-    environment:
-      - "ES_JAVA_OPTS: -Xmx512m -Xms512m"
-    depends_on:
-    - elasticsearch
-
-  kibana: # Kibana Instance
-    container_name: hs-kibana
-    image: docker.elastic.co/kibana/kibana:6.4.2
-    ports:
-    - "5601:5601"
-    depends_on:
-    - elasticsearch
-
-volumes: # Define seperate volume for Elasticsearch data
+volumes:
   esdata:

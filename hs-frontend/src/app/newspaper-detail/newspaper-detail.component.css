@@ -1,0 +1,31 @@
+.menu {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr;
+}
+
+#back {
+  left: 10%;
+}
+
+#content {
+  color: black;
+  white-space: pre;
+}
+
+.marked {
+  background: yellowgreen;
+}
+
+.split-view {
+  display: grid;
+  grid-template-columns: 60vw 40vw;
+}
+
+#newspaper-image {
+  width: 100%;
+}
+
+#newspaper-text {
+  padding: 15px;
+  line-break: strict;
+}

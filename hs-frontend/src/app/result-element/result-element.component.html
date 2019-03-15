@@ -1,0 +1,18 @@
+<!--<p style="white-space: pre">{{ newspaper.source.Text }}</p>-->
+<div class="ui fluid raised link grey card">
+  <div class="content" (click)="navigateToDetails()">
+    <div class="header"><span class="category">{{ newspaper.source.Day }}.{{ newspaper.source.Month }}.{{ newspaper.source.Year }}</span></div>
+    <div class="description">
+      <p [innerHTML]="newspaperSnippet"></p>
+    </div>
+  </div>
+  <div *ngIf="index < 10" class="extra content">
+    <div *ngIf="displayEvaluation" class="ui two buttons">
+      <div [ngClass]="{basic: !relevant || !evaluated}" class="ui green button" (click)="evaluate(true)">Relevant</div>
+      <div [ngClass]="{basic:  relevant || !evaluated}" class="ui red button" (click)="evaluate(false)">Irrelevant</div>
+    </div>
+  </div>
+</div>
+
+
+

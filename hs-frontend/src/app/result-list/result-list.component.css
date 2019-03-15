@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 10vh;
+}
+
+.pagination /deep/ {
+  text-align: center;
+}
+
+.pagination /deep/ .ngx-pagination .current {
+  background: darkgray;
+}
+
+h1 {
+  position: absolute;
+  top: 3vh;
+  left: 3.5vw;
+}
+
+#evaluation {
+  margin: 25px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  text-align: center;
+}

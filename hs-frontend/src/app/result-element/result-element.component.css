@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.fluid.card {
+  width: 90%;
+  margin-bottom: 15px;
+}
