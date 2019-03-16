@@ -221,7 +221,7 @@ Nachdem ein Nutzer seine Suchanfrage in das Eingabefeld auf der \textit{Landing 
 Wie bereits in Kapitel 3.2 beschrieben sucht diese in der Dokumentkollektion nach Zeitungsseiten, welche die Terme aus der Suchanfrage enthalten und gibt diese zurück. 
 Die zurückgegebenen Zeitungen werden, nach ihrem Gewicht sortiert, in einer Liste von \textit{Cards} dargestellt.
 Dabei wird eine Zeitungsseite von je einer \textit{Card} repräsentiert.
-Diese enthalten neben einer Überschrift und dem Veröffentlichungsdatum ein kurzes Snippet, um dem Nutzer eine Vorschau auf die Artikel der Zeitungsseite zu bieten und diesen somit bei der Suche nach relevanten Ergebnissen zu unterstützen.
+Diese enthalten das Veröffentlichungsdatum sowie ein kurzes Snippet, um dem Nutzer eine Vorschau auf die Artikel der Zeitungsseite zu bieten und diesen somit bei der Suche nach relevanten Ergebnissen zu unterstützen.
 Weiterhin ist zur Gewährleistung der Übersichtlichkeit des User Interfaces eine \textit{Paginierung} implementiert.
 Jede Seite enthält besitzt zehn Resultate. 
 Abbildung 3 illustriert die Auflistung der Suchergebnisse für eine Suchanfrage nach der Partei \texttt{NSDAP}.
@@ -233,7 +233,7 @@ Abbildung 3 illustriert die Auflistung der Suchergebnisse für eine Suchanfrage 
 
 \subsection{Detailansicht}
 
-Klickt ein Nutzer auf eine der \textit{Cards} aus der Ergebnisliste, werden ihm sämtliche Artikel angezeigt, die auf der entsprechenden Zeitungsseite stehen sowie der Scan der Seite, sofern dieses vorhanden ist.
+Klickt ein Nutzer auf eine der \textit{Cards} aus der Ergebnisliste, werden ihm sämtliche Artikel angezeigt, die auf der entsprechenden Zeitungsseite stehen sowie der Scan der Seite, sofern dieser vorhanden ist.
 Abbildung 4 stellt die Detailansicht einer Zeitungsseite dar.
 Darin ist die \textit{Split-View} zwischen Zeitungsscan und -text zu erkennen.
 
@@ -275,14 +275,14 @@ Abschließend werden die erzielten Resultate dargestellt und eingeordnet.
 \subsection{Methodik}
 
 Die Evaluation durchläuft zwei Iterationen.
-In den beiden Evaluationsiterationen werden für die rund 40 definierten Topics die jeweiligen \textit{Average Precision}-Werte berechnet. 
+In den beiden Evaluationsiterationen werden für die rund 30 definierten Topics die jeweiligen \textit{Average Precision}-Werte berechnet. 
 Grundlage für die Berechnung stellen die bereitgestellten binären Relevanzurteile dar.
 Aus den \textit{Average Precision}-Werten wird wiederum das arithmetische Mittel kalkuliert, um die \textit{Mean Average Precision} zu erhalten.
 Diese stellt das bedeutenste \textit{Effektivitätsmaß} für die Evaluation des Systems dar, da dieses den Vergleich zweier Systeme auf ein Maß herunterbricht.
 
 In der ersten Iteration erfolgt die initiale Evaluation der Suchmaschine mit sämtlichen standardmäßigen Einstellungen von \textit{Elasticsearch}.
 Anschließend erfolgt das Refinement des Systems, bestehend aus der Anpassung von Parametern sowie der Implementierung zusätzlicher Funktionen. 
-Die Maßnahmen, die im Refinement zur Steigerung der Effektivität des Systems unternommen werden sind folgenden Kapitel näher beschrieben. 
+Die Maßnahmen, die im Refinement zur Steigerung der Effektivität des Systems unternommen werden sind im folgenden Kapitel näher beschrieben. 
 Nach Abschluss des Refinements erfolgt die zweite Evaluationsiteration mit abschließendem Vergleich der beiden Systeme. 
 
 \subsection{Refinement}
@@ -317,7 +317,7 @@ Einzig die Nutzererfahrung konnte durch die vorgestellten Optimierungsansätze v
 
 Die in diesem Bericht betrachtete Suchmaschine mit dem Titel \textit{Historical News Search} ermöglicht seinen Nutzern eine benutzerfreundliche Möglichkeit nach historischen Zeitungsartikeln der \textit{Berliner Volkszeitung} zu suchen.
 Das vorgestellte Web-Interface bietet eine benutzerfreundliche Möglichkeit der Nutzerinteraktion sowie eine übersichtliche Darstellung der Resultate.
-Durch verschiedene Optimierungsansätze (Stopping, eigene Query Syntax, ...) und unter Verwendung der bereitgestellten Indizierungs- und Suchfunktion der Open Source Suchmaschine \textit{Elasticsearch} konnte eine \textit{Mean Average Precision} von XXX erzielt werden.
+Durch verschiedene Optimierungsansätze (Stopping, eigene Query Syntax, ...) und unter Verwendung der bereitgestellten Indizierungs- und Suchfunktion der Open Source Suchmaschine \textit{Elasticsearch} konnte eine \textit{Mean Average Precision} von 0,39 erzielt werden.
 
 Der verwendete Datensatz der \textit{Staatsbibliothek zu Berlin} enthält eine Vielzahl von OCR-Scanartefakten, welche vor allem auf die altdeutsche Schrift zurückzuführen sind.
 Diese schränken die Suchmaschine stark bei der Suche nach relevanten Dokumenten ein. 
