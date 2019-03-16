@@ -1,15 +1,9 @@
 version: "2.1"
 
 services:
-  nginx:
-    container_name: hs-nginx
-    image: nginx
-    restart: always
-    build:
-      context: .
-      dockerfile: nginx/Dockerfile
-    volumes:
-      - ./hs-frontend/dist/hs-frontend:/usr/share/nginx/html
+  hs-frontend:
+    container_name: hs-frontend
+    build: hs-frontend
     ports:
       - "80:80"
       - "443:443"
