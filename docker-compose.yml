@@ -32,14 +32,14 @@ services:
       - esdata:/usr/share/elasticsearch/data
     environment:
       - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS-Xms512m -Xmx512m"
+      - "ES_JAVA_OPTS-Xms512m-Xmx512m"
       - discovery.type=single-node
     ports: # Expose Elasticsearch ports
       - "9200:9200"
       - "9300:9300"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9200"]
-      interval: 10s
+      interval: 30s
       timeout: 10s
       retries: 5
 
